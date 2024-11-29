@@ -12,4 +12,4 @@ Remember to update the following files:
 
 Upload the branch protection ruleset provided in the root of this repository.
 
-Once completed, replace this README content with your own.
+Once completed, replace this README content with your own and set the repo visibility to Public when ready.
