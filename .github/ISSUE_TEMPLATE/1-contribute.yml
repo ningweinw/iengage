@@ -1,0 +1,20 @@
+name: New Contribution
+description: Explain your contribution idea to the repository maintainer.
+
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Thank you for wanting to contribute!"
+  - type: markdown
+    attributes:
+      value: Please complete this form to explain your idea and the maintainer will be in touch.
+      
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: Please explain your contribution idea and the benefits.
+      placeholder: What do you want to contribute and what are the benefits to learners and/or trainers?
+    validations:
+      required: true
