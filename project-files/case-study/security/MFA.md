@@ -13,7 +13,7 @@ Characters Intro: This is a conversation between Alice - a program manager and J
 
 Scene 1:
 
-![img1](https://raw.githubusercontent.com/CSDSkilling/iengage/4748206d03da75f397e9e1e9d1c59e5b064b4702/project-files/case-study/security/images/mfa1.jpg)
+![img](../images/mfa1.jpg)
 
 Questions to Learners: How would you respond, if you were a security consultant?
 
