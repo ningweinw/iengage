@@ -2,70 +2,28 @@ body {
     display: flex;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
 }
-
 .container {
     display: flex;
     width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    margin: auto;
-    max-width: 1200px;
 }
-
 .resizable {
     overflow: auto;
 }
-
 #leftDiv {
-    width: 20%;
-    padding: 10px;
-    background-color: #e0f7fa;
-    border-right: 1px solid #ccc;
+    width: 15%;
+    padding: 5px;
+    background-color: lightblue;
 }
-
 #rightDiv {
-    width: 80%;
-    padding: 20px;
-    background-color: #ffffff;
+    width: 85%;
+    padding: 5px;
 }
-
 .divider {
-    width: 5px;
-    background-color: #00acc1;
+    width: 3px;
+    background-color: lightblue;
     cursor: ew-resize;
 }
-
 ul, ol {
     padding-left: 20px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-ul li ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-ul li ul li {
-    margin-bottom: 5px;
-}
-
-a {
-    text-decoration: none;
-    color: #00796b;
-}
-
-a:hover {
-    text-decoration: underline;
 }
