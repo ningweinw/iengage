@@ -41,7 +41,7 @@ li a {
 }
 
 li > ul {
-    padding-left: 20px; /* Add padding to submenus */
+    padding-left: 15px; /* Add padding to submenus */
 }
 li > a {
     font-size: 16px; /* Default font size */
