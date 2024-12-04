@@ -5,7 +5,7 @@
 layout: default
 title: Home
 ---
-# iEngage - Home
+# iEngage - The Gamified Way
 
 ![img](./home.png)
 
