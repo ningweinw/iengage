@@ -7,18 +7,12 @@ title: Home
 ---
 # iEngage - Home
 
-# Welcome to iEngage
-Explore, Learn, and Play with Our Gamified Content
+Building on the success of the original iEngage initiative, iEngage 2.0 aims to revolutionize learner engagement by integrating cutting-edge AI, App, and Data services from Azure and the principles of SFI. Our vision is to create a dynamic and interactive learning environment through engaging AI and Azure based comics, comic based case study and gamified assets, we strive to make complex concepts accessible and actionable. By emphasizing the synergy between AI, Apps, and Data, and driving AI Design Wins, iEngage 2.0 will equip trainers and learners with the tools, knowledge and security awareness to excel in a rapidly evolving technological landscape.
 
-Get Started <!-- Call to Action Button -->
+## Objectives
 
-## Features
-### Comics
-Dive into our interactive comics and enjoy stories that educate and entertain.
+**Enhance Engagement:** Introduce innovative methods to engage learners in AI, Apps, and Data.
 
-### Case Studies
-Learn from real-world scenarios with our detailed case studies.
+**Simplify Complex Concepts:** Simplifies complex concepts, enhances understanding of AI, Data, and Apps, and creates memorable learning experiences through visual storytelling
 
-### Games
-Engage with our fun and educational games designed to enhance your learning experience.
-
+**Ownership of Learning:** Gamified Learning makes the learners to take ownership of their learning. 
