@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  " Microsoft Entra Verified ID in Municpal Services"
+title:  "Entra Verified ID in Municpal"
 category: "Comic"
-sub-category: "Data and AI"
+sub-category: "Security, Compliance and Identity"
 courses: [DP-203,AZ-305]
 ---
 
