@@ -22,7 +22,7 @@ body {
 .divider {
     width: 3px;
     background-color: lightblue;
-    cursor: ew-resize;
+   /* cursor: ew-resize; */
 }
 ul {
     list-style-type: none;
