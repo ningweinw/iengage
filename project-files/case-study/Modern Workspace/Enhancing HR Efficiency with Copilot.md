@@ -17,14 +17,17 @@ In today's fast-paced work environment, enhancing productivity and streamlining 
 
 **Scene 1:**
 
-![img](./images/c1.jpg)
-
+<a href="./images/c1.jpg" download>
+  <img src="./images/c1.jpg" alt="Enhancing HR Efficiency with Copilot">
+</a>
 
 **Questions to Learners:** How would you respond if you were the IT consultant?
 
 **Scene 2:**
 
-![img](./images/c2.jpg)
+<a href="./images/c2.jpg" download>
+  <img src="./images/c2.jpg" alt="Enhancing HR Efficiency with Copilot">
+</a>
 
 
 **Tips for Trainers:** Discuss a few other benefits of a custom Copilot agent in HR:
@@ -43,7 +46,9 @@ Enhances user experience with personalized interactions.
 
 **Scene 3:**
 
-![img](./images/c3.jpg)
+<a href="./images/c3.jpg" download>
+  <img src="./images/c3.jpg" alt="Enhancing HR Efficiency with Copilot">
+</a>
 
 **Tips for Trainers:** Discuss and share these references.
 
