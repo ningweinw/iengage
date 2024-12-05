@@ -50,3 +50,8 @@ li > a.main-menu {
     font-size: 18px; /* Increase font size by 2 points */
     font-weight: bold; /* Make it bold */
 }
+
+li a:hover {
+    background-color: #ddd; /* Change background color on hover */
+    color: #000; /* Change text color on hover */
+}
