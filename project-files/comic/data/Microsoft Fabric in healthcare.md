@@ -2,7 +2,7 @@
 layout: default
 title:  " Microsoft Fabric in Healthcare"
 category: "Comic"
-sub-category: "Data"
+sub-category: "Data and AI"
 courses: [DP-203, DP-600, DP-601, DP-602, DP-603, DP-604]
 ---
 

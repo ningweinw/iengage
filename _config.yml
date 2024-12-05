@@ -29,6 +29,14 @@ url: "https://csdskilling.github.io" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Solution Areas
+sa_data_ai: "Data and AI"
+sa_app_innov: "Digital and App Innovation"
+sa_sci: "Security, Compliance and Identity"
+sa_infra: "Azure Infrastructure"
+sa_workplace: "Modern Workplace"
+sa_migrate: "Migration"
+
 # Build settings
 theme: minima
 plugins:

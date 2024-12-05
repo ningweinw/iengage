@@ -2,7 +2,7 @@
 layout: default
 title:  "Need for MFA"
 category: "Case Study"
-sub-category: "Security"
+sub-category: "Security, Compliance and Identity"
 courses: [SC-200,SC-300, AZ-500]
 ---
 
