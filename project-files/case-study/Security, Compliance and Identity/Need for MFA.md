@@ -17,16 +17,24 @@ In today's digital age, securing sensitive information has become more critical 
 
 **Scene 1:**
 
-![img](./images/mfa1.jpg)
-![img](./images/mfa2.jpg)
+<a href="./images/mfa1.jpg" download>
+  <img src="./images/mfa1.jpg" alt="Need for MFA">
+</a>
 
+<a href="./images/mfa2.jpg" download>
+  <img src="./images/mfa2.jpg" alt="Need for MFA">
+</a>
 
 **Questions to Learners:** How would you respond, if you were a security consultant?
 
 **Scene 2:**
 
-![img](./images/mfa3.jpg)
-![img](./images/mfa4.jpg)
+<a href="./images/mfa3.jpg" download>
+  <img src="./images/mfa3.jpg" alt="Need for MFA">
+</a>
+<a href="./images/mfa4.jpg" download>
+  <img src="./images/mfa4.jpg" alt="Need for MFA">
+</a>
 
 **Tips for Trainers:** Discuss on few other benefits of MFA:
 Enhances security by requiring multiple forms of verification.
@@ -43,8 +51,13 @@ Mitigates the impact of compromised passwords.
 
 **Scene 3:**
 
-![img](./images/mfa5.jpg)
-![img](./images/mfa6.jpg)
+<a href="./images/mfa5.jpg" download>
+  <img src="./images/mfa5.jpg" alt="Need for MFA">
+</a>
+
+<a href="./images/mfa6.jpg" download>
+  <img src="./images/mfa6.jpg" alt="Need for MFA">
+</a>
 
 **Tips for Trainers:** Discuss and share these references.
 
