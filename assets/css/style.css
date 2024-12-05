@@ -52,6 +52,6 @@ li > a.main-menu {
 }
 
 li a:hover {
-    background-color: #ddd; /* Change background color on hover */
+   /* background-color: #ddd;*/ /* Change background color on hover */
     color: #000; /* Change text color on hover */
 }
