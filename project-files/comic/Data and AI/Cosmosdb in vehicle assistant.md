@@ -17,17 +17,17 @@ In this engaging comic, we explore the fascinating world of vehicle assistance p
 
 ## Knowledge Check
 
-Which of the following statements about Azure Cosmos DB's global distribution capabilities is TRUE?
+What is the main purpose of integrating Cosmos DB into the voice assistant project?
 
 <form id="quizForm">
   <input type="radio" id="q1" name="answer" value="q1">
-  <label for="paris">Azure Cosmos DB can only replicate data to a maximum of three regions.</label><br>
+  <label for="a1"> To enhance user experience with real-time personalization.</label><br>
   <input type="radio" id="q2" name="answer" value="q2">
-  <label for="london">Azure Cosmos DB automatically handles failover and failback during regional outages.</label><br>
+  <label for="a2">To reduce the app's response time.</label><br>
   <input type="radio" id="q3" name="answer" value="q3">
-  <label for="berlin">Azure Cosmos DB requires manual intervention to replicate data across regions.</label><br>
+  <label for="a3">To handle large volumes of data and ensure scalability.</label><br>
   <input type="radio" id="q4" name="answer" value="q4">
-  <label for="madrid">Azure Cosmos DB does not support multi-region writes.</label><br>
+  <label for="a4">All of the above.</label><br>
   <button type="button" onclick="checkAnswer()" class="styled-button">Submit</button>
 </form>
 
