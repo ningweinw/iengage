@@ -36,7 +36,7 @@ Which of the following statements about Azure Cosmos DB's global distribution ca
 <script>
   function checkAnswer() {
     var radios = document.getElementsByName('answer');
-    var correctAnswer = 'Azure Cosmos DB automatically handles failover and failback during regional outages.';
+    var correctAnswer = 'q2';
     var result = document.getElementById('result');
     var selected = false;
 
