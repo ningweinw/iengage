@@ -14,3 +14,49 @@ In this insightful comic, follow a team of dedicated professionals as they embar
 <a href="./images/lh1.jpg" download>
   <img src="./images/lh1.jpg" alt="Microsoft Fabric in Healthcare">
 </a>
+
+## Knowledge Check
+
+What is the primary goal of the project discussed in the image?
+
+<form id="quizForm">
+  <input type="radio" id="q1" name="answer" value="q1">
+  <label for="a1"> To improve data security</label><br>
+  <input type="radio" id="q2" name="answer" value="q2">
+  <label for="a2">To create a unified data platform for analytics</label><br>
+  <input type="radio" id="q3" name="answer" value="q3">
+  <label for="a3">To develop new wearable technology</label><br>
+  <input type="radio" id="q4" name="answer" value="q4">
+  <label for="a4">To enhance SQL query performance</label><br>
+  <button type="button" onclick="checkAnswer()" class="styled-button">Submit</button>
+</form>
+
+<p id="result"></p>
+
+<script>
+  function checkAnswer() {
+    var radios = document.getElementsByName('answer');
+    var correctAnswer = 'q2';
+    var result = document.getElementById('result');
+    var selected = false;
+
+    for (var i = 0; i < radios.length; i++) {
+      if (radios[i].checked) {
+        selected = true;
+        if (radios[i].value === correctAnswer) {
+          result.textContent = 'Correct!';
+          result.style.color = 'green';
+        } else {
+          result.textContent = 'Incorrect. Try again!';
+          result.style.color = 'red';
+        }
+        break;
+      }
+    }
+
+    if (!selected) {
+      result.textContent = 'Please select an answer.';
+      result.style.color = 'orange';
+    }
+  }
+</script>
