@@ -13,6 +13,7 @@ body {
     background-color: #f1f1f1;
     padding: 10px;
     flex-shrink: 0; /* Prevent shrinking */
+    overflow: auto; /* Ensure content is scrollable if it overflows */
 }
 #rightDiv {
     flex-grow: 1;
@@ -51,7 +52,7 @@ li > a.main-menu {
     font-weight: bold; /* Make it bold */
 }
 li > a.artifact {
-    padding-left: 10px;
+    padding-left: 15px;
 }
 li > a.artifact:hover {
     color: lightblue; /* Change text color on hover */
