@@ -50,7 +50,9 @@ li > a.main-menu {
     font-size: 18px; /* Increase font size by 2 points */
     font-weight: bold; /* Make it bold */
 }
-
+li > a.artifact {
+    padding-left: 10px;
+}
 li > a.artifact:hover {
     color: lightblue; /* Change text color on hover */
 }
