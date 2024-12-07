@@ -14,6 +14,8 @@ body {
     padding: 10px;
     flex-shrink: 0; /* Prevent shrinking */
     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 #rightDiv {
     flex-grow: 1;
@@ -53,9 +55,6 @@ li > a.main-menu {
 }
 li > a.artifact {
     padding-left: 15px;
-    display: block;
-    white-space: normal;
-    word-wrap: break-word;
 }
 li > a.artifact:hover {
     color: lightblue; /* Change text color on hover */
