@@ -13,9 +13,7 @@ body {
     background-color: #f1f1f1;
     padding: 10px;
     flex-shrink: 0; /* Prevent shrinking */
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    overflow: auto; /* Ensure content is scrollable if it overflows */
 }
 #rightDiv {
     flex-grow: 1;
