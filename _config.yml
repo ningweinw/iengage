@@ -29,6 +29,11 @@ url: "https://csdskilling.github.io" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Main Menu
+menu_case_study: "Case Study"
+menu_comic: "Comic"
+menu_gamification: "Gamification"
+
 # Solution Areas
 sa_data_ai: "Data and AI"
 sa_app_innov: "Digital and App Innovation"

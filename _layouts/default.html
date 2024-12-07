@@ -19,71 +19,71 @@
   <div class="container">
     <div class="resizable" id="leftDiv">
       <ul>
-        <li><a href="{{ site.url }}{{ site.baseurl }}"class="main-menu">Home</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}" class="main-menu">Home</a></li>
         <hr>
-        <li><a class="main-menu">Case Study</a>
+        <li><a class="main-menu">{{ site.menu_case_study }}</a>
           <ul>
-            <li>{{ site.sa_data_ai }}
+            <li><span class="caret">{{ site.sa_data_ai }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Case Study" and file.sub-category == site.sa_data_ai %}
+                  {% if file.category == site.menu_case_study and file.sub-category == site.sa_data_ai %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_app_innov }}
+            <li><span class="caret">{{ site.sa_app_innov }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Case Study" and file.sub-category == site.sa_app_innov %}
+                  {% if file.category == site.menu_case_study and file.sub-category == site.sa_app_innov %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_sci }}
+            <li><span class="caret">{{ site.sa_sci }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Case Study" and file.sub-category == site.sa_sci %}
+                  {% if file.category == site.menu_case_study and file.sub-category == site.sa_sci %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_infra }}
+            <li><span class="caret">{{ site.sa_infra }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Case Study" and file.sub-category == site.sa_infra %}
+                  {% if file.category == site.menu_case_study and file.sub-category == site.sa_infra %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_workplace }}
+            <li><span class="caret">{{ site.sa_workplace }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Case Study" and file.sub-category == site.sa_workplace %}
+                  {% if file.category == site.menu_case_study and file.sub-category == site.sa_workplace %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_migrate }}
+            <li><span class="caret">{{ site.sa_migrate }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Case Study" and file.sub-category == site.sa_migrate %}
+                  {% if file.category == site.menu_case_study and file.sub-category == site.sa_migrate %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
@@ -92,69 +92,69 @@
           </ul>
         </li>
         <hr>
-        <li><a class="main-menu">Comic</a>
+        <li><a class="main-menu">{{ site.menu_comic }}</a>
           <ul>
-            <li>{{ site.sa_data_ai }}
+            <li><span class="caret">{{ site.sa_data_ai }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_data_ai %}
+                  {% if file.category == site.menu_comic and file.sub-category == site.sa_data_ai %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_app_innov }}
+            <li><span class="caret">{{ site.sa_app_innov }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_app_innov %}
+                  {% if file.category == site.menu_comic and file.sub-category == site.sa_app_innov %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_sci }}
+            <li><span class="caret">{{ site.sa_sci }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_sci %}
+                  {% if file.category == site.menu_comic and file.sub-category == site.sa_sci %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_infra }}
+            <li><span class="caret">{{ site.sa_infra }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_infra %}
+                  {% if file.category == site.menu_comic and file.sub-category == site.sa_infra %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_workplace }}
+            <li><span class="caret">{{ site.sa_workplace }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_workplace %}
+                  {% if file.category == site.menu_comic and file.sub-category == site.sa_workplace %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_migrate }}
+            <li><span class="caret">{{ site.sa_migrate }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_migrate %}
+                  {% if file.category == site.menu_comic and file.sub-category == site.sa_migrate %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
@@ -163,69 +163,69 @@
           </ul>
         </li>
         <hr>
-        <li><a class="main-menu">Gamification</a>
+        <li><a class="main-menu">{{ site.menu_gamification }}</a>
           <ul>
-            <li>{{ site.sa_data_ai }}
+            <li><span class="caret">{{ site.sa_data_ai }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_data_ai %}
+                  {% if file.category == site.menu_gamification and file.sub-category == site.sa_data_ai %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_app_innov }}
+            <li><span class="caret">{{ site.sa_app_innov }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_app_innov %}
+                  {% if file.category == site.menu_gamification and file.sub-category == site.sa_app_innov %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_sci }}
+            <li><span class="caret">{{ site.sa_sci }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_sci %}
+                  {% if file.category == site.menu_gamification and file.sub-category == site.sa_sci %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_infra }}
+            <li><span class="caret">{{ site.sa_infra }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_infra %}
+                  {% if file.category == site.menu_gamification and file.sub-category == site.sa_infra %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_workplace }}
+            <li><span class="caret">{{ site.sa_workplace }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_workplace %}
+                  {% if file.category == site.menu_gamification and file.sub-category == site.sa_workplace %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
-            <li>{{ site.sa_migrate }}
+            <li><span class="caret">{{ site.sa_migrate }}</span>
               <ul>
                 {% for file in site.pages %}
-                  {% if file.category == "Comic" and file.sub-category == site.sa_migrate %}
+                  {% if file.category == site.menu_gamification and file.sub-category == site.sa_migrate %}
                     <li>
-                      <a href="/iengage/{{ file.url }}">{{ file.title }}</a>
+                      <a href="/iengage/{{ file.url }}" class="artifact">{{ file.title }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
@@ -241,6 +241,16 @@
     </div>
   </div>
 
- 
+  <script>
+    var toggler = document.getElementsByClassName("caret");
+    var i;
+    
+    for (i = 0; i < toggler.length; i++) {
+      toggler[i].addEventListener("click", function() {
+        this.parentElement.querySelector(".nested").classList.toggle("active");
+        this.classList.toggle("caret-down");
+      });
+    }
+  </script>
 </body>
 </html>
