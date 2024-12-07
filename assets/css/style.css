@@ -84,6 +84,7 @@ li > a.artifact:hover {
     display: block;
 }
 
+/* not in use */
   .styled-button {
     background-color: #007BFF; /* Green */
     border: none;
