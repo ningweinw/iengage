@@ -5,7 +5,7 @@ category: "Gamification"
 sub-category: "Azure Infrastructure"
 courses: [AZ-305,AZ-700]
 ---
-# Introduction
+# Azure Front Door Superhero
 In this interactive journey, you'll join our superhero, Azure Front Door, on a mission to ensure fast, reliable, and secure web content delivery. Each scene presents a unique challenge where you'll learn about the powerful features of Azure Front Door through fun and engaging activities.
 
 ## Scene 1: Introduction to Azure Front Door
