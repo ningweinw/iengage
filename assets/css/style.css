@@ -22,7 +22,7 @@ body {
     margin-left: 10px;
 }
 .divider {
-    width: 3px;
+    width: 5px;
     background-color: lightblue;
    /* cursor: ew-resize; */
 }
