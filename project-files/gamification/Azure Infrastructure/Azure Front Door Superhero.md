@@ -39,41 +39,6 @@ Imagine you have a superhero who can instantly transport your web content to use
   }
 </script>
 
-<style>
-  .styled-dropdown {
-    width: 200px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-    font-size: 16px;
-    color: #333;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-  }
-
-  .styled-dropdown:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    outline: none;
-  }
-
-  details summary {
-    cursor: pointer;
-    font-weight: bold;
-  }
-
-  details[open] summary::after {
-    content: "▲";
-    float: right;
-  }
-
-  details summary::after {
-    content: "▼";
-    float: right;
-  }
-</style>
 
 ## Scene 2: The Quest for Optimization
 
@@ -136,52 +101,6 @@ Azure Front Door's journey to optimize your web content involves several key ste
     document.getElementById("feedback-setup").style.color = "blue";
   }
 </script>
-
-<style>
-  .styled-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 300px;
-  }
-
-  .styled-list li {
-    margin: 5px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-    font-size: 16px;
-    cursor: move;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .styled-list li:hover {
-    background-color: #e9e9e9;
-  }
-
-  button {
-    margin: 10px 5px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-  }
-
-  button:hover {
-    background-color: #0056b3;
-  }
-
-  #feedback-setup {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-</style>
 
 ## Scene 3: The Battle of Routing
 
@@ -249,15 +168,4 @@ Azure Front Door includes a Web Application Firewall (WAF) that protects your ap
   }
 </script>
 
-<style>
-  .styled-dropdown {
-    width: 200px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-    font-size: 16px;
-    color: #333;
-    appearance: none;
-    -webkit-appearance: none;
-    -
+
