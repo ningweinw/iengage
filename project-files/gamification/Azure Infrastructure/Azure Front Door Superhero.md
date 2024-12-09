@@ -219,8 +219,8 @@ Azure Front Door employs various routing methods to ensure users get the best ex
 ## Scene 4: The Final Challenge
 
 **Azure Front Door faces its final challenge: ensuring security and reliability.**
-<a href="./images/1.png" download>
-  <img src="./images/1.png" alt="Digital and App Innovation">
+<a href="./images/fd1.png" download>
+  <img src="./images/fd1.png" alt="Digital and App Innovation">
 </a>
 
 ### What security feature does Azure Front Door provide?
