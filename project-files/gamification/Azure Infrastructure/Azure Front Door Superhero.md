@@ -9,6 +9,7 @@ courses: [AZ-305,AZ-700]
 ## Scene 1: Introduction to Azure Front Door
 
 **Meet Azure Front Door, your superhero for fast, reliable, and secure web content delivery!**
+<br>
 <a href="./images/fd1.png" download>
   <img src="./images/fd1.png" alt="Superhero flying">
 </a>
@@ -105,6 +106,7 @@ Azure Front Door's journey to optimize your web content involves several key ste
 ## Scene 3: The Battle of Routing
 
 **Azure Front Door uses intelligent routing to manage traffic and ensure optimal performance.**
+<br>
 <a href="./images/fd3.png" download>
   <img src="./images/fd3.png" alt="Superhero flying">
 </a>
@@ -138,6 +140,7 @@ Azure Front Door employs various routing methods to ensure users get the best ex
 ## Scene 4: The Final Challenge
 
 **Azure Front Door faces its final challenge: ensuring security and reliability.**
+<br>
 <a href="./images/fd1.png" download>
   <img src="./images/fd1.png" alt="Superhero flying">
 </a>
