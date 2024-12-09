@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Enhancing HR Efficiency with Copilot"
+title:  "Enhance HR Efficiency with Copilot"
 category: "Case Study"
 sub-category: "Modern Workplace"
 courses: [MS-4005, MS-4007]
