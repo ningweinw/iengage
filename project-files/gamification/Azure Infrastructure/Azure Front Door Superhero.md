@@ -10,7 +10,7 @@ courses: [AZ-305,AZ-700]
 
 **Meet Azure Front Door, your superhero for fast, reliable, and secure web content delivery!**
 <a href="./images/fd1.png" download>
-  <img src="../images/fd1.png" alt="Digital and App Innovation">
+  <img src="./images/fd1.png" alt="Superhero flying">
 </a>
 
 ### What is Azure Front Door?
@@ -80,7 +80,7 @@ Imagine you have a superhero who can instantly transport your web content to use
 **Our hero, Azure Front Door, embarks on a quest to optimize web content delivery!**
 <br>
 <a href="./images/fd2.jpeg" download>
-  <img src="./images/fd2.jpeg" alt="Digital and App Innovation">
+  <img src="./images/fd2.jpeg" alt="Superhero flying">
 </a>
 
 ### Arrange the steps to set up Azure Front Door in the correct order:
@@ -187,7 +187,7 @@ Azure Front Door's journey to optimize your web content involves several key ste
 
 **Azure Front Door uses intelligent routing to manage traffic and ensure optimal performance.**
 <a href="./images/fd3.png" download>
-  <img src="./images/fd3.png" alt="Digital and App Innovation">
+  <img src="./images/fd3.png" alt="Superhero flying">
 </a>
 
 ### Select the correct routing method used by Azure Front Door:
@@ -220,7 +220,7 @@ Azure Front Door employs various routing methods to ensure users get the best ex
 
 **Azure Front Door faces its final challenge: ensuring security and reliability.**
 <a href="./images/fd1.png" download>
-  <img src="./images/fd1.png" alt="Digital and App Innovation">
+  <img src="./images/fd1.png" alt="Superhero flying">
 </a>
 
 ### What security feature does Azure Front Door provide?
