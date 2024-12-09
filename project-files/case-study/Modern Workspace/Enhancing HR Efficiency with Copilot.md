@@ -31,16 +31,16 @@ In today's fast-paced work environment, enhancing productivity and streamlining 
 
 
 **Tips for Trainers:** Discuss a few other benefits of a custom Copilot agent in HR:
-Automates routine HR tasks like scheduling interviews.
-Provides intelligent suggestions for job descriptions.
-Enhances data analysis for employee performance reviews.
-Improves document accuracy with HR-specific templates.
-Saves time and effort by understanding unique HR workflows.
-Integrates seamlessly with existing HR tools.
-Supports collaboration with custom features.
-Increases efficiency by addressing specific HR pain points.
-Reduces workload with tailored automation.
-Enhances user experience with personalized interactions.
+<br>-Automates routine HR tasks like scheduling interviews.
+<br>-Provides intelligent suggestions for job descriptions.
+<br>-Enhances data analysis for employee performance reviews.
+<br>-Improves document accuracy with HR-specific templates.
+<br>-Saves time and effort by understanding unique HR workflows.
+<br>-Integrates seamlessly with existing HR tools.
+<br>-Supports collaboration with custom features.
+<br>-Increases efficiency by addressing specific HR pain points.
+<br>-Reduces workload with tailored automation.
+<br>-Enhances user experience with personalized interactions.
 
 
 
