@@ -126,7 +126,7 @@ The primary goal is to create a chatbot that can connect employees with the nece
 
 3a) What essential aspects of Azure AI Search service should he highlight ?
 
-<form id="quiz-form-2">
+<form id="quiz-form-1">
   <label class="checkbox-container"><input type="checkbox" name="service1" value="1"> Efficient Query Processing<span class="checkmark"></span></label><br>
   <label class="checkbox-container"><input type="checkbox" name="service1" value="2"> Multiple Data Sources<span class="checkmark"></span></label><br>
   <label class="checkbox-container"><input type="checkbox" name="service1" value="3"> Limited to Azure SQL Database only<span class="checkmark"></span></label><br>
@@ -157,6 +157,44 @@ The primary goal is to create a chatbot that can connect employees with the nece
       cb.checked = correctAnswers1.includes(parseInt(cb.value));
     });
     const resultElement = document.getElementById('result1');
+    resultElement.innerText = 'These are the right choices';
+    resultElement.className = 'correct';
+  }
+</script>
+
+3b) What essential aspects of Azure Open AI service should he highlight ? 
+
+<form id="quiz-form-2">
+  <label class="checkbox-container"><input type="checkbox" name="service2" value="1"> Diverse Models available<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service2" value="2"> Limited to text generation only<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service2" value="3"> Easily integrates with other Azure services like Azure AI Search<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service2" value="4"> Accessible through REST APIs and SDKs<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service2" value="5"> The responses are used to further train the Models<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service2" value="6"> Content Filtering protects against harmful output<span class="checkmark"></span></label><br>
+  <br>
+  <button type="button" onclick="checkAnswers2()">Check Answer</button>
+  <button type="button" onclick="showAnswers2()">Help Me</button>
+</form>
+
+<p id="result2"></p>
+
+
+<script>
+  const correctAnswers2 = [1, 2, 4, 6];
+
+  function checkAnswers2() {
+    const selected = Array.from(document.querySelectorAll('input[name="service2"]:checked')).map(cb => parseInt(cb.value));
+    const isCorrect = correctAnswers2.every(val => selected.includes(val)) && selected.length === correctAnswers2.length;
+    const resultElement = document.getElementById('result2');
+    resultElement.innerText = isCorrect ? 'Correct' : 'Try again';
+    resultElement.className = isCorrect ? 'correct' : 'incorrect';
+  }
+
+  function showAnswers2() {
+    document.querySelectorAll('input[name="service2"]').forEach(cb => {
+      cb.checked = correctAnswers2.includes(parseInt(cb.value));
+    });
+    const resultElement = document.getElementById('result2');
     resultElement.innerText = 'These are the right choices';
     resultElement.className = 'correct';
   }
