@@ -11,8 +11,16 @@ courses: [AI-102, AI-3016, AI-3022, PR-801]
 ## Introduction
 Ben, an AI architect at a mid-sized company, is tasked with developing an internal chatbot to streamline access to corporate resources. These resources are currently dispersed across multiple knowledge bases and document repositories, making it challenging for employees to find the information they need quickly and efficiently.
 
+<a href="./images/cb1.png" download>
+  <img src="./images/cb1.png" alt="Enhancing HR Efficiency with Copilot">
+</a>
+
 ### Objective
 The primary goal is to create a chatbot that can connect employees with the necessary corporate resources, improving productivity and reducing the time spent searching for information.
+
+<a href="./images/cb2.png" download>
+  <img src="./images/cb2.png" alt="Enhancing HR Efficiency with Copilot">
+</a>
 
 ### Challenges
 - Dispersed Information: Corporate resources are spread across various platforms, including SharePoint, OneDrive, and internal databases.
