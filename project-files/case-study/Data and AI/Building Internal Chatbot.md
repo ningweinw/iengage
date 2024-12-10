@@ -127,12 +127,12 @@ The primary goal is to create a chatbot that can connect employees with the nece
 3a) What essential aspects of Azure AI Search service should he highlight ?
 
 <form id="quiz-form">
-  <label class="checkbox-container"><input type="checkbox" name="service" value="1"> Efficient Query Processing<span class="checkmark"></span></label><br>
-  <label class="checkbox-container"><input type="checkbox" name="service" value="2"> Multiple Data Sources<span class="checkmark"></span></label><br>
-  <label class="checkbox-container"><input type="checkbox" name="service" value="3"> Limited to Azure SQL Database only<span class="checkmark"></span></label><br>
-  <label class="checkbox-container"><input type="checkbox" name="service" value="4"> Cognitive Skills<span class="checkmark"></span></label><br>
-  <label class="checkbox-container"><input type="checkbox" name="service" value="5"> Manual Indexing Required<span class="checkmark"></span></label><br>
-  <label class="checkbox-container"><input type="checkbox" name="service" value="6"> Full-Text Search<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service1" value="1"> Efficient Query Processing<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service1" value="2"> Multiple Data Sources<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service1" value="3"> Limited to Azure SQL Database only<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service1" value="4"> Cognitive Skills<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service1" value="5"> Manual Indexing Required<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service1" value="6"> Full-Text Search<span class="checkmark"></span></label><br>
   <br>
   <button type="button" onclick="checkAnswers1()">Check Answer</button>
   <button type="button" onclick="showAnswers1()">Help Me</button>
@@ -142,22 +142,22 @@ The primary goal is to create a chatbot that can connect employees with the nece
 
 
 <script>
-  const correctAnswers = [1, 2, 4, 6];
+  const correctAnswers1 = [1, 2, 4, 6];
 
   function checkAnswers1() {
-    const selected = Array.from(document.querySelectorAll('input[name="service"]:checked')).map(cb => parseInt(cb.value));
-    const isCorrect = correctAnswers.every(val => selected.includes(val)) && selected.length === correctAnswers.length;
+    const selected = Array.from(document.querySelectorAll('input[name="service1"]:checked')).map(cb => parseInt(cb.value));
+    const isCorrect = correctAnswers1.every(val => selected.includes(val)) && selected.length === correctAnswers1.length;
     const resultElement = document.getElementById('result');
     resultElement.innerText = isCorrect ? 'Correct' : 'Try again';
     resultElement.className = isCorrect ? 'correct' : 'incorrect';
   }
 
   function showAnswers1() {
-    document.querySelectorAll('input[name="service"]').forEach(cb => {
-      cb.checked = correctAnswers.includes(parseInt(cb.value));
+    document.querySelectorAll('input[name="service1"]').forEach(cb => {
+      cb.checked = correctAnswers1.includes(parseInt(cb.value));
     });
     const resultElement = document.getElementById('result');
-    resultElement.innerText = 'This is the correct order';
+    resultElement.innerText = 'These are the right choices';
     resultElement.className = 'correct';
   }
 </script>
