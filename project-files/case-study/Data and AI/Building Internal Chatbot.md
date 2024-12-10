@@ -122,5 +122,42 @@ The primary goal is to create a chatbot that can connect employees with the nece
   }
 </script>
 
-**Question 3:** In his presentation to key stakeholders, Ben aims to showcase the Azure services utilized to tackle these challenges and develop the chatbot. What essential aspects of each Azure service should he highlight?
+**Question 3:** In his presentation to key stakeholders, Ben aims to showcase the Azure services utilized to tackle these challenges and develop the chatbot. 
 
+3a) What essential aspects of Azure AI Search service should he highlight ?
+
+<form id="quiz-form">
+  <label class="checkbox-container"><input type="checkbox" name="service" value="1"> Efficient Query Processing<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service" value="2"> Multiple Data Sources<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service" value="3"> Limited to Azure SQL Database only<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service" value="4"> Cognitive Skills<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service" value="5"> Manual Indexing Required<span class="checkmark"></span></label><br>
+  <label class="checkbox-container"><input type="checkbox" name="service" value="6"> Full-Text Search<span class="checkmark"></span></label><br>
+  <br>
+  <button type="button" onclick="checkAnswers1()">Check Answer</button>
+  <button type="button" onclick="showAnswers1()">Help Me</button>
+</form>
+
+<p id="result"></p>
+
+
+<script>
+  const correctAnswers = [1, 2, 4, 6];
+
+  function checkAnswers1() {
+    const selected = Array.from(document.querySelectorAll('input[name="service"]:checked')).map(cb => parseInt(cb.value));
+    const isCorrect = correctAnswers.every(val => selected.includes(val)) && selected.length === correctAnswers.length;
+    const resultElement = document.getElementById('result');
+    resultElement.innerText = isCorrect ? 'Correct' : 'Try again';
+    resultElement.className = isCorrect ? 'correct' : 'incorrect';
+  }
+
+  function showAnswers1() {
+    document.querySelectorAll('input[name="service"]').forEach(cb => {
+      cb.checked = correctAnswers.includes(parseInt(cb.value));
+    });
+    const resultElement = document.getElementById('result');
+    resultElement.innerText = 'This is the correct order';
+    resultElement.className = 'correct';
+  }
+</script>
