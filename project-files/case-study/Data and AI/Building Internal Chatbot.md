@@ -126,7 +126,7 @@ The primary goal is to create a chatbot that can connect employees with the nece
 
 3a) What essential aspects of Azure AI Search service should he highlight ?
 
-<form id="quiz-form">
+<form id="quiz-form-2">
   <label class="checkbox-container"><input type="checkbox" name="service1" value="1"> Efficient Query Processing<span class="checkmark"></span></label><br>
   <label class="checkbox-container"><input type="checkbox" name="service1" value="2"> Multiple Data Sources<span class="checkmark"></span></label><br>
   <label class="checkbox-container"><input type="checkbox" name="service1" value="3"> Limited to Azure SQL Database only<span class="checkmark"></span></label><br>
@@ -138,7 +138,7 @@ The primary goal is to create a chatbot that can connect employees with the nece
   <button type="button" onclick="showAnswers1()">Help Me</button>
 </form>
 
-<p id="result"></p>
+<p id="result1"></p>
 
 
 <script>
@@ -147,7 +147,7 @@ The primary goal is to create a chatbot that can connect employees with the nece
   function checkAnswers1() {
     const selected = Array.from(document.querySelectorAll('input[name="service1"]:checked')).map(cb => parseInt(cb.value));
     const isCorrect = correctAnswers1.every(val => selected.includes(val)) && selected.length === correctAnswers1.length;
-    const resultElement = document.getElementById('result');
+    const resultElement = document.getElementById('result1');
     resultElement.innerText = isCorrect ? 'Correct' : 'Try again';
     resultElement.className = isCorrect ? 'correct' : 'incorrect';
   }
@@ -156,7 +156,7 @@ The primary goal is to create a chatbot that can connect employees with the nece
     document.querySelectorAll('input[name="service1"]').forEach(cb => {
       cb.checked = correctAnswers1.includes(parseInt(cb.value));
     });
-    const resultElement = document.getElementById('result');
+    const resultElement = document.getElementById('result1');
     resultElement.innerText = 'These are the right choices';
     resultElement.className = 'correct';
   }
