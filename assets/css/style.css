@@ -254,15 +254,15 @@ li > a.artifact:hover {
     transform: rotate(45deg);
   }
 
-  #result {
+  #result, #result1, #result2 {
     font-size: 20px;
     margin-top: 20px;
   }
 
-  #result.correct {
+  #result.correct, #result1.correct, #result2.correct {
     color: blue;
   }
 
-  #result.incorrect {
+  #result.incorrect, #result1.incorrect, #result2.incorrect {
     color: red;
   }
