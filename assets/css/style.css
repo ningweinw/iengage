@@ -19,16 +19,16 @@ body {
     flex-grow: 1;
     padding: 15px;
     overflow: auto; /* Ensure content is scrollable if it overflows */
-    margin-left: 10px;
+    margin-left: 30px;
 
-    justify-content: center; /* Center the content horizontally */
+    justify-content: left; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
 }
 
 .content-wrapper {
     width: 80%; /* Adjust the width as needed */
     max-width: 800px; /* Maximum width */
-    text-align: center; /* Center the text */
+    text-align: left; /* Center the text */
 }
 .divider {
     width: 5px;
