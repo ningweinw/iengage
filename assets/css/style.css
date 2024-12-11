@@ -31,7 +31,7 @@ body {
 .content-wrapper {
     width: 80%; /* Adjust the width as needed */
     max-width: 1024px; /* Maximum width */
-    text-align: left; /* Center the text */
+    text-align: justify; /* Center the text */
 }
 .divider {
     width: 5px;
