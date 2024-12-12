@@ -284,15 +284,15 @@ li > a.artifact:hover {
     outline: none;
   }
 
-  #result, #result1, #result2, #result3, #result4 {
+  #result, #result1, #result2, #result3, #result4, #result5 , #result6 {
     font-size: 20px;
     margin-top: 20px;
   }
 
-  #result.correct, #result1.correct, #result2.correct, #result3.correct, #result4.correct {
+  #result.correct, #result1.correct, #result2.correct, #result3.correct, #result4.correct, #result5.correct,#result6.correct {
     color: blue;
   }
 
-  #result.incorrect, #result1.incorrect, #result2.incorrect, #result3.correct, #result4.correct {
+  #result.incorrect, #result1.incorrect, #result2.incorrect, #result3.incorrect, #result4.incorrect, #result5.incorrect, #result6.incorrect {
     color: red;
   }
