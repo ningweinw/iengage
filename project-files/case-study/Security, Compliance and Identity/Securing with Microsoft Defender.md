@@ -72,7 +72,7 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
    </select> to protect its cloud environments.
    <span id="result1"></span>
 
-**Question 3**:For securing app usage, Contoso relies on <select id="q2" onchange="checkAnswer('q2', 'DEFENDER FOR CLOUD APPS')" class="styled-dropdown">
+**Question 4**:For securing app usage, Contoso relies on <select id="q2" onchange="checkAnswer('q2', 'DEFENDER FOR CLOUD APPS')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
@@ -81,7 +81,7 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
    </select>.
    <span id="result2"></span>
 
-**Question 3**:<select id="q3" onchange="checkAnswer('q3', 'DEFENDER FOR ENDPOINT')" class="styled-dropdown">
+**Question 5**:<select id="q3" onchange="checkAnswer('q3', 'DEFENDER FOR ENDPOINT')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
@@ -90,7 +90,7 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
    </select> provides endpoint protection for HEINEKEN.
    <span id="result3"></span>
 
-**Question 3**:To monitor and protect identities, HEINEKEN uses <select id="q4" onchange="checkAnswer('q4', 'DEFENDER FOR IDENTITY')"class="styled-dropdown">
+**Question 6**:To monitor and protect identities, HEINEKEN uses <select id="q4" onchange="checkAnswer('q4', 'DEFENDER FOR IDENTITY')"class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
