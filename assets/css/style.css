@@ -266,6 +266,24 @@ li > a.artifact:hover {
     transform: rotate(45deg);
   }
 
+/*Input box - Textbox */
+
+  .input-box {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: border-color 0.3s;
+  }
+
+  .input-box:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
   #result, #result1, #result2 {
     font-size: 20px;
     margin-top: 20px;
