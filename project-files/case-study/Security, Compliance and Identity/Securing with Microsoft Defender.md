@@ -17,30 +17,32 @@ Contoso uses a variety of Microsoft Security solutions to protect its digital tr
 By leveraging these tools, Contoso has enhanced its security posture and agility, improved visibility and control over its IT environment, and ensured the ability to innovate securely while supporting global operations.
 
 
-**Question 1**:<input type="text" id="cloudProtection" class="input-box" oninput="this.value = this.value.toUpperCase()"> is used for identity and access management.
+**Question 1**: <input type="text" id="cloudProtection" class="input-box" oninput="this.value = this.value.toUpperCase()"> is used for identity and access management.
 
 <button type="button" onclick="checkAnswer1()">Check</button>
 <button type="button" onclick="revealAnswer1()">Reveal Answer</button>
 
-<p id="result"></p>
+<p id="result1"></p>
 
 <script>
   function checkAnswer1() {
     var answer = document.getElementById('cloudProtection').value.toUpperCase();
     if (answer === 'MICROSOFT ENTRA ID') {
-      document.getElementById('result').innerText = 'Correct answer';
+      document.getElementById('result1').innerText = 'Correct answer';
+      document.getElementById('result1').style.color = 'green';
     } else {
-      document.getElementById('result').innerText = 'Try Again';
+      document.getElementById('result1').innerText = 'Try Again';
+      document.getElementById('result1').style.color = 'red';
     }
   }
 
   function revealAnswer1() {
     document.getElementById('cloudProtection').value = 'MICROSOFT ENTRA ID';
-    document.getElementById('result').innerText = '';
+    document.getElementById('result1').innerText = '';
   }
 </script>
 
-**Question 2**:For security information and event management, Contoso uses Microsoft <input type="text" id="cloudProtection2" class="input-box" oninput="this.value = this.value.toUpperCase()"> 
+**Question 2**: For security information and event management, Contoso uses Microsoft <input type="text" id="cloudProtection2" class="input-box" oninput="this.value = this.value.toUpperCase()"> 
 
 <button type="button" onclick="checkAnswer2()">Check</button>
 <button type="button" onclick="revealAnswer2()">Reveal Answer</button>
@@ -52,8 +54,10 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
     var answer = document.getElementById('cloudProtection2').value.toUpperCase();
     if (answer === 'SENTINEL') {
       document.getElementById('result2').innerText = 'Correct answer';
+      document.getElementById('result2').style.color = 'green';
     } else {
       document.getElementById('result2').innerText = 'Try Again';
+      document.getElementById('result2').style.color = 'red';
     }
   }
 
@@ -63,41 +67,47 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
   }
 </script>
 
-**Question 3**:Contoso uses <select id="q1" onchange="checkAnswer('q1', 'DEFENDER FOR CLOUD')" class="styled-dropdown">
+**Question 3**: Contoso uses 
+<select id="q1" onchange="checkAnswer('q1', 'DEFENDER FOR CLOUD')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
     <option value="DEFENDER FOR ENDPOINT">Defender for Endpoint</option>
     <option value="DEFENDER FOR IDENTITY">Defender for Identity</option>
-   </select> to protect its cloud environments.
-   <span id="result1"></span>
+</select> 
+to protect its cloud environments.
+<span id="result3"></span>
 
-**Question 4**:For securing app usage, Contoso relies on <select id="q2" onchange="checkAnswer('q2', 'DEFENDER FOR CLOUD APPS')" class="styled-dropdown">
+**Question 4**: For securing app usage, Contoso relies on 
+<select id="q2" onchange="checkAnswer('q2', 'DEFENDER FOR CLOUD APPS')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
     <option value="DEFENDER FOR ENDPOINT">Defender for Endpoint</option>
     <option value="DEFENDER FOR IDENTITY">Defender for Identity</option>
-   </select>.
-   <span id="result3"></span>
+</select>.
+<span id="result4"></span>
 
-**Question 5**:<select id="q3" onchange="checkAnswer('q3', 'DEFENDER FOR ENDPOINT')" class="styled-dropdown">
+**Question 5**: 
+<select id="q3" onchange="checkAnswer('q3', 'DEFENDER FOR ENDPOINT')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
     <option value="DEFENDER FOR ENDPOINT">Defender for Endpoint</option>
     <option value="DEFENDER FOR IDENTITY">Defender for Identity</option>
-   </select> provides endpoint protection for HEINEKEN.
-   <span id="result4"></span>
+</select> 
+provides endpoint protection for HEINEKEN.
+<span id="result5"></span>
 
-**Question 6**:To monitor and protect identities, Contoso uses <select id="q4" onchange="checkAnswer('q4', 'DEFENDER FOR IDENTITY')" class="styled-dropdown">
+**Question 6**: To monitor and protect identities, Contoso uses 
+<select id="q4" onchange="checkAnswer('q4', 'DEFENDER FOR IDENTITY')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
     <option value="DEFENDER FOR ENDPOINT">Defender for Endpoint</option>
     <option value="DEFENDER FOR IDENTITY">Defender for Identity</option>
-   </select>.
-   <span id="result5"></span>
+</select>.
+<span id="result6"></span>
 
 <script>
   function checkAnswer(questionId, correctAnswer) {
