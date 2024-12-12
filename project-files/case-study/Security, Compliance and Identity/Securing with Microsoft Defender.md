@@ -68,7 +68,7 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
 </script>
 
 **Question 3**: Contoso uses 
-<select id="q1" onchange="checkAnswer('q1', 'DEFENDER FOR CLOUD')" class="styled-dropdown">
+<select id="q3" onchange="checkAnswer('q3', 'DEFENDER FOR CLOUD')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
@@ -79,7 +79,7 @@ to protect its cloud environments.
 <span id="result3"></span>
 
 **Question 4**: For securing app usage, Contoso relies on 
-<select id="q2" onchange="checkAnswer('q2', 'DEFENDER FOR CLOUD APPS')" class="styled-dropdown">
+<select id="q4" onchange="checkAnswer('q4', 'DEFENDER FOR CLOUD APPS')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
@@ -89,7 +89,7 @@ to protect its cloud environments.
 <span id="result4"></span>
 
 **Question 5**: 
-<select id="q3" onchange="checkAnswer('q3', 'DEFENDER FOR ENDPOINT')" class="styled-dropdown">
+<select id="q5" onchange="checkAnswer('q5', 'DEFENDER FOR ENDPOINT')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
@@ -100,7 +100,7 @@ provides endpoint protection for HEINEKEN.
 <span id="result5"></span>
 
 **Question 6**: To monitor and protect identities, Contoso uses 
-<select id="q4" onchange="checkAnswer('q4', 'DEFENDER FOR IDENTITY')" class="styled-dropdown">
+<select id="q6" onchange="checkAnswer('q6', 'DEFENDER FOR IDENTITY')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
