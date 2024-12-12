@@ -30,7 +30,7 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
     if (answer === 'MICROSOFT ENTRA ID') {
       document.getElementById('result').innerText = 'Correct answer';
     } else {
-      document.getElementById('result').innerText = 'MICROSOFT ENTRA ID';
+      document.getElementById('result').innerText = 'Try Again';
     }
   }
 
@@ -53,7 +53,7 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
     if (answer === 'SENTINEL') {
       document.getElementById('result2').innerText = 'Correct answer';
     } else {
-      document.getElementById('result2').innerText = 'SENTINEL';
+      document.getElementById('result2').innerText = 'Try Again';
     }
   }
 
@@ -79,7 +79,7 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
     <option value="DEFENDER FOR ENDPOINT">Defender for Endpoint</option>
     <option value="DEFENDER FOR IDENTITY">Defender for Identity</option>
    </select>.
-   <span id="result2"></span>
+   <span id="result3"></span>
 
 **Question 5**:<select id="q3" onchange="checkAnswer('q3', 'DEFENDER FOR ENDPOINT')" class="styled-dropdown">
     <option value="">Select an answer</option>
@@ -88,16 +88,16 @@ By leveraging these tools, Contoso has enhanced its security posture and agility
     <option value="DEFENDER FOR ENDPOINT">Defender for Endpoint</option>
     <option value="DEFENDER FOR IDENTITY">Defender for Identity</option>
    </select> provides endpoint protection for HEINEKEN.
-   <span id="result3"></span>
+   <span id="result4"></span>
 
-**Question 6**:To monitor and protect identities, HEINEKEN uses <select id="q4" onchange="checkAnswer('q4', 'DEFENDER FOR IDENTITY')"class="styled-dropdown">
+**Question 6**:To monitor and protect identities, Contoso uses <select id="q4" onchange="checkAnswer('q4', 'DEFENDER FOR IDENTITY')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="DEFENDER FOR CLOUD">Defender for Cloud</option>
     <option value="DEFENDER FOR CLOUD APPS">Defender for Cloud Apps</option>
     <option value="DEFENDER FOR ENDPOINT">Defender for Endpoint</option>
     <option value="DEFENDER FOR IDENTITY">Defender for Identity</option>
    </select>.
-   <span id="result4"></span>
+   <span id="result5"></span>
 
 <script>
   function checkAnswer(questionId, correctAnswer) {
