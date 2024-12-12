@@ -47,7 +47,7 @@ to protect its cloud environments.
     <option value="DEFENDER FOR ENDPOINT">Defender for Endpoint</option>
     <option value="DEFENDER FOR IDENTITY">Defender for Identity</option>
 </select> 
-provides endpoint protection for HEINEKEN.
+provides endpoint protection for Contoso.
 <span id="result5"></span>
 
 **Question 4**: To monitor and protect identities, Contoso uses 
