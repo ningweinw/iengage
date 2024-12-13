@@ -13,7 +13,7 @@ In this interactive journey, you'll join our superhero, Azure Front Door, on a m
 **Meet Azure Front Door, your superhero for fast, reliable, and secure web content delivery!**
 <br><br>
 <a href="./images/fd1.png" download>
-  <img src="./images/fd1.png" alt="Superhero flying">
+  <img src="./images/fd1.png" alt="Superhero posing and standing">
 </a>
 
 ### What is Azure Front Door?
@@ -49,7 +49,7 @@ In the bustling city of Webville, a new hero has emerged. Azure Front Door, with
 **Our hero, Azure Front Door, embarks on a quest to optimize web content delivery!**
 <br><br>
 <a href="./images/fd2.jpeg" download>
-  <img src="./images/fd2.jpeg" alt="Superhero flying">
+  <img src="./images/fd2.jpeg" alt="Superhero flying and there is a text global delivery">
 </a>
 
 ### Arrange the steps to set up Azure Front Door in the correct order:
@@ -111,7 +111,7 @@ Azure Front Door's journey to optimize your web content involves several key ste
 **Azure Front Door uses intelligent routing to manage traffic and ensure optimal performance.**
 <br><br>
 <a href="./images/fd3.png" download>
-  <img src="./images/fd3.png" alt="Superhero flying">
+  <img src="./images/fd3.png" alt="Superhero is monitoring the traffic">
 </a>
 
 ### Select the correct routing method used by Azure Front Door:
@@ -145,7 +145,7 @@ Azure Front Door employs various routing methods to ensure users get the best ex
 **Azure Front Door faces its final challenge: ensuring security and reliability.**
 <br><br>
 <a href="./images/fd1.png" download>
-  <img src="./images/fd1.png" alt="Superhero flying">
+  <img src="./images/fd1.png" alt="Superhero posing and standing to face the challenge">
 </a>
 
 ### The Ultimate Defense
