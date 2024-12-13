@@ -33,7 +33,7 @@ In today's digital age, securing sensitive information has become more critical 
   <img src="./images/mfa3.jpg" alt="Two business professionals are seated at a table in a meeting. One person is explaining that with Microsoft Entra ID, multi-factor authentication (MFA) can be seamless and user-friendly, using methods like phone notifications or biometrics to protect sensitive data from unauthorized access.">
 </a>
 <a href="./images/mfa4.jpg" download>
-  <img src="./images/mfa4.jpg" alt=" Three individuals are seated at a table in a professional meeting room with large windows in the background. The person on the left is speaking, expressing concern about the necessity of multi-factor authentication (MFA) by saying, "Still, it feels like an overreaction. Are we really at that level of risk?" The person in the middle responds, "Absolutely. Statistics show that MFA can block up to 99.9% of account compromise attacks. It's not just about convenience; it's about safeguarding our organization's integrity and our clients' trust.">
+  <img src="./images/mfa4.jpg" alt=" Three individuals are seated at a table in a professional meeting room with large windows in the background. The person on the left is speaking, expressing concern about the necessity of multi-factor authentication (MFA) by saying, Still, it feels like an overreaction. Are we really at that level of risk? The person in the middle responds, Absolutely. Statistics show that MFA can block up to 99.9% of account compromise attacks. It's not just about convenience; it's about safeguarding our organization's integrity and our clients' trust.">
 </a>
 
 **Tips for Trainers:** Discuss on few other benefits of MFA:
@@ -52,11 +52,11 @@ Mitigates the impact of compromised passwords.
 **Scene 3:**
 
 <a href="./images/mfa5.jpg" download>
-  <img src="./images/mfa5.jpg" alt="A comic-style illustration showing three individuals in a business meeting. The person on the left says, "Okay, I see your point. I guess I didn't realize how effective it could be. I mean, I often handle sensitive project documents that require secure access. MFA could definitely help protect those." The person on the right responds, "Exactly! Imagine needing to access project files or sensitive client information. With MFA, even if someone gets hold of a password, they still can't access the account without the second factor.">
+  <img src="./images/mfa5.jpg" alt="A comic-style illustration showing three individuals in a business meeting. The person on the left says, Okay, I see your point. I guess I didn't realize how effective it could be. I mean, I often handle sensitive project documents that require secure access. MFA could definitely help protect those. The person on the right responds, Exactly! Imagine needing to access project files or sensitive client information. With MFA, even if someone gets hold of a password, they still can't access the account without the second factor.">
 </a>
 
 <a href="./images/mfa6.jpg" download>
-  <img src="./images/mfa6.jpg" alt="wo individuals are seated at a table in a professional setting. One person is speaking and saying, "That makes sense. If it can enhance security without too much hassle, I'm on board. Let's explore how we can implement MFA with Entra ID for our team.">
+  <img src="./images/mfa6.jpg" alt="Two individuals are seated at a table in a professional setting. One person is speaking and saying, That makes sense. If it can enhance security without too much hassle, I'm on board. Let's explore how we can implement MFA with Entra ID for our team.">
 </a>
 
 **Tips for Trainers:** Discuss and share these references.
