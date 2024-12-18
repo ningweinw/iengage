@@ -14,4 +14,7 @@ In this dialog, John and Alice discuss the different Azure Functions plans—Con
 ## Interactive Video with Quizzes
 This video includes interactive quizzes to test your understanding of the Azure Functions plans discussed in the dialog. Watch the video and participate in the quizzes to reinforce your learning.
 
-<iframe src="/demo1/project-files/folder2/azurefun1/azurefun1_player.html" width="1024" height="600" frameborder="0" allowfullscreen></iframe>
+<iframe src="/CSDSkilling/iengage/project-files/gamification/Digital and App Innovation/videos/azurefunplan/azurefun1_player.html" width="1024" height="600" frameborder="0" allowfullscreen></iframe>
+
+
+
