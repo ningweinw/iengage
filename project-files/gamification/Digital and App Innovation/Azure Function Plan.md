@@ -6,7 +6,7 @@ sub-category: "Digital and App Innovation"
 courses: [AZ-204,AZ-305]
 ---
 
-# Understanding Azure Functions Plans
+# Understanding Azure Function Apps - Hosting Plans
 
 ## Introduction:
 In this dialog, John and Alice discuss the different Azure Functions plans—Consumption, Premium, and Dedicated. They explore the scenarios in which each plan is most suitable, considering factors like cost, performance, and specific application needs. Through their conversation, they also address common concerns such as cold start latency and the need for advanced features.
