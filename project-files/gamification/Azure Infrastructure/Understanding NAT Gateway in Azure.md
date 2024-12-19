@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  " Understanding NAT Gateway"
+title:  "Understanding NAT Gateway"
 category: "Gamification"
 sub-category: "Azure Infrastructure"
 courses: [AZ-104, AZ-700 ,AZ-305]
