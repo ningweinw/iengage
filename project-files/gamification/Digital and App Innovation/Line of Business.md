@@ -21,9 +21,7 @@ Welcome to the **Line of Business Extension Game**! This interactive game is des
    - Ensure that the icons are placed correctly to reflect the data flow accurately.
 
 
-Enjoy the game and learn how these Azure services work together to streamline business processes! If you have any questions or need further assistance, feel free to ask. Happy learning! 😊
-
-
+Enjoy the game and learn how these Azure services work together to streamline business processes! 
 
 {% raw %}
 
