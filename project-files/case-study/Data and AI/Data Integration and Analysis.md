@@ -14,6 +14,8 @@ One day, the team receives an urgent request from their CEO: they need to predic
 
 As they delve deeper, they uncover patterns and trends that were previously hidden. The insights they gain not only help in predicting customer behavior but also reveal opportunities for new product features. The CEO is thrilled with the results, and the team celebrates their success, knowing they have mastered the art of data integration and analysis.
 
+### Match the correct answer to each question below by dragging and dropping.
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
