@@ -8,7 +8,7 @@ courses: [DP-203]
 # Data Integration and Analysis with Azure Synapse and Data Fabrics
 
 ## Introduction
-In the bustling city of Dataville, a team of data scientists at the company DataQuest is on a mission to unlock the secrets of their vast data landscape. They have recently adopted Azure Data Fabrics to seamlessly integrate their diverse data sources and Azure Synapse to analyze and gain insights from their data.
+In the bustling city of Dataville, a team of data scientists at the company Contoso is on a mission to unlock the secrets of their vast data landscape. They have recently adopted Azure Data Fabrics to seamlessly integrate their diverse data sources and Azure Synapse to analyze and gain insights from their data.
 
 One day, the team receives an urgent request from their CEO: they need to predict customer behavior for an upcoming product launch. The team springs into action, using Azure Data Fabrics to connect data from their CRM, social media, and sales databases. With all the data unified, they turn to Azure Synapse to run complex queries and machine learning models.
 
