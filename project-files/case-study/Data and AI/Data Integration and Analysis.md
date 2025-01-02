@@ -88,7 +88,7 @@ As they delve deeper, they uncover patterns and trends that were previously hidd
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="synapseSpark">Synapse Spark</div>
     </div>
     <div>
-        <p>Which service enables seamless integration and management of diverse data sources across hybrid and multi-cloud environments?</p>
+        <p>What platform did the team use to integrate diverse data sources and store the data in a Lakehouse?</p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="azureDataFabrics"></div>
     </div>
     <div>
