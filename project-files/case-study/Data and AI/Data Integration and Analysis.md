@@ -5,12 +5,12 @@ category: "Case Study"
 sub-category: "Data and AI"
 courses: [DP-203]
 ---
-# Data Integration and Analysis with Azure Synapse and Data Fabrics
+# Data Integration and Analysis with Azure Synapse Analytics and Microsoft Fabric
 
 ## Introduction
-In the bustling city of Dataville, a team of data scientists at the company Contoso is on a mission to unlock the secrets of their vast data landscape. They have recently adopted Azure Data Fabrics to seamlessly integrate their diverse data sources and Azure Synapse to analyze and gain insights from their data.
+In the bustling city of Dataville, a team of data scientists at the company Contoso is on a mission to unlock the secrets of their vast data landscape. They have recently adopted Microsoft Fabrics to seamlessly integrate their diverse data sources and Azure Synapse Analytics to analyze and gain insights from their data.
 
-One day, the team receives an urgent request from their CEO: they need to predict customer behavior for an upcoming product launch. The team springs into action, using Azure Data Fabrics to connect data from their CRM, social media, and sales databases. With all the data unified, they turn to Azure Synapse to run complex queries and machine learning models.
+One day, the team receives an urgent request from their CEO: they need to predict customer behavior for an upcoming product launch. The team springs into action, using Microsoft Fabric to connect data from their CRM, social media, and sales databases. With all the data unified, they turn to Azure Synapse Analytics to run complex queries and machine learning models.
 
 As they delve deeper, they uncover patterns and trends that were previously hidden. The insights they gain not only help in predicting customer behavior but also reveal opportunities for new product features. The CEO is thrilled with the results, and the team celebrates their success, knowing they have mastered the art of data integration and analysis.
 
@@ -81,14 +81,14 @@ As they delve deeper, they uncover patterns and trends that were previously hidd
 </head>
 <body>
     <div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="azureDataFabrics">Azure Data Fabrics</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="azureSynapse">Azure Synapse</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="azureDataFabrics">Microsoft Fabric</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="azureSynapse">Azure Synapse Analytics</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="crmSocialSales">CRM,social media,sales</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="azurePurview">Azure Purview</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="azurePurview">Microsoft Purview</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="synapseSpark">Synapse Spark</div>
     </div>
     <div>
-        <p>What tool did the team use to integrate diverse data sources?</p>
+        <p>Which service enables seamless integration and management of diverse data sources across hybrid and multi-cloud environments?</p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="azureDataFabrics"></div>
     </div>
     <div>
@@ -96,7 +96,7 @@ As they delve deeper, they uncover patterns and trends that were previously hidd
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="azureSynapse"></div>
     </div>
     <div>
-        <p>What type of data sources were connected using Azure Data Fabrics?</p>
+        <p>What type of data sources were connected using Microsoft Fabric?</p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="crmSocialSales"></div>
     </div>
     <div>
@@ -104,7 +104,7 @@ As they delve deeper, they uncover patterns and trends that were previously hidd
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="azurePurview"></div>
     </div>
     <div>
-        <p>Which feature of Azure Synapse allows for real-time data processing and analytics?</p>
+        <p>Which feature of Azure Synapse Analytics allows for real-time data processing and analytics?</p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="synapseSpark"></div>
     </div>
     <p id="message"></p>
