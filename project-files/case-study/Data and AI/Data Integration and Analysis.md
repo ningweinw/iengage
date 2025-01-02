@@ -63,7 +63,20 @@ As they delve deeper, they uncover patterns and trends that were previously hidd
         #message {
             font-size: 1.2em;
             margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
         }
+    #message.correct {
+            color: #155724;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+    }
+    #message.incorrect {
+            color: #721c24;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+    }
     </style>
 </head>
 <body>
@@ -115,11 +128,17 @@ As they delve deeper, they uncover patterns and trends that were previously hidd
                 event.target.appendChild(draggedElement);
                 event.target.classList.add("correct");
                 event.target.classList.remove("incorrect");
-                document.getElementById("message").innerText = "Correct!";
+                var messageElement = document.getElementById("message");
+                messageElement.innerText = "Correct!";
+                messageElement.classList.add("correct");
+                messageElement.classList.remove("incorrect");
             } else {
                 event.target.classList.add("incorrect");
                 event.target.classList.remove("correct");
-                document.getElementById("message").innerText = "Error: Incorrect match.";
+                var messageElement = document.getElementById("message");
+                messageElement.innerText = "Error: Incorrect match.";
+                messageElement.classList.add("incorrect");
+                messageElement.classList.remove("correct");
             }
         }
     </script>
