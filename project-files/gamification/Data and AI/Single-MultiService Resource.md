@@ -31,10 +31,7 @@ To streamline management and billing, Innovaville creates a multi-service resour
     <style>
 
     
-        .question {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
+ 
         .tile-container {
             display: flex;
             gap: 40px;
@@ -66,7 +63,7 @@ To streamline management and billing, Innovaville creates a multi-service resour
         }
         .tile .front, .tile .back {
             position: absolute;
-            width: 100%;
+            width: 80%;
             height: 100%;
             backface-visibility: hidden;
             display: flex;
@@ -77,6 +74,7 @@ To streamline management and billing, Innovaville creates a multi-service resour
         .tile .back {
             transform: rotateY(180deg);
             background: linear-gradient(135deg, #bbdefb, #64b5f6); 
+              font-size: 24px;
         }
         .tile.flipped {
             transform: rotateY(180deg);
@@ -94,7 +92,7 @@ To streamline management and billing, Innovaville creates a multi-service resour
             <div class="back">Single-service account (Computer Vision)</div>
         </div>
         <div class="tile" onclick="checkAnswer(this, 'Multi-service account (Language Service)')">
-            <div class="front">our project involves analyzing customer feedback from multiple sources, including social media, emails, and surveys, to understand sentiment and key topics. What type of Azure AI service account should you use?</div>
+            <div class="front">Your project involves analyzing customer feedback from multiple sources, including social media, emails, and surveys, to understand sentiment and key topics. What type of Azure AI service account should you use?</div>
             <div class="back">Multi-service account (Language Service)</div>
         </div>
         <div class="tile" onclick="checkAnswer(this, 'Multi-service account (Speech Services, Translator)')">
