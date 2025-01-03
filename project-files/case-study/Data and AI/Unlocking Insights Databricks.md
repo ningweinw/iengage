@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Unlocking Insights with Azure Databricks for Contoso Analytics"
+title:  "Unlocking Insights with Azure Databricks"
 category: "Case Study"
 sub-category: "Data and AI"
 courses: [DP-203]
