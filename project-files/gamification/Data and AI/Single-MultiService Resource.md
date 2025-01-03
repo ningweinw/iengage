@@ -17,20 +17,21 @@ For traffic monitoring, Innovaville decides to use Azure Computer Vision to anal
 #### Multi-Service Example: Public Safety and Environmental Monitoring
 For public safety and environmental monitoring, Innovaville needs to integrate multiple AI services. They plan to use:
 
-#### Azure Text Analytics to analyze social media posts and detect potential public safety threats.
-#### Azure Speech Services to transcribe emergency calls and analyze the sentiment of callers.
-#### Azure Anomaly Detector to monitor environmental sensors for unusual patterns in air quality and noise levels.
+- Azure Text Analytics to analyze social media posts and detect potential public safety threats.<br>
+- Azure Speech Services to transcribe emergency calls and analyze the sentiment of callers.<br>
+- Azure Anomaly Detector to monitor environmental sensors for unusual patterns in air quality and noise levels.
 
 To streamline management and billing, Innovaville creates a multi-service resource. This allows them to access all these AI services with a single set of credentials and a unified endpoint, simplifying integration and reducing administrative overhead.
+
+### Instructions for Flip Cards
+Below are questions based on the scenario. Each question is on one side of a flip card. Flip the card to see the answer.
 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <style>
-
-    
+    <style>    
  
         .tile-container {
             display: flex;
