@@ -9,6 +9,11 @@ courses: [PL-300, DP-605, BL-PR-802]
 
 ## Introduction
 In the city of Seattle, Contoso Bank, a leading institution, is undertaking a transformative project to enhance its customer engagement and operational efficiency.
+
+<a href="./images/pb1.png">
+  <img src="./images/pb1.png" alt="man analysing the reports">
+</a>
+
 Their CTO has tasked the analytics team with designing an advanced reporting system using Microsoft Power BI to address the following requirements:
 
 #### Requirement 1: Get Data
