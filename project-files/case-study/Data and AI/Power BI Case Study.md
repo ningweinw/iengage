@@ -8,7 +8,7 @@ courses: [PL-300, DP-605, BL-PR-802]
 # Empowering Banking Analytics with Power BI: A Contoso Bank Transformation
 
 ## Introduction
-In the financial city of Seattle, Contoso Bank, a leading institution, is undertaking a transformative project to enhance its customer engagement and operational efficiency.
+In the city of Seattle, Contoso Bank, a leading institution, is undertaking a transformative project to enhance its customer engagement and operational efficiency.
 Their CTO has tasked the analytics team with designing an advanced reporting system using Microsoft Power BI to address the following requirements:
 
 #### Requirement 1: Get Data
