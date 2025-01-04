@@ -8,18 +8,83 @@ courses: [AI-102, PR-801]
 # Azure AI Services Adventure
 
 ## Introduction
+In the futuristic city of Innovatia, a group of brilliant data scientists and tech enthusiasts are on a mission to harness the power of Azure AI services to solve complex problems and drive innovation. Led by Dr. Alice, a renowned data scientist, the team embarks on an exciting expedition to explore and implement Azure AI solutions.
 
-Meet Alex, a tech-savvy hero who loves solving problems with cutting-edge technology. Alex is on a mission to help the city of Techville, which is facing various challenges that can be solved using Azure AI Vision Service. Alex is joined by a team of sidekicks, each representing a feature of Azure AI Vision Service:
-
-**OCR Owl:** A wise owl who can read and extract text from any image.<br>
-**Tagging Tiger:** A fierce tiger who can identify and tag objects in images.<br>
-**Face Falcon:** A sharp-eyed falcon who can detect and analyze faces.<br>
-**Analyze Ant:** A diligent ant who can analyze image content and provide insights.
-
-<a href="./images/av1.png">
-  <img src="./images/av1.png" alt="Alex is joined by a team of sidekicks">
+<a href="./images/ai2.png">
+  <img src="./images/ai2.png" alt="Alex is joined by a team of sidekicks">
 </a>
 <br>
+
+**Stage 1: The Discovery**
+Dr. Alice and her team, including tech-savvy members like Bob, a cloud architect, and Helen, a machine learning expert, discover a hidden lab filled with data anomalies. They realize that these anomalies can be resolved using Azure AI services. The team decides to provision the necessary AI services on Azure to begin their investigation.
+
+<a href="./images/ai1.png">
+  <img src="./images/ai1.png" alt="Alex is joined by a team of sidekicks">
+</a>
+<br>
+
+**Challenge:**: Provision an AI service on Azure
+
+Reorder Sequence: Arrange the steps to provision an AI service on Azure in the correct order.
+
+<ul id="sortable-setup" class="styled-list">
+  
+  <li class="ui-state-default" data-order="3">Select "Create a resource".</li>
+  <li class="ui-state-default" data-order="1">Choose the AI service (e.g., Computer Vision)</li>
+  <li class="ui-state-default" data-order="2">Configure the service settings (e.g., region, pricing tier)</li>
+  <li class="ui-state-default" data-order="4">Review and create the service</li>
+  
+</ul>
+
+<button onclick="checkOrderSetup()">Check Order</button>
+<button onclick="helpMeSetup()">Help me</button>
+
+<p id="feedback-setup"></p>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script>
+  $(function() {
+    $("#sortable-setup").sortable();
+    $("#sortable-setup").disableSelection();
+  });
+
+  function checkOrderSetup() {
+    var items = $("#sortable-setup li");
+    var correct = true;
+    items.each(function(index) {
+      if ($(this).data("order") !== index + 1) {
+        correct = false;
+      }
+    });
+    var feedback = document.getElementById("feedback-setup");
+    if (correct) {
+      feedback.textContent = "Correct order!";
+      feedback.style.color = "green";
+    } else {
+      feedback.textContent = "Incorrect order. Try again.";
+      feedback.style.color = "red";
+    }
+  }
+
+  function helpMeSetup() {
+    var items = $("#sortable-setup li").sort(function(a, b) {
+      return $(a).data("order") - $(b).data("order");
+    });
+    $("#sortable-setup").html(items);
+    document.getElementById("feedback-setup").textContent = "Here is the correct order.";
+    document.getElementById("feedback-setup").style.color = "blue";
+  }
+</script>
+
+
+
+
+
+
+
 
 The city is threatened by a group of villains, each representing a challenge:
 
