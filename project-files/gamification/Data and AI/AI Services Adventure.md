@@ -142,7 +142,7 @@ Reorder Sequence: Arrange the steps to store a key in Azure Key Vault in the cor
 <button onclick="checkOrderSetup1()">Check Order</button>
 <button onclick="helpMeSetup1()">Help me</button>
 
-<p id="feedback-setup"></p>
+<p id="feedback-setup1"></p>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
@@ -162,7 +162,7 @@ Reorder Sequence: Arrange the steps to store a key in Azure Key Vault in the cor
         correct = false;
       }
     });
-    var feedback = document.getElementById("feedback-setup");
+    var feedback = document.getElementById("feedback-setup1");
     if (correct) {
       feedback.textContent = "Correct order!";
       feedback.style.color = "green";
@@ -177,8 +177,8 @@ Reorder Sequence: Arrange the steps to store a key in Azure Key Vault in the cor
       return $(a).data("order") - $(b).data("order");
     });
     $("#sortable-setup1").html(items);
-    document.getElementById("feedback-setup").textContent = "Here is the correct order.";
-    document.getElementById("feedback-setup").style.color = "blue";
+    document.getElementById("feedback-setup1").textContent = "Here is the correct order.";
+    document.getElementById("feedback-setup1").style.color = "blue";
   }
 </script>
 
