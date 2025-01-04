@@ -131,7 +131,7 @@ What is the primary purpose of Azure Key Vault?
 
 Reorder Sequence: Arrange the steps to store a key in Azure Key Vault in the correct order.
 
-<ul id="sortable-setup" class="styled-list">  
+<ul id="sortable-setup1" class="styled-list">  
   <li class="ui-state-default" data-order="1">Create a new key vault</li>
   <li class="ui-state-default" data-order="3">Add a new secret to the key vault</li>
   <li class="ui-state-default" data-order="2">Retrieve the key from the AI service</li>
@@ -150,12 +150,12 @@ Reorder Sequence: Arrange the steps to store a key in Azure Key Vault in the cor
 
 <script>
   $(function() {
-    $("#sortable-setup").sortable();
-    $("#sortable-setup").disableSelection();
+    $("#sortable-setup1").sortable();
+    $("#sortable-setup1").disableSelection();
   });
 
   function checkOrderSetup1() {
-    var items = $("#sortable-setup li");
+    var items = $("#sortable-setup1 li");
     var correct = true;
     items.each(function(index) {
       if ($(this).data("order") !== index + 1) {
@@ -173,10 +173,10 @@ Reorder Sequence: Arrange the steps to store a key in Azure Key Vault in the cor
   }
 
   function helpMeSetup1() {
-    var items = $("#sortable-setup li").sort(function(a, b) {
+    var items = $("#sortable-setup1 li").sort(function(a, b) {
       return $(a).data("order") - $(b).data("order");
     });
-    $("#sortable-setup").html(items);
+    $("#sortable-setup1").html(items);
     document.getElementById("feedback-setup").textContent = "Here is the correct order.";
     document.getElementById("feedback-setup").style.color = "blue";
   }
