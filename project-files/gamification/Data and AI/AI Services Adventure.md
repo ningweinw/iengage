@@ -189,6 +189,9 @@ With their AI services provisioned and secured, Dr. Aria and her team begin anal
 **Challenge**: Use Azure AI services to analyze data and extract insights.
 
 Drag and Drop: Match the AI service to its description.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <style>
 
@@ -249,14 +252,14 @@ Drag and Drop: Match the AI service to its description.
             border: 1px solid #f5c6cb;
     }
     </style>
-
+</head>
     <div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="compv">Computer Vision</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="spsvc">Speech Service</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="langser">Language Service</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="clu">Conversational Language Understanding</div>
-        
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="clu">Conversational Language Understanding</div>        
     </div>
+    <body>
     <div>
         <p>Analyzes images and extracts information.</p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="compv"></div>
@@ -309,7 +312,7 @@ Drag and Drop: Match the AI service to its description.
             }
         }
     </script>
-
+</html>
 
 **Stage 4: The Breakthrough**
 As the team delves deeper into the data, they uncover groundbreaking insights that could revolutionize the field of data science. They present their findings to the Innovatia Council, showcasing the power and potential of Azure AI services.
@@ -359,4 +362,5 @@ Where can you find the endpoint URL and keys for your Azure AI service?"
     }
   }
 </script>
+</body>
 
