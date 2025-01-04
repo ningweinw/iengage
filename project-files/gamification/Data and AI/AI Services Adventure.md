@@ -80,6 +80,111 @@ Reorder Sequence: Arrange the steps to provision an AI service on Azure in the c
 </script>
 
 
+**Stage 2: Securing the Lab**
+To ensure the security of their AI services, the team sets up endpoints and keys. They also decide to use Azure Key Vault to store their secrets securely, protecting their data from potential breaches.
+
+**Challenge**: Store keys in Azure Key Vault.
+
+What is the primary purpose of Azure Key Vault?
+
+<form id="quizForm">
+  <input type="radio" id="q1" name="answer" value="q1">
+  <label for="a1"> To store and manage secrets, keys, and certificates securely</label><br>
+  <input type="radio" id="q2" name="answer" value="q2">
+  <label for="a2">To provision AI services</label><br>
+  <input type="radio" id="q3" name="answer" value="q3">
+  <label for="a3">To analyze images and extract information</label><br>
+  <input type="radio" id="q4" name="answer" value="q4">
+  <label for="a4">To convert spoken language into text</label><br>
+  <button type="button" onclick="checkAnswer()" class="styled-button">Submit</button>
+</form>
+
+<p id="result"></p>
+
+<script>
+  function checkAnswer() {
+    var radios = document.getElementsByName('answer');
+    var correctAnswer = 'q1';
+    var result = document.getElementById('result');
+    var selected = false;
+
+    for (var i = 0; i < radios.length; i++) {
+      if (radios[i].checked) {
+        selected = true;
+        if (radios[i].value === correctAnswer) {
+          result.textContent = 'Correct!';
+          result.style.color = 'green';
+        } else {
+          result.textContent = 'Incorrect. Try again!';
+          result.style.color = 'red';
+        }
+        break;
+      }
+    }
+
+    if (!selected) {
+      result.textContent = 'Please select an answer.';
+      result.style.color = 'orange';
+    }
+  }
+</script>
+
+Reorder Sequence: Arrange the steps to store a key in Azure Key Vault in the correct order.
+
+<ul id="sortable-setup" class="styled-list">  
+  <li class="ui-state-default" data-order="1">Create a new key vault</li>
+  <li class="ui-state-default" data-order="3">Add a new secret to the key vault</li>
+  <li class="ui-state-default" data-order="2">Retrieve the key from the AI service</li>
+  <li class="ui-state-default" data-order="4">Store the key as a secret in the key vault</li>
+  
+</ul>
+
+<button onclick="checkOrderSetup1()">Check Order</button>
+<button onclick="helpMeSetup1()">Help me</button>
+
+<p id="feedback-setup"></p>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script>
+  $(function() {
+    $("#sortable-setup").sortable();
+    $("#sortable-setup").disableSelection();
+  });
+
+  function checkOrderSetup1() {
+    var items = $("#sortable-setup li");
+    var correct = true;
+    items.each(function(index) {
+      if ($(this).data("order") !== index + 1) {
+        correct = false;
+      }
+    });
+    var feedback = document.getElementById("feedback-setup");
+    if (correct) {
+      feedback.textContent = "Correct order!";
+      feedback.style.color = "green";
+    } else {
+      feedback.textContent = "Incorrect order. Try again.";
+      feedback.style.color = "red";
+    }
+  }
+
+  function helpMeSetup1() {
+    var items = $("#sortable-setup li").sort(function(a, b) {
+      return $(a).data("order") - $(b).data("order");
+    });
+    $("#sortable-setup").html(items);
+    document.getElementById("feedback-setup").textContent = "Here is the correct order.";
+    document.getElementById("feedback-setup").style.color = "blue";
+  }
+</script>
+
+
+
+
 
 
 
