@@ -296,3 +296,17 @@ li > a.artifact:hover {
   #result.incorrect, #result1.incorrect, #result2.incorrect, #result3.incorrect, #result4.incorrect, #result5.incorrect, #result6.incorrect {
     color: red;
   }
+
+.footer {
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    text-align: left;
+}
+.footer a {
+    color: #0078d4;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
