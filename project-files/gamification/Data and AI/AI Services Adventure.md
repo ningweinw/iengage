@@ -187,3 +187,176 @@ Reorder Sequence: Arrange the steps to store a key in Azure Key Vault in the cor
 With their AI services provisioned and secured, Dr. Aria and her team begin analyzing the data anomalies. They use various Azure AI services to extract insights, identify patterns, and solve the mysteries hidden within the data.
 
 **Challenge**: Use Azure AI services to analyze data and extract insights.
+
+Drag and Drop: Match the AI service to its description.
+
+   <style>
+
+        .draggable-text {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .draggable-text:hover {
+            background-color: #e0e0e0;
+            transform: scale(1.05);
+        }
+        .drop-area {
+            width: 300px;
+            height: 50px;
+            border: 2px dashed #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            background-color: #fafafa;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .drop-area:hover {
+            background-color: #f0f0f0;
+            border-color: #bbb;
+        }
+        .drop-area.correct {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+        .drop-area.incorrect {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+        #message {
+            font-size: 1.2em;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    #message.correct {
+            color: #155724;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+    }
+    #message.incorrect {
+            color: #721c24;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+    }
+    </style>
+
+    <div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="compv">Computer Vision</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="spsvc">Speech Service</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="langser">Language Service</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="clu">Conversational Language Understanding</div>
+        
+    </div>
+    <div>
+        <p>Analyzes images and extracts information.</p>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="compv"></div>
+    </div>
+    <div>
+        <p>Converts spoken language into text.</p>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="spsvc"></div>
+    </div>
+    <div>
+        <p>Analyzes text to extract insights.</p>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="langser"></div>
+    </div>
+    <div>
+        <p>Understands and interprets user intentions.</p>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="clu"></div>
+    </div>
+   
+    <p id="message"></p>
+
+    <script>
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.id);
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            var data = event.dataTransfer.getData("text");
+            var draggedElement = document.getElementById(data);
+            var dropAreaAnswer = event.target.getAttribute("data-answer");
+
+            if (draggedElement.id === dropAreaAnswer) {
+                event.target.appendChild(draggedElement);
+                event.target.classList.add("correct");
+                event.target.classList.remove("incorrect");
+                var messageElement = document.getElementById("message");
+                messageElement.innerText = "Correct!";
+                messageElement.classList.add("correct");
+                messageElement.classList.remove("incorrect");
+            } else {
+                event.target.classList.add("incorrect");
+                event.target.classList.remove("correct");
+                var messageElement = document.getElementById("message");
+                messageElement.innerText = "Error: Incorrect match.";
+                messageElement.classList.add("incorrect");
+                messageElement.classList.remove("correct");
+            }
+        }
+    </script>
+
+
+**Stage 4: The Breakthrough**
+As the team delves deeper into the data, they uncover groundbreaking insights that could revolutionize the field of data science. They present their findings to the Innovatia Council, showcasing the power and potential of Azure AI services.
+
+**Challenge**: Present the findings using Azure AI services.
+
+Where can you find the endpoint URL and keys for your Azure AI service?"
+
+<form id="quizForm1">
+  <input type="radio" id="q1" name="answer2" value="q1">
+  <label for="a1"> In the Azure portal under the resource's 'Keys and Endpoint' section</label><br>
+  <input type="radio" id="q2" name="answer2" value="q2">
+  <label for="a2">In the Azure Marketplace</label><br>
+  <input type="radio" id="q3" name="answer2" value="q3">
+  <label for="a3">In the Azure CLI</label><br>
+  <input type="radio" id="q4" name="answer2" value="q4">
+  <label for="a4">In the Azure documentation</label><br>
+  <button type="button" onclick="checkAnswer2()" class="styled-button">Submit</button>
+</form>
+
+<p id="result2"></p>
+
+<script>
+  function checkAnswer2() {
+    var radios = document.getElementsByName('answer2');
+    var correctAnswer = 'q1';
+    var result = document.getElementById('result2');
+    var selected = false;
+
+    for (var i = 0; i < radios.length; i++) {
+      if (radios[i].checked) {
+        selected = true;
+        if (radios[i].value === correctAnswer) {
+          result.textContent = 'Correct!';
+          result.style.color = 'green';
+        } else {
+          result.textContent = 'Incorrect. Try again!';
+          result.style.color = 'red';
+        }
+        break;
+      }
+    }
+
+    if (!selected) {
+      result.textContent = 'Please select an answer.';
+      result.style.color = 'orange';
+    }
+  }
+</script>
+
