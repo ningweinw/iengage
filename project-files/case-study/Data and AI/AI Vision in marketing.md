@@ -15,15 +15,15 @@ In the rapidly evolving digital media and advertising industry, companies are co
 ### Problem Statement
 Contoso is facing significant challenges in managing and enhancing its vast library of digital media assets, which includes images and videos. The company needs to improve the accessibility, searchability, and visual appeal of these assets to meet the needs of their clients and stay competitive in the market. The specific challenges they are encountering include:
 
-* The company has a large number of images that lack descriptive alt text and captions, making them less accessible to visually impaired users and harder to search and categorize.
+-The company has a large number of images that lack descriptive alt text and captions, making them less accessible to visually impaired users and harder to search and categorize.
 
-* Many images contain important text information that needs to be extracted and indexed to improve searchability and content management.
+-Many images contain important text information that needs to be extracted and indexed to improve searchability and content management.
 
-* Contoso needs to analyze images to determine whether they are in black and white or color, and identify the dominant colors. This information is crucial for categorizing images and making design decisions.
+-Contoso needs to analyze images to determine whether they are in black and white or color, and identify the dominant colors. This information is crucial for categorizing images and making design decisions.
 
-* The company frequently needs to isolate subjects in images by removing backgrounds. This is essential for creating marketing materials and enhancing visual content.
+-The company frequently needs to isolate subjects in images by removing backgrounds. This is essential for creating marketing materials and enhancing visual content.
 
-* Contoso has specific client needs that require custom models to identify brand logos and other custom objects in images and videos. The company needs to develop and deploy these custom models efficiently.
+-Contoso has specific client needs that require custom models to identify brand logos and other custom objects in images and videos. The company needs to develop and deploy these custom models efficiently.
 
 ### Tasks 
 Help contoso to overcome the above challenges by answering the below questions.
