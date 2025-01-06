@@ -5,12 +5,22 @@ category: "Gamification"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
+# Azure Language Service Features - Connect Puzzle
+
+## Introduction
+Welcome to the Azure Language Service Features Matching Game! This game is designed to help you familiarize yourself with the various features offered by Azure Language Services. By matching each feature on the left with its correct description on the right, you'll gain a better understanding of how these services can be utilized.
+
+## Instructions
+1. **Read through the list of features** on the left side.
+2. **Review the descriptions** provided on the right side.
+3. **Match each feature** with its corresponding description by drawing a line.
+
 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit Color Matching Game</title>
+    <title>Language Service Matching Game</title>
     <style>
 
 .container {
