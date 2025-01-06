@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Language Service - Match Me"
-category: "Gamification123"
+category: "Gamification"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
