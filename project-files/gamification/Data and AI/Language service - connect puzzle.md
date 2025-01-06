@@ -98,10 +98,10 @@ Welcome to the Azure Language Service Features Matching Game! This game is desig
     </div>
     <div id="message"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leader-line/1.0.7/leader-line.min.js"></script>
-    <script>
-
+<script>
 let selectedQuestion = null;
 let selectedAnswer = null;
+const lines = []; // Store all created LeaderLines
 
 document.querySelectorAll('.questions img').forEach(question => {
     question.addEventListener('click', () => {
@@ -129,22 +129,22 @@ function checkMatch() {
     if (selectedQuestion && selectedAnswer) {
         let isMatch = false;
         if ((selectedQuestion.id === 'q1' && selectedAnswer.id === 'a2') ||
-    (selectedQuestion.id === 'q2' && selectedAnswer.id === 'a4') ||
-    (selectedQuestion.id === 'q3' && selectedAnswer.id === 'a1') ||
-    (selectedQuestion.id === 'q4' && selectedAnswer.id === 'a5') ||
-    (selectedQuestion.id === 'q5' && selectedAnswer.id === 'a3')) {
-    isMatch = true;
-}
-
+            (selectedQuestion.id === 'q2' && selectedAnswer.id === 'a4') ||
+            (selectedQuestion.id === 'q3' && selectedAnswer.id === 'a1') ||
+            (selectedQuestion.id === 'q4' && selectedAnswer.id === 'a5') ||
+            (selectedQuestion.id === 'q5' && selectedAnswer.id === 'a3')) {
+            isMatch = true;
+        }
 
         if (isMatch) {
-            new LeaderLine(
+            const line = new LeaderLine(
                 document.getElementById(selectedQuestion.id),
                 document.getElementById(selectedAnswer.id),
                 { color: 'gray', size: 4 }
             );
+            lines.push(line); // Add the new line to the array
             document.getElementById('message').innerText = '';
-             document.getElementById('message').style.display = 'none';
+            document.getElementById('message').style.display = 'none';
         } else {
             document.getElementById('message').innerText = 'Oops! Try Again!';
             document.getElementById('message').style.display = 'block';
@@ -156,6 +156,12 @@ function checkMatch() {
         selectedAnswer = null;
     }
 }
-    </script>
+
+// Reposition lines on scroll
+window.addEventListener('scroll', () => {
+    lines.forEach(line => line.position());
+});
+</script>
+
 </body>
 </html>
