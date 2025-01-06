@@ -49,13 +49,13 @@ Welcome to the Azure Language Service Features Matching Game! This game is desig
 }
 
 .answers div {
-    width: 300px;
+    width: 350px;
     height: 75px;
     margin: 10px;
     cursor: pointer;
     border: 2px solid #0F6CBD;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     transition: transform 0.3s, box-shadow 0.3s;
     border-radius: 15px;
