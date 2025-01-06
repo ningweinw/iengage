@@ -72,11 +72,11 @@ courses: [AI-102, PR-801]
 <body>
     <div class="container">
         <div class="questions">
-            <img src="q1.png" alt="Language Detection" id="q1">
-            <img src="q2.png" alt="Key Phrase Extraction" id="q2">
-            <img src="q3.png" alt="Sentiment Analysis" id="q3">
-            <img src="q4.png" alt="Named Entity Recognition" id="q4">
-            <img src="q5.png" alt="Entity Linking" id="q5">
+            <img src="./images/q1.png" alt="Language Detection" id="q1">
+            <img src="./images/q2.png" alt="Key Phrase Extraction" id="q2">
+            <img src="./images/q3.png" alt="Sentiment Analysis" id="q3">
+            <img src="./images/q4.png" alt="Named Entity Recognition" id="q4">
+            <img src="./images/q5.png" alt="Entity Linking" id="q5">
         </div>
         <div class="answers">
             <div id="a1">Analyzes the sentiment of the text (positive, negative, neutral)</div>
