@@ -64,13 +64,13 @@ Below are questions based on the scenario. Each question is on one side of a fli
         }
         .tile .front, .tile .back {
             position: absolute;
-            width: 80%;
+            width: 100%;
             height: 100%;
             backface-visibility: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 10px;
+            border-radius: 35px;
         }
         .tile .back {
             transform: rotateY(180deg);
