@@ -1,12 +1,12 @@
 ---
 layout: default
-title:  "Custom Copilot - Copilot Studio Vs AI Foundry"
+title:  "Copilot Studio Vs AI Foundry"
 category: "Gamification"
 sub-category: "Modern Workplace"
 courses: [MS-4009, MS-4010]
 ---
 
-# Custom Copilot : Copilot Studio Vs AI Foundry
+# Copilot Studio Vs AI Foundry
 
 ## Introduction
 
