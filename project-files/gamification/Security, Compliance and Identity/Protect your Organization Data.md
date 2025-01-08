@@ -12,7 +12,7 @@ courses: [SC-400, SC-5003]
 You are the Information Security specialist of DataGuardians Inc., an organization that handles lots of sensitive data like PII and financial data. All these data belongs to your customers and partners. You are designated to design data security solutions using Microsoft Purview, that will help DataGuardians Inc. to discover, classify and protect sensitive information.
 
 ### Instructions for Flip Cards
-Below are the questions. Each question is on one side of a flip card. Flip the card to see the answer. The answer can be Sensitive Information Types (SIT) or Sensitivity Labels or Retention Labels or Data Loss Prevention (DLP).
+Below are the questions. Each question is on one side of a flip card. Flip the card to see the answer. The answer can be **Sensitive Information Types (SIT)** or **Sensitivity Labels** or **Retention Labels or Data Loss Prevention (DLP)**.
 
 
 <html lang="en">
