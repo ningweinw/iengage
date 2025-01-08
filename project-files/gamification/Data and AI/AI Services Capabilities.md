@@ -14,7 +14,7 @@ In this quiz, you'll step into the shoes of detectives, wizards, treasure hunter
 Are you ready to take on the challenge? Let's get started and see how well you can navigate the Azure AI landscape! 
 
 ### Question 1:
-**Imagine you're a detective trying to solve the mystery of customer feedback. You have clues from emails, social media, and surveys. Which Azure AI service capability will help you crack the case by interpreting and understanding the text data?**
+**Imagine you're a detective trying to solve the mystery of customer feedback. You have clues from emails, social media, and surveys. Which Azure AI service capability will help you crack the case by interpreting and understanding the text data?** <br>
 <a href="./images/d1.png">
   <img src="./images/d1.png" alt="picture of a detective">
 </a>
