@@ -98,7 +98,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 5:
 **A healthcare provider wants to develop an application that can understand and respond to patient queries in natural language. Which Azure AI service capability should they leverage?** <br>
 <a href="./images/d5.png">
-  <img src="./images/d5.png" alt="picture of a treasure hunter">
+  <img src="./images/d5.png" alt="picture of a healthcare provider">
 </a>
 <br>
 
@@ -119,7 +119,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 6:
 **An insurance company needs to process and extract data from handwritten claim forms. Which Azure AI service capability is most appropriate for this task?** <br>
 <a href="./images/d6.png">
-  <img src="./images/d6.png" alt="picture of a treasure hunter">
+  <img src="./images/d6.png" alt="picture of a insurance company">
 </a>
 <br>
 
@@ -138,7 +138,10 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 <p id="result6"></p>
 
 ### Question 7:
-**A financial institution wants to analyze customer sentiment from call center transcripts to improve customer service. Which Azure AI service capability should they use?**
+**A financial institution wants to analyze customer sentiment from call center transcripts to improve customer service. Which Azure AI service capability should they use?** <br>
+<a href="./images/d7.png">
+  <img src="./images/d7.png" alt="picture of sentiment analysis">
+</a>
 
 <form id="quizForm6">
   <input type="radio" id="q7a" name="q7" value="A">
@@ -155,7 +158,10 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 <p id="result7"></p>
 
 ### Question 8:
-**A publishing house wants to extract and categorize information from a large collection of historical manuscripts. Which Azure AI service capability should they use?**
+**A publishing house wants to extract and categorize information from a large collection of historical manuscripts. Which Azure AI service capability should they use?** <br>
+<a href="./images/d8.png">
+  <img src="./images/d8.png" alt="picture of sentiment analysis">
+</a>
 
 <form id="quizForm6">
   <input type="radio" id="q8a" name="q8" value="A">
