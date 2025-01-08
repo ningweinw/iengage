@@ -36,7 +36,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 ### Question 2:
 **You're a wizard in a magical organization, and you need to extract information from enchanted invoices and automate their processing. Which Azure AI service capability is your magic wand?** <br>
 <a href="./images/d2.png">
-  <img src="./images/d2.png" alt="picture of a detective">
+  <img src="./images/d2.png" alt="picture of a wizard">
 </a>
 
 <form id="quizForm2">
@@ -54,7 +54,11 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 <p id="result2"></p>
 
 ### Question 3:
-**A retail company wants to implement a system that can identify products in images for inventory management. Which Azure AI service capability should they use?**
+**A retail company wants to implement a system that can identify products in images for inventory management. Which Azure AI service capability should they use?**<br>
+<a href="./images/d3.png">
+  <img src="./images/d3.png" alt="picture of a retail company">
+</a>
+<br>
 
 <form id="quizForm3">
   <input type="radio" id="q3a" name="q3" value="A">
@@ -71,7 +75,11 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 <p id="result3"></p>
 
 ### Question 4:
-**You're a treasure hunter searching through a vast repository of documents to find specific cases based on criteria like author, date, and keywords. Which Azure AI service capability will be your treasure map?**
+**You're a treasure hunter searching through a vast repository of documents to find specific cases based on criteria like author, date, and keywords. Which Azure AI service capability will be your treasure map?**<br>
+<a href="./images/d4.png">
+  <img src="./images/d4.png" alt="picture of a treasure hunter">
+</a>
+<br>
 
 <form id="quizForm4">
   <input type="radio" id="q4a" name="q4" value="A">
