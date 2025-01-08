@@ -144,7 +144,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
   <label for="q8c">Natural Language Processing (NLP) </label><br>
   <input type="radio" id="q8d" name="q8" value="D">
   <label for="q8d">Knowledge Mining</label><br>
-  <button type="button" onclick="checkAnswer('q8', 'D', 'result8')" class="styled-button">Submit</button>
+  <button type="button" onclick="checkAnswer('q8', 'B', 'result8')" class="styled-button">Submit</button>
 </form>
 
 <p id="result8"></p>
@@ -241,7 +241,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
   <input type="radio" id="q14c" name="q14" value="C">
   <label for="q14c">Azure Key Vault</label><br>
 
-  <button type="button" onclick="checkAnswer('q14', 'B', 'result14')" class="styled-button">Submit</button>
+  <button type="button" onclick="checkAnswer('q14', 'C', 'result14')" class="styled-button">Submit</button>
 </form>
 
 <p id="result14"></p>
