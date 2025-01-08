@@ -144,7 +144,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
   <label for="q8c">Natural Language Processing (NLP) </label><br>
   <input type="radio" id="q8d" name="q8" value="D">
   <label for="q8d">Knowledge Mining</label><br>
-  <button type="button" onclick="checkAnswer('q8', 'B', 'result8')" class="styled-button">Submit</button>
+  <button type="button" onclick="checkAnswer('q8', 'D', 'result8')" class="styled-button">Submit</button>
 </form>
 
 <p id="result8"></p>
