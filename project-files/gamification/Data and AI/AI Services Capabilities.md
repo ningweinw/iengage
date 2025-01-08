@@ -15,7 +15,10 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 
 ### Question 1:
 **Imagine you're a detective trying to solve the mystery of customer feedback. You have clues from emails, social media, and surveys. Which Azure AI service capability will help you crack the case by interpreting and understanding the text data?**
-
+<a href="./images/d1.png">
+  <img src="./images/d1.png" alt="picture of a detective">
+</a>
+<br>
 <form id="quizForm1">
   <input type="radio" id="q1a" name="q1" value="A">
   <label for="q1a">Computer Vision </label><br>
