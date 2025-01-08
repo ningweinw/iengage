@@ -137,7 +137,7 @@ Alex, a lead engineer at Contoso, has been tasked with overseeing the implementa
   <label for="q6d">Transparency</label><br>
   <input type="radio" id="q6d" name="q6" value="F">
   <label for="q6d">Accountability </label><br>
-  <button type="button" onclick="checkAnswer('q6', 'D', 'result5')" class="styled-button">Submit</button>
+  <button type="button" onclick="checkAnswer('q6', 'D', 'result6')" class="styled-button">Submit</button>
 </form>
 
 <p id="result6"></p>
