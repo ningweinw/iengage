@@ -16,6 +16,10 @@ Contoso is a leading technology company that develops AI-powered solutions for v
 
 Alex, a lead engineer at Contoso, has been tasked with overseeing the implementation of responsible AI practices across the company's AI projects. Alex needs to identify and address different challenges under the six considerations of responsible AI: fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
 
+<a href="./images/crai1.png">
+  <img src="./images/rai1.png" alt="a picture of a woman with responsible ai banner">
+</a>
+
 ### Question 1:
 **Contoso's AI hiring system is found to have a bias against certain demographic groups, leading to unfair hiring practices.**
 
