@@ -2,18 +2,22 @@
 layout: default
 title:  "Copilot Studio-Actions and Components"
 category: "Gamification"
-sub-category: "Modern Workspace"
+sub-category: "Modern Workplace"
 courses: [MS-4009, MS-4010]
 ---
+
+
 # Understanding Key Actions and Components in Microsoft Copilot Studio
 
 ## Introduction
+
 Welcome to the Microsoft Copilot Studio Drag-and-Drop Activity! This activity is designed to help you understand when to use various actions and components in Microsoft Copilot Studio, such as Conversation Actions, Prompt Actions, Flow Actions, Connectors, Topics, Variables, and Entities. By completing this activity, you'll gain a better understanding of how to build effective and interactive bots.
 <a href="./images/pb1.png">
   <img src="./images/cb1.png" alt="man analysing the reports">
 </a>
 
 ### Instructions
+
 1. **Read Each Scenario:** Carefully read each scenario provided. Each scenario describes a specific situation or requirement in building a bot.
 2. **Choose the Correct Action:** For each scenario, select the most appropriate action or component from the given options. The options include Conversation Action, Prompt Action, Flow Action, Connector, Topics, Variables, and Entities.
 3. **Drag and Drop:** If this is a physical or digital drag-and-drop activity, drag the correct answer to the designated area for each question.
