@@ -34,7 +34,10 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 <p id="result1"></p>
 
 ### Question 2:
-**You're a wizard in a magical organization, and you need to extract information from enchanted invoices and automate their processing. Which Azure AI service capability is your magic wand?**
+**You're a wizard in a magical organization, and you need to extract information from enchanted invoices and automate their processing. Which Azure AI service capability is your magic wand?** <br>
+<a href="./images/d2.png">
+  <img src="./images/d2.png" alt="picture of a detective">
+</a>
 
 <form id="quizForm2">
   <input type="radio" id="q2a" name="q2" value="A">
