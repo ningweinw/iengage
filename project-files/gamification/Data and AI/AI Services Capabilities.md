@@ -54,7 +54,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 <p id="result2"></p>
 
 ### Question 3:
-**A retail company wants to implement a system that can identify products in images for inventory management. Which Azure AI service capability should they use?**<br>
+**A retail company wants to implement a system that can identify products in images for inventory management. Which Azure AI service capability should they use?** <br>
 <a href="./images/d3.png">
   <img src="./images/d3.png" alt="picture of a retail company">
 </a>
@@ -75,7 +75,7 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 <p id="result3"></p>
 
 ### Question 4:
-**You're a treasure hunter searching through a vast repository of documents to find specific cases based on criteria like author, date, and keywords. Which Azure AI service capability will be your treasure map?**<br>
+**You're a treasure hunter searching through a vast repository of documents to find specific cases based on criteria like author, date, and keywords. Which Azure AI service capability will be your treasure map?** <br>
 <a href="./images/d4.png">
   <img src="./images/d4.png" alt="picture of a treasure hunter">
 </a>
@@ -96,7 +96,11 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 <p id="result4"></p>
 
 ### Question 5:
-**A healthcare provider wants to develop an application that can understand and respond to patient queries in natural language. Which Azure AI service capability should they leverage?**
+**A healthcare provider wants to develop an application that can understand and respond to patient queries in natural language. Which Azure AI service capability should they leverage?** <br>
+<a href="./images/d5.png">
+  <img src="./images/d5.png" alt="picture of a treasure hunter">
+</a>
+<br>
 
 <form id="quizForm5">
   <input type="radio" id="q5a" name="q5" value="A">
@@ -113,7 +117,11 @@ Are you ready to take on the challenge? Let's get started and see how well you c
 <p id="result5"></p>
 
 ### Question 6:
-**An insurance company needs to process and extract data from handwritten claim forms. Which Azure AI service capability is most appropriate for this task?**
+**An insurance company needs to process and extract data from handwritten claim forms. Which Azure AI service capability is most appropriate for this task?** <br>
+<a href="./images/d6.png">
+  <img src="./images/d6.png" alt="picture of a treasure hunter">
+</a>
+<br>
 
 <form id="quizForm6">
   <input type="radio" id="q6a" name="q6" value="A">
