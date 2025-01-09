@@ -100,12 +100,12 @@ Below are questions based on the scenario. Each question is on one side of a fli
             <div class="front">You are developing a voice-activated virtual assistant that can understand and respond to user queries, transcribe spoken words, and translate languages. What type of Azure AI service account should you use?</div>
             <div class="back">Multi-service account (Speech Services, Translator)</div>
         </div>
-        <div class="tile" onclick="checkAnswer(this, 'Single-service account (Azure Machine Learning)')">
+        <div class="tile" onclick="checkAnswer(this, 'Single-service account')">
             <div class="front">Your team needs to use different tiers for different services and different members need different level of access for the services. What type of Azure AI service account should you use?</div>
             <div class="back">Single-service account</div>
         </div>
       
-        <div class="tile" onclick="checkAnswer(this, 'Multi-service account (Face API, Anomaly Detector, Language Service)')">
+        <div class="tile" onclick="checkAnswer(this, 'Single-service account (Face API, Anomaly Detector, Language Service)')">
             <div class="front">You are tasked with creating a comprehensive security monitoring system that includes facial recognition for access control, anomaly detection for unusual activities, and text analysis for threat detection. What type of Azure AI service account should you use?</div>
             <div class="back">Single-service account (Face API, Anomaly Detector, Language Service)</div>
         </div>
