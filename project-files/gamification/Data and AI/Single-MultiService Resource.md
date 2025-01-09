@@ -107,7 +107,7 @@ Below are questions based on the scenario. Each question is on one side of a fli
       
         <div class="tile" onclick="checkAnswer(this, 'Multi-service account (Face API, Anomaly Detector, Language Service)')">
             <div class="front">You are tasked with creating a comprehensive security monitoring system that includes facial recognition for access control, anomaly detection for unusual activities, and text analysis for threat detection. What type of Azure AI service account should you use?</div>
-            <div class="back">Multi-service account (Face API, Anomaly Detector, Language Service)</div>
+            <div class="back">Single-service account (Face API, Anomaly Detector, Language Service)</div>
         </div>
     </div>
 
