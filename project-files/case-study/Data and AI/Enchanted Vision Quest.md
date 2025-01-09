@@ -1,11 +1,13 @@
 ---
 layout: default
-title:  "The Enchanted Vision Quest: Challenges Faced by Dr. Visionary"
+title:  "The Enchanted Vision Quest"
 category: "Case Study123"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
-# Introduction
+# The Enchanted Vision Quest: Challenges Faced by Dr. Visionary
+
+## Introduction
 
 Dr. Visionary was on a magical mission to create an enchanted image classifier. His goal? To identify rare and magical creatures in the enchanted forest. Why, you ask? Well, rumour had it that these mystical beings held the secrets to eternal wisdom and boundless energy. Dr. Visionary believed that by cataloging these creatures, he could unlock their secrets and bring a new era of enlightenment and power to Techville. Plus, who wouldn't want to have a magical creature as a friend?
 
