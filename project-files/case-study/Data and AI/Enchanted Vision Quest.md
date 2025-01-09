@@ -76,13 +76,12 @@ Just as Dr. Visionary thought he was nearing the end of his quest; he encountere
         <li class="ui-state-default" data-order="5">Using the collected images to create a model</li>
         <li class="ui-state-default" data-order="7">Managing multiple versions of the model to improve accuracy</li>
       </ul>
-    </div>
-      <button onclick="checkOrderSetup()">Check Order</button>
+    </div>      
+  </div>
+<button onclick="checkOrderSetup()">Check Order</button>
       <button onclick="helpMeSetup()">Help me</button>
       <p id="feedback-setup"></p>
     
-  </div>
-
   <script>
     $(function() {
       $("#sortable-setup").sortable();
