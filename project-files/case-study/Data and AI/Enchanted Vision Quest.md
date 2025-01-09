@@ -40,7 +40,8 @@ Just as Dr. Visionary thought he was nearing the end of his quest; he encountere
     .box {
       border: 1px solid #ccc;
       padding: 10px;
-      margin-bottom: 10px;
+      margin: 5px 0;
+      width: 500px;
     }
     .styled-list {
       list-style-type: none;
