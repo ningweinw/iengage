@@ -5,10 +5,20 @@ category: "Case Study123"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
+# Introduction
 
-**Challenge:**: Provision an AI service on Azure
+Dr. Visionary was on a magical mission to create an enchanted image classifier. His goal? To identify rare and magical creatures in the enchanted forest. Why, you ask? Well, rumour had it that these mystical beings held the secrets to eternal wisdom and boundless energy. Dr. Visionary believed that by cataloging these creatures, he could unlock their secrets and bring a new era of enlightenment and power to Techville. Plus, who wouldn't want to have a magical creature as a friend?
 
-<!DOCTYPE html>
+## The Magical Challenges
+<br>
+<a href="./images/m1.png" download>
+  <img src="./images/m1.png" alt="picture of wizaed">
+</a>
+
+Just as Dr. Visionary thought he was nearing the end of his quest; he encountered an unexpected magical challenge. The problem is that Dr. Visionary's magic wand is broken, and it will take some time to fix it. He consulted the Head Wizard, who suggested using Custom Vision. Since Dr. Visionary has no idea about Custom Vision, can you help him match the problem statement with the appropriate solution?
+
+**Match the Following:**
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -49,13 +59,19 @@ courses: [AI-102, PR-801]
       <div class="box">Set up a new project </div>
       <div class="box">Collect training images </div>
       <div class="box">Upload and tag images </div>
+      <div class="box">Train the classifier </div>
+      <div class="box">Evaluate the classifier </div>
+      <div class="box">Manage iterations</div>
     </div>
     <div class="column">
       <ul id="sortable-setup" class="styled-list">
-        <li class="ui-state-default" data-order="3">Select "Create a resource".</li>
-        <li class="ui-state-default" data-order="1">Choose the AI service (e.g., Computer Vision)</li>
-        <li class="ui-state-default" data-order="2">Configure the service settings (e.g., region, pricing tier)</li>
-        <li class="ui-state-default" data-order="4">Review and create the service</li>
+        <li class="ui-state-default" data-order="3">Ensuring images meet specific criteria such as format and size</li>
+        <li class="ui-state-default" data-order="2">Using the Custom Vision web page to start a new project</li>
+        <li class="ui-state-default" data-order="1">Creating training and prediction resources in Azure</li>
+        <li class="ui-state-default" data-order="4">Uploading images and assigning tags to them</li>
+        <li class="ui-state-default" data-order="6">Evaluating the model's performance using metrics like precision and recall</li>
+        <li class="ui-state-default" data-order="5">Using the collected images to create a model</li>
+        <li class="ui-state-default" data-order="7">Managing multiple versions of the model to improve accuracy</li>
       </ul>
       <button onclick="checkOrderSetup()">Check Order</button>
       <button onclick="helpMeSetup()">Help me</button>
