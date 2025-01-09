@@ -69,7 +69,7 @@ Just as Dr. Visionary thought he was nearing the end of his quest; he encountere
         <li class="ui-state-default" data-order="2">Using the Custom Vision web page to start a new project</li>
         <li class="ui-state-default" data-order="1">Creating training and prediction resources in Azure</li>
         <li class="ui-state-default" data-order="4">Uploading images and assigning tags to them</li>
-        <li class="ui-state-default" data-order="6">Evaluating the model's performance using metrics like precision and recall</li>
+        <li class="ui-state-default" data-order="6">Evaluating the model performance with like precision and recall</li>
         <li class="ui-state-default" data-order="5">Using the collected images to create a model</li>
         <li class="ui-state-default" data-order="7">Managing multiple versions of the model to improve accuracy</li>
       </ul>
