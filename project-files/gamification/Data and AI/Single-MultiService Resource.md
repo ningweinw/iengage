@@ -101,8 +101,8 @@ Below are questions based on the scenario. Each question is on one side of a fli
             <div class="back">Multi-service account (Speech Services, Translator)</div>
         </div>
         <div class="tile" onclick="checkAnswer(this, 'Single-service account (Azure Machine Learning)')">
-            <div class="front">Your team needs to build a predictive maintenance system for industrial equipment, using data from IoT sensors to predict equipment failures. What type of Azure AI service account should you use?</div>
-            <div class="back">Single-service account (Azure Machine Learning)</div>
+            <div class="front">Your team needs to use different tiers for different services and different members need different level of access for the services. What type of Azure AI service account should you use?</div>
+            <div class="back">Single-service account</div>
         </div>
       
         <div class="tile" onclick="checkAnswer(this, 'Multi-service account (Face API, Anomaly Detector, Language Service)')">
