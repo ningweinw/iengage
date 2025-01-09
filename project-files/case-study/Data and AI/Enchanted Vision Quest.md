@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "The Enchanted Vision Quest: Challenges Faced by Dr. Visionary"
-category: "Case Study"
+category: "Case Study123"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
