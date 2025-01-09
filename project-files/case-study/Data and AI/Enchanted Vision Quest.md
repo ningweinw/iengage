@@ -28,28 +28,53 @@ Just as Dr. Visionary thought he was nearing the end of his quest; he encountere
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <style>
-    .container {
-      display: flex;
-    }
-    .column {
-      flex: 1;
-      padding: 10px;
-    }
-    .box {
-      border: 1px solid #ccc;
-      padding: 10px;
-      margin-bottom: 10px;
-    }
-    .styled-list {
-      list-style-type: none;
-      padding: 0;
-    }
-    .styled-list li {
-      margin: 5px 0;
-      padding: 10px;
-      border: 1px solid #ccc;
-      cursor: move;
-    }
+    
+.container {
+  display: flex;
+  margin: 20px;
+}
+.column {
+  flex: 1;
+  padding: 10px;
+}
+.box {
+  border: 2px solid #8a2be2;
+  background-color: #e6e6fa;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.styled-list {
+  list-style-type: none;
+  padding: 0;
+}
+.styled-list li {
+  margin: 5px 0;
+  padding: 10px;
+  border: 2px solid #4682b4;
+  background-color: #b0e0e6;
+  border-radius: 8px;
+  cursor: move;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+button {
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+button:hover {
+  background-color: #6a1bb2;
+}
+#feedback-setup {
+  font-weight: bold;
+}
+
   </style>
 </head>
 <body>
