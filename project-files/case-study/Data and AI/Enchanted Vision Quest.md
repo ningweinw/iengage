@@ -1,9 +1,9 @@
 ---
 layout: default
-title:  "Building an Internal Chatbot"
+title:  "The Enchanted Vision Quest: Challenges Faced by Dr. Visionary"
 category: "Case Study"
 sub-category: "Data and AI"
-courses: [AI-102, AI-3016, AI-3022, PR-801]
+courses: [AI-102, PR-801]
 ---
 
 **Challenge:**: Provision an AI service on Azure
