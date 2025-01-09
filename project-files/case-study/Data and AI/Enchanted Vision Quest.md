@@ -41,7 +41,8 @@ Just as Dr. Visionary thought he was nearing the end of his quest; he encountere
       border: 1px solid #ccc;
       padding: 10px;
       margin: 5px 0;
-      width: 500px;
+      width: 300px;
+      color: #007bff;
     }
     .styled-list {
       list-style-type: none;
