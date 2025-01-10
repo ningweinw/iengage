@@ -29,9 +29,9 @@ Reorder Sequence: Arrange the steps to provision an AI service on Azure in the c
 
 <ul id="sortable-setup" class="styled-list">
   
-  <li class="ui-state-default" data-order="3">Select "Create a resource".</li>
+  <li class="ui-state-default" data-order="2">Select "Create a resource".</li>
   <li class="ui-state-default" data-order="1">Choose the AI service (e.g., Computer Vision)</li>
-  <li class="ui-state-default" data-order="2">Configure the service settings (e.g., region, pricing tier)</li>
+  <li class="ui-state-default" data-order="3">Configure the service settings (e.g., region, pricing tier)</li>
   <li class="ui-state-default" data-order="4">Review and create the service</li>
   
 </ul>
