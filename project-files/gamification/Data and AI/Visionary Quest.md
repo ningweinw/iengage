@@ -34,9 +34,9 @@ The city is threatened by a group of villains, each representing a challenge:
 <br>
 
 ### First Challenge: The Blurry Bandit
-Alex and OCR Owl encounter their first challenge. The Blurry Bandit has struck, making important documents unreadable. OCR Owl uses its Optical Character Recognition (OCR) powers to extract text from the blurry images.
+Alex and OCR Owl encounter their first challenge.
 
-**Which Azure AI Vision Service feature did OCR Owl use to read the text from the blurry images**
+**Which Azure AI Vision Service feature did OCR Owl use to extract the text from the blurry images**
 
 <form id="quizForm1">
   <input type="radio" id="q1a" name="q1" value="A">
@@ -53,7 +53,7 @@ Alex and OCR Owl encounter their first challenge. The Blurry Bandit has struck, 
 <p id="result1"></p>
 
 ### Second Challenge: The Shadow Shifter
-Next, Alex and Tagging Tiger face the Shadow Shifter, who has cast shadows over surveillance footage. Tagging Tiger uses its image tagging abilities to identify objects despite the shadows.
+Next, Alex and Tagging Tiger face the Shadow Shifter, who has cast shadows over surveillance footage. 
 
 **How did Tagging Tiger identify objects in shadowy images?**
 
@@ -74,7 +74,7 @@ Next, Alex and Tagging Tiger face the Shadow Shifter, who has cast shadows over 
 ### Final Challenge: The Distortion Demon
 In the final showdown, Alex and the team confront the Distortion Demon, who has warped images of missing persons. Face Falcon uses its face detection and analysis powers to recognize and analyze the faces, helping to locate the missing individuals.
 
-**Which feature did Face Falcon use to recognize and analyze faces in distorted images?**
+**Which feature did Face Falcon use to recognize and analyze faces helping to locate the missing individuals?**
 
 <form id="quizForm3">
   <input type="radio" id="q3a" name="q3" value="A">
