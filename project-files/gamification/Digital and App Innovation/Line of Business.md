@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  " Line of Business -Architecture"
-category: "Gamification"
+category: "Gamification123"
 sub-category: "Digital and App Innovation"
 courses: [AZ-204,AZ-305]
 ---
