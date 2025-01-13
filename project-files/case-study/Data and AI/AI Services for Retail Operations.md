@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  " AI Services for Retail"
-category: "Case Study"
+category: "Case Study123"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
