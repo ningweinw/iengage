@@ -1,10 +1,15 @@
-# Repo/initiative title
+# iEngage 2.0
 **Explanation of the purpose for this repository**
 
-Provide any other useful information, including but not limited to:  
-- Explanation of the repository structure
-- Recommendations on how to use the assets contained within the repository
-- How contributors should contribute
+This initiative is designed to create a dynamic and interactive learning environment through gamified assets, engaging AI design comics, interactive comic videos, etc. Our vision is to make complex concepts accessible and actionable, emphasizing the synergy between AI, Apps, and Data.
+
+What is in it for MCTs?
+<br>
+🎮Enhanced Training Effectiveness: Gamification helps trainers deliver content in a more engaging and interactive way.<br>
+⏱️Real-Time Feedback: Trainers can provide immediate feedback through gamified elements, such as quizzes and interactive activities.  <br>
+🤝Improved Trainer-Trainee Relationships: The interactive nature of gamified learning fosters a more collaborative and positive relationship between trainers and trainees. <br>
+
+Here is the link to access the iEngage assets:https://csdskilling.github.io/iengage/
 
 Remember to update the following files:   
 - [CODEOWNERS](.github/CODEOWNERS)
