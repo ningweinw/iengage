@@ -15,11 +15,12 @@ courses: [AI-102, PR-801]
 </div>
 
 <div class="content">
+  
 ## Business Overview
 <a id="business"></a>
 RetailCo, a prominent retail chain with over 500 stores nationwide, offers a diverse range of products from groceries to electronics and maintains a strong online presence. RetailCo's goals include enhancing customer experience, streamlining operations, and leveraging data for informed decision-making.
 
-<<image>>
+!Image Placeholder
 
 ## Existing Setup
 <a id="existing"></a>
@@ -35,23 +36,22 @@ RetailCo's robust IT infrastructure includes:
 RetailCo has identified several areas for improvement:
 
 1. **Enhanced Customer Experience:** Personalizing customer interactions both online and in-store.
-* Virtual Try-On Feature: Implementing a virtual try-on feature for their e-commerce platform.
-* **In-Store Touch Screen Assistant:** Enhancing the touch-screen assistant in retail outlets with mic input and read-aloud functionality.
-* **Digital Assistant:** Creating a digital assistant for their e-commerce platform to assist customers with order details, return policies, etc.
-* **Sentiment Analysis:** Analyzing product reviews to recommend more suitable products to customers.
-* **Image-Based Search:** Add an option in the E-commerce site, where customers can upload an image and search for similar items in the inventory. 
+   * Virtual Try-On Feature: Implementing a virtual try-on feature for their e-commerce platform.
+   * **In-Store Touch Screen Assistant:** Enhancing the touch-screen assistant in retail outlets with mic input and read-aloud functionality.
+   * **Digital Assistant:** Creating a digital assistant for their e-commerce platform to assist customers with order details, return policies, etc.
+   * **Sentiment Analysis:** Analyzing product reviews to recommend more suitable products to customers.
+   * **Image-Based Search:** Add an option in the E-commerce site, where customers can upload an image and search for similar items in the inventory. 
 
-2. Streamline Business Operations:
-* **Customer Purchase Analysis:** Analyzing customer purchase invoices to identify patterns and draw business conclusions.
-* **Social Media Analysis:** Analyzing tweets to identify key topics being discussed about RetailCo.
+2. **Streamline Business Operations:**
+   * **Customer Purchase Analysis:** Analyzing customer purchase invoices to identify patterns and draw business conclusions.
+   * **Social Media Analysis:** Analyzing tweets to identify key topics being discussed about RetailCo.
   
-3. **Business Expansion and Compliance**
-* Age Verification: RetailCo plans to expand its business by adding a liquor section in their retail outlets. To ensure minors cannot order liquor through the Touch-Screen Assistants, it will implement age verification for customers purchasing alcohol.
+3. **Business Expansion and Compliance:**
+   * Age Verification: RetailCo plans to expand its business by adding a liquor section in their retail outlets. To ensure minors cannot order liquor through the Touch-Screen Assistants, it will implement age verification for customers purchasing alcohol.
 </div>
 
 <style>
- 
-  .fixed-buttons {
+.fixed-buttons {
   position: fixed;
   top: 0;
   width: 100%;
@@ -60,6 +60,7 @@ RetailCo has identified several areas for improvement:
   padding: 10px 0;
   z-index: 1000; /* Ensure it stays on top of other content */
 }
+
 .button {
   margin: 0 10px;
   padding: 10px 20px;
