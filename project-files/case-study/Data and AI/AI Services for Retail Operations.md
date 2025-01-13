@@ -54,7 +54,7 @@ In today's rapidly evolving technological landscape, artificial intelligence (AI
   top: 0;
   width: 100%;
   background-color: white; /* Optional: to match the background */
-  text-align: center;
+  display: flex;
   padding: 10px 0;
   z-index: 1000; /* Ensure it stays on top of other content */
 }
