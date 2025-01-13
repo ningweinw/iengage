@@ -5,8 +5,8 @@ category: "Case Study123"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
-# Transforming Retail Operations with Azure AI Service
 
+<div>
 <!-- Buttons -->
 <div class="fixed-buttons">
   <a href="#introduction" class="button">Introduction</a>
@@ -14,13 +14,14 @@ courses: [AI-102, PR-801]
   <a href="#business-requirements" class="button">Business Requirements</a>
 </div>
 
+# Transforming Retail Operations with Azure AI Service
+
 <div class="content">
   
 ## Business Overview
 <a id="business"></a>
 RetailCo, a prominent retail chain with over 500 stores nationwide, offers a diverse range of products from groceries to electronics and maintains a strong online presence. RetailCo's goals include enhancing customer experience, streamlining operations, and leveraging data for informed decision-making.
 
-!Image Placeholder
 
 ## Existing Setup
 <a id="existing"></a>
@@ -49,7 +50,7 @@ RetailCo has identified several areas for improvement:
 3. **Business Expansion and Compliance:**
    * Age Verification: RetailCo plans to expand its business by adding a liquor section in their retail outlets. To ensure minors cannot order liquor through the Touch-Screen Assistants, it will implement age verification for customers purchasing alcohol.
 </div>
-
+</div>
 <style>
 .fixed-buttons {
   position: fixed;
@@ -78,3 +79,4 @@ RetailCo has identified several areas for improvement:
   padding-top: 60px; /* Adjust this value as needed to ensure the heading is visible */
 }
 </style>
+</div>
