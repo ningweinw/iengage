@@ -5,12 +5,7 @@ category: "Case Study123"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
----
-layout: default
-title:  "Section"
-category: "Comic"
-sub-category: "Security"
----
+
 <!-- Buttons -->
 <div class="fixed-buttons">
   <a href="#introduction" class="button">Introduction</a>
