@@ -9,7 +9,10 @@ What is in it for MCTs?
 ⏱️Real-Time Feedback: Trainers can provide immediate feedback through gamified elements, such as quizzes and interactive activities.  <br>
 🤝Improved Trainer-Trainee Relationships: The interactive nature of gamified learning fosters a more collaborative and positive relationship between trainers and trainees. <br>
 
-Here is the link to access the iEngage assets:https://csdskilling.github.io/iengage/
+Here is the link to access the iEngage assets: 🔗https://csdskilling.github.io/iengage/
+
+## Have an idea to contribute?
+- Check out [CONTRIBUTING.md](https://github.com/CSDSkilling/iengage/blob/main/CONTRIBUTING.md) on how you can contribute.
 
 Remember to update the following files:   
 - [CODEOWNERS](.github/CODEOWNERS)
