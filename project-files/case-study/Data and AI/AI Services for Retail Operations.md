@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  " AI Services for Retail"
-category: "Case Study"
+category: "Case Study123"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
@@ -12,7 +12,7 @@ courses: [AI-102, PR-801]
   <a href="#business-requirements" class="button">Business Requirements</a>
 </div>
 -->
-<div class="content">
+
   
 # Introduction
 <a id="introduction"></a>
@@ -46,7 +46,7 @@ In today's rapidly evolving technological landscape, artificial intelligence (AI
 <a id="business-requirements"></a>
 ## Business Objectives
 
-</div>
+
 
 <style>
 .fixed-buttons {
