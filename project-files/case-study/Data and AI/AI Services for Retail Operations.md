@@ -5,13 +5,14 @@ category: "Case Study123"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
-<!-- 
+
+ 
 <div class="fixed-buttons">
   <a href="#introduction" class="button">Introduction</a>
   <a href="#technical-requirements" class="button">Technical Requirements</a>
   <a href="#business-requirements" class="button">Business Requirements</a>
 </div>
--->
+
 
   
 # Introduction
