@@ -115,7 +115,7 @@ Lakeshore Retail has identified several areas for improvement:
 
 
 **Question 6:** Which actions from below would you take to fulfill the Business Expansion and Compliance Requirements?<br>
-**<Select 3 correct options from the left column and place it in the right order on the right column>**
+**Select 3 correct options from the left column and place it in the right order on the right column**
 
 
 <div class="container">
