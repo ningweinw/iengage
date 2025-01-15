@@ -35,16 +35,16 @@ Lakeshore Retail's robust IT infrastructure includes:
 <a id="new"></a>
 Lakeshore Retail has identified several areas for improvement:
 1. **Enhanced Customer Experience:** Personalizing customer interactions both online and in-store.
-   - Virtual Try-On Feature: Lakeshore Retail is planning to launch the virtual 'Try-It-On' feature with their range of eyewear products such as sunglasses, swimming goggles, and spectacles. Customers will be able to upload a front-profile selfie and see how the eyewear fits.
-   - In-Store Touch Screen Assistant: Enhancing the touch-screen assistant in retail outlets with mic input and read-aloud functionality.
-   - Digital Assistant: Creating a digital assistant for their e-commerce platform to assist customers with order details, return policies, etc.
-   - Sentiment Analysis: Analyzing product reviews to recommend more suitable products to customers.
-   - Image-Based Search: Add an option in the E-commerce site, where customers can upload an image and search for similar items in the inventory.
+   - Virtual Try-On Feature: Lakeshore Retail is planning to launch the virtual 'Try-It-On' feature with their range of eyewear products such as sunglasses, swimming goggles, and spectacles. Customers will be able to upload a front-profile selfie and see how the eyewear fits.<br>
+   - In-Store Touch Screen Assistant: Enhancing the touch-screen assistant in retail outlets with mic input and read-aloud functionality.<br>
+   - Digital Assistant: Creating a digital assistant for their e-commerce platform to assist customers with order details, return policies, etc.<br>
+   - Sentiment Analysis: Analyzing product reviews to recommend more suitable products to customers.<br>
+   - Image-Based Search: Add an option in the E-commerce site, where customers can upload an image and search for similar items in the inventory.<br>
 2. **Streamline Business Operations**
-    - Customer Purchase Analysis: Analyzing customer purchase invoices to identify patterns and draw business conclusions.
-    - Social Media Analysis: Analyzing tweets to identify key topics being discussed about Lakeshore Retail.
+    - Customer Purchase Analysis: Analyzing customer purchase invoices to identify patterns and draw business conclusions.<br>
+    - Social Media Analysis: Analyzing tweets to identify key topics being discussed about Lakeshore Retail.<br>
 3. **Business Expansion and Compliance**
-    - Age Verification: Lakeshore Retail plans to expand its business by adding a liquor section in their retail outlets. To ensure minors cannot order liquor through the Touch-Screen Assistants, it will implement age verification for customers purchasing alcohol.
+    - Age Verification: Lakeshore Retail plans to expand its business by adding a liquor section in their retail outlets. To ensure minors cannot order liquor through the Touch-Screen Assistants, it will implement age verification for customers purchasing alcohol.<br>
 
  
 
@@ -114,7 +114,7 @@ Lakeshore Retail has identified several areas for improvement:
 <p id="feedback-setup"></p>
 
 
-**Question 6:** Which actions from below would you take to fulfill the Business Expansion and Compliance Requirements?
+**Question 6:** Which actions from below would you take to fulfill the Business Expansion and Compliance Requirements?<br>
 **<Select 3 correct options from the left column and place it in the right order on the right column>**
 
 
@@ -139,6 +139,7 @@ Lakeshore Retail has identified several areas for improvement:
     <div class="placeholder" id="placeholder3" data-accept="item7"></div>
   </div>
 </div>
+<button class="button" id="helpButton">Help me with the correct sequence</button>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
@@ -246,6 +247,20 @@ Lakeshore Retail has identified several areas for improvement:
       
     });
   });
+
+ const helpButton = document.getElementById('helpButton');
+  helpButton.addEventListener('click', () => {
+    placeholders.forEach((placeholder) => {
+      const correctItemId = placeholder.dataset.accept;
+      const correctItem = document.getElementById(correctItemId);
+
+      if (!placeholder.contains(correctItem)) {
+        placeholder.appendChild(correctItem);
+        placeholder.textContent = `${correctItem.textContent}`;
+      }
+    });
+  });
+
   
 </script>
 
