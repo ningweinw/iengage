@@ -49,9 +49,50 @@ Lakeshore Retail has identified several areas for improvement:
 
  
 
+**Question 1:** Which Azure AI service can they use to implement the virtual Try-It-On feature, to identify the position of the eyes in an uploaded image ?
+<form id="quizForm1">
+  <input type="radio" id="q1a" name="q1" value="A">
+  <label for="q1a">A) Azure Cognitive Service </label><br>
+  <input type="radio" id="q1b" name="q1" value="B">
+  <label for="q1b">B) Azure Bot Service</label><br>
+  <input type="radio" id="q1c" name="q1" value="C">
+  <label for="q1c">C) Face API </label><br>
+  <input type="radio" id="q1d" name="q1" value="D">
+  <label for="q1d">D) Azure Computer Vision </label><br>
+  <button type="button" onclick="checkAnswer('q1', 'C', 'result1')" class="styled-button">Submit</button>
+</form>
+<p id="result1"></p>
 
 
 
+
+
+<script>
+  function checkAnswer(question, correctAnswer, resultId) {
+    var radios = document.getElementsByName(question);
+    var result = document.getElementById(resultId);
+    var selected = false;
+
+    for (var i = 0; i < radios.length; i++) {
+      if (radios[i].checked) {
+        selected = true;
+        if (radios[i].value === correctAnswer) {
+          result.textContent = 'Correct!';
+          result.style.color = 'green';
+        } else {
+          result.textContent = 'Incorrect. Try again!';
+          result.style.color = 'red';
+        }
+        break;
+      }
+    }
+
+    if (!selected) {
+      result.textContent = 'Please select an answer.';
+      result.style.color = 'orange';
+    }
+  }
+</script>
 
 <style>
 .fixed-buttons {
