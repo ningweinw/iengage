@@ -96,19 +96,18 @@ Lakeshore Retail has identified several areas for improvement:
 
 **Question 4:** Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis?
 
-**Question 5:**  How can Lakeshore Retail implement the new requirement for image based search?
+**Question 5:** How can Lakeshore Retail implement the new requirement for image-based search?
 
-    <div class="column">
-      <ul id="sortable-setup" class="styled-list">
-        <li class="ui-state-default" data-order="4">Define the custom skill in the skillset.</li>
-        <li class="ui-state-default" data-order="6">Test the search functionality.</li>
-        <li class="ui-state-default" data-order="5">Add the custom skill to the indexer.</li>
-        <li class="ui-state-default" data-order="2">Configure the data source.</li>
-        <li class="ui-state-default" data-order="3">Deploy the custom skill to an Azure Function.</li>
-        <li class="ui-state-default" data-order="1">Create an Azure AI Search service.</li>
-
-      </ul>
-    </div>      
+<div class="column">
+  <ul id="sortable-setup" class="styled-list">
+    <li class="ui-state-default" data-order="4">Define the custom skill in the skillset.</li>
+    <li class="ui-state-default" data-order="6">Test the search functionality.</li>
+    <li class="ui-state-default" data-order="5">Add the custom skill to the indexer.</li>
+    <li class="ui-state-default" data-order="2">Configure the data source.</li>
+    <li class="ui-state-default" data-order="3">Deploy the custom skill to an Azure Function.</li>
+    <li class="ui-state-default" data-order="1">Create an Azure AI Search service.</li>
+  </ul>
+</div>  
 
 <button onclick="checkOrderSetup()">Check Order</button>
       <button onclick="helpMeSetup()">Help me</button>
