@@ -98,7 +98,7 @@ Lakeshore Retail has identified several areas for improvement:
 
 **Question 5:** How can Lakeshore Retail implement the new requirement for image-based search?
 
-<div class="column">
+<div class="column1">
   <ul id="sortable-setup" class="styled-list">
     <li class="ui-state-default" data-order="4">Define the custom skill in the skillset.</li>
     <li class="ui-state-default" data-order="6">Test the search functionality.</li>
@@ -114,7 +114,9 @@ Lakeshore Retail has identified several areas for improvement:
 <p id="feedback-setup"></p>
 
 
-**Question 6:**
+**Question 6:** Which actions from below would you take to fulfill the Business Expansion and Compliance Requirements?
+**<Select 3 correct options from the left column and place it in the right order on the right column>**
+
 
 <div class="container">
   <!-- Left Column -->
@@ -237,7 +239,7 @@ Lakeshore Retail has identified several areas for improvement:
         placeholder.classList.remove('over');
         placeholder.textContent = `Item Placed: ${draggedItem.textContent}`;
       } else {
-        alert(`This placeholder only accepts ${placeholder.dataset.accept}.`);
+        alert(`Incorrect option, Try again !`);
         placeholder.classList.remove('over');
       }
       
@@ -271,7 +273,7 @@ Lakeshore Retail has identified several areas for improvement:
   background-color: #0056b3;
 }
 
-    .column {
+    .column1 {
       flex: 1;
       padding: 10px;
     }
