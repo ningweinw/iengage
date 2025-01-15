@@ -7,8 +7,7 @@ courses: [AI-102, PR-801]
 ---
 
 <div class="fixed-buttons">
-  <h1>Case Study: Transforming Retail Operations with Azure AI Services</h1>
-<br><br>
+
   <a href="#introduction" class="button">Introduction</a>
   <a href="#technical-requirements" class="button">Technical Requirements</a>
   <a href="#business-requirements" class="button">Business Requirements</a>
@@ -18,6 +17,7 @@ courses: [AI-102, PR-801]
 <br><br>
 
 
+# Case Study: Transforming Retail Operations with Azure AI Services
 
 ## Business Overview
 <a id="business"></a>
@@ -62,9 +62,39 @@ Lakeshore Retail has identified several areas for improvement:
 </form>
 <p id="result1"></p>
 
+**Question 2:** Lakeshore Retail wants to use the Azure AI Language Service to analyze product reviews and suggest products with higher positive reviews to customers. Which class and method should be used to analyze the product reviews using the Azure AI Language Service SDK in C#?
+<form id="quizForm2">
+  <input type="radio" id="q2a" name="q2" value="A">
+  <label for="q2a">A) TextAnalyticsClient class and AnalyzeSentiment method </label><br>
+  <input type="radio" id="q2b" name="q2" value="B">
+  <label for="q2b">B) TextAnalyticsClient class and ExtractKeyPhrases method</label><br>
+  <input type="radio" id="q2c" name="q2" value="C">
+  <label for="q2c">C) LanguageClient class and ExtractKeyPhrases method</label><br>
+  <input type="radio" id="q2d" name="q2" value="D">
+  <label for="q2d">D) LanguageClient class and AnalyzeSentiment method </label><br>
 
+  <button type="button" onclick="checkAnswer('q2', 'A', 'result2')" class="styled-button">Submit</button>
+</form>
 
+<p id="result2"></p>
 
+**Question 3:** Which AI service and feature should the developers implement a read-aloud feature for visually impaired users in their Touch Screen Assistant at retail outlets?
+
+<form id="quizForm3">
+  <input type="radio" id="q3a" name="q3" value="A">
+  <label for="q3a">A) Azure AI Vision Service with Optical Character Recognition (OCR) </label><br>
+  <input type="radio" id="q3b" name="q3" value="B">
+  <label for="q3b">B) Azure AI Language Service with Text Analytics</label><br>
+  <input type="radio" id="q3c" name="q3" value="C">
+  <label for="q3c">C) Azure AI Speech Service with Text-to-Speech (TTS) </label><br>
+  <input type="radio" id="q3d" name="q3" value="D">
+  <label for="q3d">D) Azure AI Bot Service with QnA Maker </label><br>
+  <button type="button" onclick="checkAnswer('q3', 'C', 'result3')" class="styled-button">Submit</button>
+</form>
+
+<p id="result3"></p>
+
+Question 4: Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis?
 
 <script>
   function checkAnswer(question, correctAnswer, resultId) {
