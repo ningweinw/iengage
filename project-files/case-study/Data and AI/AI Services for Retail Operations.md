@@ -237,7 +237,7 @@ Lakeshore Retail has identified several areas for improvement:
        if (placeholder.dataset.accept === itemId) {
         placeholder.appendChild(draggedItem);
         placeholder.classList.remove('over');
-        placeholder.textContent = `Item Placed: ${draggedItem.textContent}`;
+        placeholder.textContent = `${draggedItem.textContent}`;
       } else {
         alert(`Incorrect option, Try again !`);
         placeholder.classList.remove('over');
