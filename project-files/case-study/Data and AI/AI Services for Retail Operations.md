@@ -132,7 +132,7 @@ Lakeshore Retail has identified several areas for improvement:
 
   <!-- Right Column -->
   <div class="column" id="right-column">
-    <div class="placeholder" id="placeholder1" data-accept="item1></div>
+    <div class="placeholder" id="placeholder1" data-accept="item1"></div>
     <div class="placeholder" id="placeholder2" data-accept="item6"></div>
     <div class="placeholder" id="placeholder3" data-accept="item7"></div>
   </div>
