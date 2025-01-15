@@ -113,6 +113,31 @@ Lakeshore Retail has identified several areas for improvement:
 <button onclick="helpMeSetup()">Help me</button>
 <p id="feedback-setup"></p>
 
+
+**Question 6:**
+
+<div class="container">
+  <!-- Left Column -->
+  <div class="column" id="left-column">
+    <div class="draggable-item" draggable="true" id="item1">Require the buyer to upload a valid government photo-ID card</div>
+    <div class="draggable-item" draggable="true" id="item2">Use a barcode scanner to scan the ID</div>
+    <div class="draggable-item" draggable="true" id="item3">Implement a manual verification process by store staff</div>
+    <div class="draggable-item" draggable="true" id="item4">Take a picture of the buyer at the time of purchase</div>
+    <div class="draggable-item" draggable="true" id="item5">Verify the buyer's age through their social media profiles.</div>
+    <div class="draggable-item" draggable="true" id="item6">Extract information such as expiry date and date of birth from the ID using Azure AI Document Intelligence.</div>
+    <div class="draggable-item" draggable="true" id="item7">Match the photo on the ID with the buyer's photo using the face comparison feature in Azure Face API service.</div>
+    <div class="draggable-item" draggable="true" id="item8">Match the photo on the ID with the buyer's photo using the attribute analysis feature in Azure AI Vision service.</div>
+    <div class="draggable-item" draggable="true" id="item9">Implement a voice recognition system to verify the buyer's age.</div>    
+  </div>
+
+  <!-- Right Column -->
+  <div class="column" id="right-column">
+    <div class="placeholder" id="placeholder1">Drop Here</div>
+    <div class="placeholder" id="placeholder2">Drop Here</div>
+    <div class="placeholder" id="placeholder3">Drop Here</div>
+  </div>
+</div>
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -174,6 +199,42 @@ Lakeshore Retail has identified several areas for improvement:
       document.getElementById("feedback-setup").textContent = "Here is the correct order.";
       document.getElementById("feedback-setup").style.color = "blue";
     }
+
+     // Add drag-and-drop functionality
+  const draggableItems = document.querySelectorAll('.draggable-item');
+  const placeholders = document.querySelectorAll('.placeholder');
+
+  draggableItems.forEach((item) => {
+    item.addEventListener('dragstart', (e) => {
+      e.dataTransfer.setData('text/plain', e.target.id);
+      setTimeout(() => {
+        item.style.display = 'none';
+      }, 0);
+    });
+
+    item.addEventListener('dragend', (e) => {
+      item.style.display = 'block';
+    });
+  });
+
+  placeholders.forEach((placeholder) => {
+    placeholder.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      placeholder.classList.add('over');
+    });
+
+    placeholder.addEventListener('dragleave', (e) => {
+      placeholder.classList.remove('over');
+    });
+
+    placeholder.addEventListener('drop', (e) => {
+      e.preventDefault();
+      const itemId = e.dataTransfer.getData('text/plain');
+      const draggedItem = document.getElementById(itemId);
+      placeholder.appendChild(draggedItem);
+      placeholder.classList.remove('over');
+    });
+  });
   
 </script>
 
@@ -216,5 +277,41 @@ Lakeshore Retail has identified several areas for improvement:
       border: 1px solid #ccc;
       cursor: move;
     }
+
+    .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 300px;
+  }
+
+  .draggable-item {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #0078d4;
+    background-color: #e7f3ff;
+    cursor: grab;
+  }
+
+  .placeholder {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    background-color: #f9f9f9;
+    text-align: center;
+    min-height: 50px;
+  }
+
+  .placeholder.over {
+    border-color: #0078d4;
+    background-color: #d4e8ff;
+  }
 
 </style>
