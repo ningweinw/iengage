@@ -132,9 +132,9 @@ Lakeshore Retail has identified several areas for improvement:
 
   <!-- Right Column -->
   <div class="column" id="right-column">
-    <div class="placeholder" id="placeholder1">Drop Here</div>
-    <div class="placeholder" id="placeholder2">Drop Here</div>
-    <div class="placeholder" id="placeholder3">Drop Here</div>
+    <div class="placeholder" id="placeholder1" data-accept="item1></div>
+    <div class="placeholder" id="placeholder2" data-accept="item6"></div>
+    <div class="placeholder" id="placeholder3" data-accept="item7"></div>
   </div>
 </div>
 
@@ -231,8 +231,17 @@ Lakeshore Retail has identified several areas for improvement:
       e.preventDefault();
       const itemId = e.dataTransfer.getData('text/plain');
       const draggedItem = document.getElementById(itemId);
-      placeholder.appendChild(draggedItem);
-      placeholder.classList.remove('over');
+
+       if (placeholder.dataset.accept === itemId) {
+        placeholder.appendChild(draggedItem);
+        placeholder.classList.remove('over');
+        placeholder.textContent = `Item Placed: ${draggedItem.textContent}`;
+      } else {
+        alert(`This placeholder only accepts ${placeholder.dataset.accept}.`);
+        placeholder.classList.remove('over');
+      }
+      
+      
     });
   });
   
@@ -293,7 +302,7 @@ Lakeshore Retail has identified several areas for improvement:
   }
 
   .draggable-item {
-    margin: 5px 0;
+    margin: 20px 0;
     padding: 10px;
     border: 1px solid #0078d4;
     background-color: #e7f3ff;
@@ -301,7 +310,7 @@ Lakeshore Retail has identified several areas for improvement:
   }
 
   .placeholder {
-    margin: 20px 0;
+    margin: 10px 0;
     padding: 20px;
     border: 2px dashed #ccc;
     background-color: #f9f9f9;
