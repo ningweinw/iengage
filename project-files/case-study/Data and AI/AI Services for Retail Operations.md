@@ -6,10 +6,9 @@ sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
 
- <h1>Case Study: Transforming Retail Operations with Azure AI Services</h1>
-<br>
-
 <div class="fixed-buttons">
+  <h1>Case Study: Transforming Retail Operations with Azure AI Services</h1>
+<br>
   <a href="#introduction" class="button">Introduction</a>
   <a href="#technical-requirements" class="button">Technical Requirements</a>
   <a href="#business-requirements" class="button">Business Requirements</a>
