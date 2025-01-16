@@ -56,7 +56,7 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 </a>
 
 
- <h2>1. How do AI services like Speech-to-Text and Text-to-Speech improve the accuracy of customer interactions?</h2>
+ 1. How do AI services like Speech-to-Text and Text-to-Speech improve the accuracy of customer interactions?
     <button onclick="toggleSolution('solution1')">Show Solution</button>
     <div id="solution1" style="display:none;">
         <div class="benefit">
@@ -73,7 +73,7 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
         </div>
     </div>
 
-    <h2>2. How can SSML be used to enhance the naturalness and expressiveness of Text-to-Speech (TTS) outputs in a call center environment?</h2>
+2. How can SSML be used to enhance the naturalness and expressiveness of Text-to-Speech (TTS) outputs in a call center environment?
     <button onclick="toggleSolution('solution2')">Show Solution</button>
     <div id="solution2" style="display:none;">
         <div class="benefit">
