@@ -248,34 +248,21 @@ Lakeshore Retail has identified several areas for improvement:
     });
   });
 
+ const helpButton = document.getElementById('helpButton');
+  helpButton.addEventListener('click', () => {
+    placeholders.forEach((placeholder) => {
+      const correctItemId = placeholder.dataset.accept;
+      const correctItem = document.getElementById(correctItemId);
 
-
-const helpButton = document.getElementById('helpButton');
-helpButton.addEventListener('click', () => {
-  placeholders.forEach((placeholder) => {
-    const correctItemId = placeholder.dataset.accept;
-    const correctItem = document.getElementById(correctItemId);
-
-    // If the placeholder contains an incorrect item, move it back to the left column
-    if (placeholder.childNodes.length > 0) {
-      const currentItem = placeholder.firstChild;
-
-      if (currentItem.id !== correctItemId) {
-        document.getElementById('left-column').appendChild(currentItem);
-        currentItem.style.display = 'block'; // Ensure the item is visible in the left column
+      if (!placeholder.contains(correctItem)) {
+        placeholder.appendChild(correctItem);
+        placeholder.textContent = `${correctItem.textContent}`;
       }
-    }
-
-    // Place the correct item only if it's not already in the placeholder
-    if (!placeholder.contains(correctItem)) {
-      if (correctItem.parentNode) {
-        correctItem.parentNode.removeChild(correctItem); // Remove it from its previous position
-      }
-      placeholder.textContent = ''; // Clear placeholder text
-      placeholder.appendChild(correctItem);
-    }
+    });
   });
-});
+
+
+
 
   
 </script>
