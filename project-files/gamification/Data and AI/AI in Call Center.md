@@ -29,8 +29,8 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 
 <div class="button-container">
     <button id="a1" onclick="markAnswer(this, false, 'result')">Detect Language</button>
-    <button id="a2" onclick="markAnswer(this, false, 'result')">Speech Translation</button>
-    <button id="a3" onclick="markAnswer(this, true, 'result')">Translate Service</button>
+    <button id="a2" onclick="markAnswer(this, true, 'result')">Speech Translation</button>
+    <button id="a3" onclick="markAnswer(this, false, 'result')">Translate Service</button>
 </div>
 <p id="result"></p>
 
