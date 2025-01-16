@@ -21,7 +21,12 @@ courses: [AI-102, PR-801]
 
 ## Business Overview
 <a id="business"></a>
-Lakeshore Retail, a prominent retail chain with over 500 stores nationwide, offers a diverse range of products from groceries to electronics and maintains a strong online presence. Lakeshore Retail goals include enhancing customer experience, streamlining operations, and leveraging data for informed decision-making.
+Lakeshore Retail, a prominent retail chain with over 500 stores nationwide, offers a diverse range of products from groceries to electronics and maintains a strong online presence. Lakeshore Retail goals include enhancing customer experience, streamlining operations, and leveraging data for informed decision-making. <br>
+
+<a href="./images/r1.png">
+  <img src="./images/r1.png" alt="picture of a shop">
+</a>
+<br>
 
 ## Existing Setup
 <a id="existing"></a>
@@ -48,7 +53,11 @@ Lakeshore Retail has identified several areas for improvement:
 
  
 
-**Question 1:** Which Azure AI service can they use to implement the virtual Try-It-On feature, to identify the position of the eyes in an uploaded image ?
+**Question 1:** Which Azure AI service can they use to implement the virtual Try-It-On feature, to identify the position of the eyes in an uploaded image ?<br>
+<a href="./images/r2.png">
+  <img src="./images/r2.png" alt="image of people trying virtual try it on glasses">
+</a>
+<br>
 <form id="quizForm1">
   <input type="radio" id="q1a" name="q1" value="A">
   <label for="q1a">A) Azure Cognitive Service </label><br>
@@ -62,7 +71,10 @@ Lakeshore Retail has identified several areas for improvement:
 </form>
 <p id="result1"></p>
 
-**Question 2:** Lakeshore Retail wants to use the Azure AI Language Service to analyze product reviews and suggest products with higher positive reviews to customers. Which class and method should be used to analyze the product reviews using the Azure AI Language Service SDK in C#?
+**Question 2:** Lakeshore Retail wants to use the Azure AI Language Service to analyze product reviews and suggest products with higher positive reviews to customers. Which class and method should be used to analyze the product reviews using the Azure AI Language Service SDK in C#?<br>
+<a href="./images/r3.png">
+  <img src="./images/r3.png" alt="image of customers giving reviews">
+</a>
 <form id="quizForm2">
   <input type="radio" id="q2a" name="q2" value="A">
   <label for="q2a">A) TextAnalyticsClient class and AnalyzeSentiment method </label><br>
@@ -78,7 +90,11 @@ Lakeshore Retail has identified several areas for improvement:
 
 <p id="result2"></p>
 
-**Question 3:** Which AI service and feature should the developers implement a read-aloud feature for visually impaired users in their Touch Screen Assistant at retail outlets?
+**Question 3:** Which AI service and feature should the developers implement a read-aloud feature for visually impaired users in their Touch Screen Assistant at retail outlets?<br>
+<a href="./images/r4.png">
+  <img src="./images/r4.png" alt="picture of a touch screen assistant">
+</a>
+<br>
 
 <form id="quizForm3">
   <input type="radio" id="q3a" name="q3" value="A">
