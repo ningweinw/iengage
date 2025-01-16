@@ -59,23 +59,23 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
     }
 </style>
 <script>
-    function markCorrect() {
-       const button3 = document.getElementById('a2');
-    if (isCorrect) {
-        button3.classList.add('correct');
-        document.getElementById('result').innerText = 'Correct Answer';
-    } else {
-        document.getElementById('result').innerText = 'Incorrect choice';
-    }
+   function markCorrect(isCorrect) {
+        const button2 = document.getElementById('a2');
+        if (isCorrect) {
+            button2.classList.add('correct');
+            document.getElementById('result').innerText = 'Correct Answer';
+        } else {
+            document.getElementById('result').innerText = 'Incorrect choice';
+        }
     }
 
-      function markCorrect1() {
-      const button3 = document.getElementById('a23');
-    if (isCorrect) {
-        button3.classList.add('correct');
-        document.getElementById('result1').innerText = 'Correct Answer';
-    } else {
-        document.getElementById('result1').innerText = 'Incorrect choice';
-    }
+    function markCorrect1(isCorrect) {
+        const button3 = document.getElementById('a23');
+        if (isCorrect) {
+            button3.classList.add('correct');
+            document.getElementById('result1').innerText = 'Correct Answer';
+        } else {
+            document.getElementById('result1').innerText = 'Incorrect choice';
+        }
     }
 </script>
