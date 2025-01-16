@@ -194,10 +194,13 @@ Lakeshore Retail has identified several areas for improvement:
   }
 
 
-      $(function() {
-      $("#sortable-setup").sortable();
-      $("#sortable-setup").disableSelection();
-    });
+function reinitializeStyles() {
+  // Reapply any styles or behaviors here
+  $(function() {
+    $("#sortable-setup").sortable();
+    $("#sortable-setup").disableSelection();
+  });
+
 
     function checkOrderSetup() {
       var items = $("#sortable-setup li");
@@ -286,6 +289,8 @@ Lakeshore Retail has identified several areas for improvement:
 
    clearButton.addEventListener('click', () => {
             container.innerHTML = originalContent;
+       reinitializeStyles();
+
         });
 
  
