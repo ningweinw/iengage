@@ -266,6 +266,9 @@ Lakeshore Retail has identified several areas for improvement:
     });
   });
 
+   clearButton.addEventListener('click', () => {
+            container.innerHTML = originalContent;
+        });
 
  
 </script>
