@@ -165,6 +165,8 @@ Lakeshore Retail has identified several areas for improvement:
 
   
 <script>
+    const container = document.querySelector('.container');
+  const originalContent = container.innerHTML;
   
   function checkAnswer(question, correctAnswer, resultId) {
     var radios = document.getElementsByName(question);
