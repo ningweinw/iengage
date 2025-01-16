@@ -26,10 +26,11 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 
 **Question 1** Which AI service enabled Amanda to respond to Hiroshi, even though she didn't speak Japanese?
 
+
 <div class="button-container">
-    <button id="a1" onclick="markCorrect(false)">Detect Language</button>
-    <button id="a2" onclick="markCorrect(false)">Speech Translation</button>
-    <button id="a3" onclick="markCorrect(true)">Translate Service</button>
+    <button id="a1" onclick="markAnswer(this, false, 'result')">Detect Language</button>
+    <button id="a2" onclick="markAnswer(this, false, 'result')">Speech Translation</button>
+    <button id="a3" onclick="markAnswer(this, true, 'result')">Translate Service</button>
 </div>
 <p id="result"></p>
 
@@ -42,9 +43,9 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 
 **Question 2** Which service helps with the translation here?
 <div class="button-container">
-    <button id="a21" onclick="markCorrect1(false)">Detect Language</button>
-    <button id="a22" onclick="markCorrect1(false)">Speech Translation</button>
-    <button id="a23" onclick="markCorrect1(true)">Translate Service</button>
+    <button id="a21" onclick="markAnswer(this, false, 'result1')">Detect Language</button>
+    <button id="a22" onclick="markAnswer(this, false, 'result1')">Speech Translation</button>
+    <button id="a23" onclick="markAnswer(this, true, 'result1')">Translate Service</button>
 </div>
 <p id="result1"></p>
 
@@ -62,27 +63,14 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
     }
 </style>
 <script>
-    function markCorrect(isCorrect) {
-        const button2 = document.getElementById('a2');
+    function markAnswer(button, isCorrect, resultId) {
         if (isCorrect) {
-            button2.classList.add('correct');
-            document.getElementById('result').innerText = 'Correct Answer';
-            document.getElementById('result').classList.remove('incorrect');
+            button.classList.add('correct');
+            document.getElementById(resultId).innerText = 'Correct Answer';
+            document.getElementById(resultId).classList.remove('incorrect');
         } else {
-            document.getElementById('result').innerText = 'Incorrect choice';
-            document.getElementById('result').classList.add('incorrect');
-        }
-    }
-
-    function markCorrect1(isCorrect) {
-        const button3 = document.getElementById('a23');
-        if (isCorrect) {
-            button3.classList.add('correct');
-            document.getElementById('result1').innerText = 'Correct Answer';
-            document.getElementById('result1').classList.remove('incorrect');
-        } else {
-            document.getElementById('result1').innerText = 'Incorrect choice';
-            document.getElementById('result1').classList.add('incorrect');
+            document.getElementById(resultId).innerText = 'Incorrect choice';
+            document.getElementById(resultId).classList.add('incorrect');
         }
     }
 </script>
