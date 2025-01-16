@@ -248,28 +248,32 @@ Lakeshore Retail has identified several areas for improvement:
     });
   });
 
+
+
 const helpButton = document.getElementById('helpButton');
 helpButton.addEventListener('click', () => {
   placeholders.forEach((placeholder) => {
     const correctItemId = placeholder.dataset.accept;
     const correctItem = document.getElementById(correctItemId);
 
-    // If the placeholder contains an incorrect item, move it back to the left column
-    if (placeholder.childNodes.length > 0 && placeholder.firstChild.id !== correctItemId) {
+    // Check if the placeholder contains the correct item
+    if (placeholder.childNodes.length > 0) {
       const currentItem = placeholder.firstChild;
-      document.getElementById('left-column').appendChild(currentItem);
-      placeholder.textContent = ''; // Clear incorrect text from placeholder
+
+      if (currentItem.id !== correctItemId) {
+        // If the placeholder contains an incorrect item, move it back to the left column
+        document.getElementById('left-column').appendChild(currentItem);
+        placeholder.textContent = ''; // Clear the placeholder
+      }
     }
 
-    // If the correct item is not already placed, place it
+    // Place the correct item only if it's not already in the placeholder
     if (!placeholder.contains(correctItem)) {
-      placeholder.textContent = ''; // Clear any existing text in the placeholder
+      placeholder.textContent = ''; // Clear the placeholder text
       placeholder.appendChild(correctItem);
     }
   });
 });
-
-
 
   
 </script>
