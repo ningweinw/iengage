@@ -28,10 +28,12 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 
  <div class="button-container">
     <button id="a1">Detect Language</button>
-    <button id="a2" onclick="markCorrect()>Speech Translation</button>
-    <button id="a3" ">Translate Service</button>
+    <button id="a2" onclick="markCorrect()">Speech Translation</button>
+    <button id="a3">Translate Service</button>
 </div>
 <p id="result"></p>
+
+## Task 2: 
 
 <style>
     .button-container {
