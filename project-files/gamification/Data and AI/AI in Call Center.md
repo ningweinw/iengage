@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "AI Service in Call Center"
+title:  "Multilingual Customer Support"
 category: "Gamification1"
 sub-category: "Data and AI"
 courses: [AI-102]
@@ -50,6 +50,11 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 <p id="result1"></p>
 
 ## Task 3: Help the architects with the below questions
+
+<a href="./images/arch.png">
+  <img src="./images/arch.png" alt="a group of architects discussing">
+</a>
+
 
 1. How do AI services like Speech-to-Text and Text-to-Speech improve the accuracy of customer interactions?
    <button onclick="toggleSolution('solution1')">Show Solution</button>
