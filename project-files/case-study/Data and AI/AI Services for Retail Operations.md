@@ -146,7 +146,10 @@ Lakeshore Retail has identified several areas for improvement:
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  
 <script>
+  
   function checkAnswer(question, correctAnswer, resultId) {
     var radios = document.getElementsByName(question);
     var result = document.getElementById(resultId);
@@ -265,16 +268,24 @@ Lakeshore Retail has identified several areas for improvement:
 
 
 const clearButton = document.getElementById('clearButton');
-  clearButton.addEventListener('click', () => {
-    // Get references to the left column, all items, and placeholders
-    const leftColumn = document.getElementById('left-column');
-    const allItems = document.querySelectorAll('.draggable-item');
-    const placeholders = document.querySelectorAll('.placeholder');
+clearButton.addEventListener('click', () => {
+  // Get references to the left column, all items, and placeholders
+  const leftColumn = document.getElementById('left-column');
+  const allItems = document.querySelectorAll('.draggable-item');
+  const placeholders = document.querySelectorAll('.placeholder');
 
-    // Clear all placeholders
-    placeholders.forEach((placeholder) => {
-      placeholder.textContent = ''; // Clear placeholder text
-    });
+  // Clear all placeholders
+  placeholders.forEach((placeholder) => {
+    placeholder.textContent = ''; // Clear placeholder text
+  });
+
+  // Move all items back to the left column
+  allItems.forEach((item) => {
+    leftColumn.appendChild(item); // Append back to the left column
+    item.style.display = 'block'; // Ensure the item is visible
+  });
+});
+
 
   
 </script>
