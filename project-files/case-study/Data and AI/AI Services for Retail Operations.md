@@ -140,6 +140,8 @@ Lakeshore Retail has identified several areas for improvement:
   </div>
 </div>
 <button class="button" id="helpButton">Help me with the correct sequence</button>
+<button class="button" id="clearButton">Clear All</button>
+
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
@@ -262,7 +264,17 @@ Lakeshore Retail has identified several areas for improvement:
   });
 
 
+const clearButton = document.getElementById('clearButton');
+  clearButton.addEventListener('click', () => {
+    // Get references to the left column, all items, and placeholders
+    const leftColumn = document.getElementById('left-column');
+    const allItems = document.querySelectorAll('.draggable-item');
+    const placeholders = document.querySelectorAll('.placeholder');
 
+    // Clear all placeholders
+    placeholders.forEach((placeholder) => {
+      placeholder.textContent = ''; // Clear placeholder text
+    });
 
   
 </script>
