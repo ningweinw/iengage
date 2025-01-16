@@ -33,7 +33,20 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 </div>
 <p id="result"></p>
 
-## Task 2: 
+## Task 2: Observe the below image where Amanda is chatting with a Japanese customer <br>
+
+<a href="./images/cc2.png">
+  <img src="./images/cc2.png" alt="Amanda talking to Hiroshi over the chat">
+</a>
+<br>
+
+**Question 2** Which service helps with the translation here?
+ <div class="button-container">
+    <button id="a21">Detect Language</button>
+    <button id="a22">Speech Translation</button>
+    <button id="a23" onclick="markCorrect1()">Translate Service</button>
+</div>
+<p id="result1"></p>
 
 <style>
     .button-container {
@@ -47,8 +60,22 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 </style>
 <script>
     function markCorrect() {
-        const button3 = document.getElementById('a2');
+       const button3 = document.getElementById('a2');
+    if (isCorrect) {
         button3.classList.add('correct');
         document.getElementById('result').innerText = 'Correct Answer';
+    } else {
+        document.getElementById('result').innerText = 'Incorrect choice';
+    }
+    }
+
+      function markCorrect1() {
+      const button3 = document.getElementById('a23');
+    if (isCorrect) {
+        button3.classList.add('correct');
+        document.getElementById('result1').innerText = 'Correct Answer';
+    } else {
+        document.getElementById('result1').innerText = 'Incorrect choice';
+    }
     }
 </script>
