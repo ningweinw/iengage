@@ -194,12 +194,10 @@ Lakeshore Retail has identified several areas for improvement:
   }
 
 
-function reinitializeStyles() {
-  // Reapply any styles or behaviors here
-  $(function() {
-    $("#sortable-setup").sortable();
-    $("#sortable-setup").disableSelection();
-  });
+      $(function() {
+      $("#sortable-setup").sortable();
+      $("#sortable-setup").disableSelection();
+    });
 
 
     function checkOrderSetup() {
@@ -293,6 +291,56 @@ function reinitializeStyles() {
 
         });
 
+   function reinitializeStyles() {
+    // Reapply any styles or behaviors here
+    $(function() {
+      $("#sortable-setup").sortable();
+      $("#sortable-setup").disableSelection();
+    });
+
+    // Reinitialize drag-and-drop functionality
+    const draggableItems = document.querySelectorAll('.draggable-item');
+    const placeholders = document.querySelectorAll('.placeholder');
+
+    draggableItems.forEach((item) => {
+      item.addEventListener('dragstart', (e) => {
+        e.dataTransfer.setData('text/plain', e.target.id);
+        setTimeout(() => {
+          item.style.display = 'none';
+        }, 0);
+      });
+
+      item.addEventListener('dragend', (e) => {
+        item.style.display = 'block';
+      });
+    });
+
+    placeholders.forEach((placeholder) => {
+      placeholder.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        placeholder.classList.add('over');
+      });
+
+      placeholder.addEventListener('dragleave', (e) => {
+        placeholder.classList.remove('over');
+      });
+
+      placeholder.addEventListener('drop', (e) => {
+        e.preventDefault();
+        const itemId = e.dataTransfer.getData('text/plain');
+        const draggedItem = document.getElementById(itemId);
+
+        if (placeholder.dataset.accept === itemId) {
+          placeholder.appendChild(draggedItem);
+          placeholder.classList.remove('over');
+          placeholder.textContent = `${draggedItem.textContent}`;
+        } else {
+          alert(`Incorrect option, Try again!`);
+          placeholder.classList.remove('over');
+        }
+      });
+    });
+  }
  
 </script>
 
