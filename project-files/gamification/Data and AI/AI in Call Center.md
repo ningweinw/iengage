@@ -24,7 +24,7 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
   Your browser does not support the audio element.
 </audio>
 
-**Question 1** Which AI service enabled Amanda to respond to Hiroshi, even though she didn't speak Japanese?
+**Question** Which AI service enabled Amanda to respond to Hiroshi, even though she didn't speak Japanese?
 
 
 <div class="button-container">
@@ -41,13 +41,32 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
 </a>
 <br>
 
-**Question 2** Which service helps with the translation here?
+**Question** Which service helps with the translation here?
 <div class="button-container">
     <button id="a21" onclick="markAnswer(this, false, 'result1')">Detect Language</button>
     <button id="a22" onclick="markAnswer(this, false, 'result1')">Speech Translation</button>
     <button id="a23" onclick="markAnswer(this, true, 'result1')">Translate Service</button>
 </div>
 <p id="result1"></p>
+
+## Task 3: Help the architects with the below questions
+
+1. How do AI services like Speech-to-Text and Text-to-Speech improve the accuracy of customer interactions?
+   <button onclick="toggleSolution('solution1')">Show Solution</button>
+   <div id="solution1" style="display:none;">
+    <div class="benefit">
+        <p class="benefit-title">Enhanced Understanding:</p>
+        <p>Speech-to-Text (STT) converts spoken language into written text with high accuracy, ensuring that customer queries are accurately captured.</p>
+    </div>
+    <div class="benefit">
+        <p class="benefit-title">Clear Communication:</p>
+        <p>Text-to-Speech (TTS) converts text responses into natural-sounding speech, making it easier for customers to understand the information provided.</p>
+    </div>
+    <div class="benefit">
+        <p class="benefit-title">Real-Time Processing:</p>
+        <p>Both STT and TTS operate in real-time, allowing for immediate transcription and response, which reduces misunderstandings and improves the flow of conversation.</p>
+    </div> 
+   </div>
 
 <style>
     .button-container {
@@ -73,4 +92,13 @@ This is a dialog between Hiroshi and Amanda. Amanda works for a call center that
             document.getElementById(resultId).classList.add('incorrect');
         }
     }
+
+       function toggleSolution(id) {
+  var element = document.getElementById(id);
+  if (element.style.display === "none") {
+    element.style.display = "block";
+  } else {
+    element.style.display = "none";
+  }
+}
 </script>
