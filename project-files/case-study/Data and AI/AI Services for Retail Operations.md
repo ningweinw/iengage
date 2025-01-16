@@ -254,19 +254,21 @@ helpButton.addEventListener('click', () => {
     const correctItemId = placeholder.dataset.accept;
     const correctItem = document.getElementById(correctItemId);
 
-    // Clear any incorrect items in the placeholder
+    // If the placeholder contains an incorrect item, move it back to the left column
     if (placeholder.childNodes.length > 0 && placeholder.firstChild.id !== correctItemId) {
       const currentItem = placeholder.firstChild;
       document.getElementById('left-column').appendChild(currentItem);
+      placeholder.textContent = ''; // Clear incorrect text from placeholder
     }
 
-    // Place the correct item if it's not already in the placeholder
+    // If the correct item is not already placed, place it
     if (!placeholder.contains(correctItem)) {
+      placeholder.textContent = ''; // Clear any existing text in the placeholder
       placeholder.appendChild(correctItem);
-      placeholder.textContent = `${correctItem.textContent}`;
     }
   });
 });
+
 
 
   
