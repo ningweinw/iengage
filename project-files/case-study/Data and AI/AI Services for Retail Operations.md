@@ -256,20 +256,22 @@ helpButton.addEventListener('click', () => {
     const correctItemId = placeholder.dataset.accept;
     const correctItem = document.getElementById(correctItemId);
 
-    // Check if the placeholder contains the correct item
+    // If the placeholder contains an incorrect item, move it back to the left column
     if (placeholder.childNodes.length > 0) {
       const currentItem = placeholder.firstChild;
 
       if (currentItem.id !== correctItemId) {
-        // If the placeholder contains an incorrect item, move it back to the left column
         document.getElementById('left-column').appendChild(currentItem);
-        placeholder.textContent = ''; // Clear the placeholder
+        currentItem.style.display = 'block'; // Ensure the item is visible in the left column
       }
     }
 
     // Place the correct item only if it's not already in the placeholder
     if (!placeholder.contains(correctItem)) {
-      placeholder.textContent = ''; // Clear the placeholder text
+      if (correctItem.parentNode) {
+        correctItem.parentNode.removeChild(correctItem); // Remove it from its previous position
+      }
+      placeholder.textContent = ''; // Clear placeholder text
       placeholder.appendChild(correctItem);
     }
   });
