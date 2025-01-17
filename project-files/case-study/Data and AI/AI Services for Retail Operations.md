@@ -110,7 +110,7 @@ Lakeshore Retail has identified several areas for improvement:
 
 <p id="result3"></p>
 
-**Question 4:** Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis?
+**Question 4:** Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis? <br>
 <select id="q4" onchange="checkAnswer('q4', 'POST')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="GET">GET</option>
@@ -310,6 +310,15 @@ Lakeshore Retail has identified several areas for improvement:
       }
     });
   });
+
+   function toggleSolution(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
 
   function checkAnswer(questionId, correctAnswer) {
     var selectedAnswer = document.getElementById(questionId).value;
