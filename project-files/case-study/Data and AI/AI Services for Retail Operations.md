@@ -171,7 +171,7 @@ Lakeshore Retail has identified several areas for improvement:
     <div class="placeholder" id="placeholder1" data-accept="item1"></div>
     <div class="placeholder" id="placeholder2" data-accept="item6"></div>
     <div class="placeholder" id="placeholder3" data-accept="item4"></div>
-    <div class="placeholder" id="placeholder7" data-accept="item4"></div>
+    <div class="placeholder" id="placeholder4" data-accept="item7"></div>
   </div>
 </div>
 <button class="button" id="helpButton">Help me with the correct sequence</button>
