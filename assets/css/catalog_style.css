@@ -1,0 +1,16 @@
+/* Styles for the catalog page */
+
+.cat-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cat-th, .cat-td {
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.cat-tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
