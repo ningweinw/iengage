@@ -111,6 +111,11 @@ Lakeshore Retail has identified several areas for improvement:
 <p id="result3"></p>
 
 **Question 4:** Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis? <br>
+<a href="./images/r6.png">
+  <img src="./images/r6.png" alt="picture of a retail store">
+</a>
+<br>
+
 <select id="q4" onchange="checkAnswer('q4', 'POST')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="GET">GET</option>
@@ -131,6 +136,11 @@ Lakeshore Retail has identified several areas for improvement:
 <span id="result5"></span>
 
 **Question 5:** How can Lakeshore Retail implement the new requirement for image-based search?
+
+<a href="./images/r5.jpg">
+  <img src="./images/r5.jpg" alt="picture of a shop">
+</a>
+<br>
 
 <div class="column1">
   <ul id="sortable-setup" class="styled-list">
