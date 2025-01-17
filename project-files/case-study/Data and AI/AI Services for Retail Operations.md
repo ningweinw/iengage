@@ -152,10 +152,20 @@ Lakeshore Retail has identified several areas for improvement:
   <div class="column" id="right-column">
     <div class="placeholder" id="placeholder1" data-accept="item1"></div>
     <div class="placeholder" id="placeholder2" data-accept="item6"></div>
-    <div class="placeholder" id="placeholder3" data-accept="item7"></div>
+    <div class="placeholder" id="placeholder3" data-accept="item4"></div>
+    <div class="placeholder" id="placeholder7" data-accept="item4"></div>
   </div>
 </div>
 <button class="button" id="helpButton">Help me with the correct sequence</button>
+<button onclick="toggleSolution('solution1')">Show Solution</button>
+<div id="solution1" style="display:none;">
+  <p>1. Require the buyer to upload a valid government photo-ID card</p>
+  <p>2. Extract information such as expiry date and date of birth from the ID using Azure AI Document Intelligence.</p>
+  <p>3. Take a picture of the buyer at the time of purchase.</p>
+  <p>4. Match the photo on the ID with the buyer's photo using the face comparison feature in Azure Face API service.</p>
+</div>
+
+
 <!--<button class="button" id="clearButton">Clear All</button> -->
 
 
