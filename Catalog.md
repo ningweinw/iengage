@@ -3,7 +3,7 @@ layout: default
 title: iEngage Catalog
 ---
 
-<table>
+<table class="cat-table">
   <thead>
     <tr>
       <th>Course</th>
