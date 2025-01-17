@@ -111,15 +111,24 @@ Lakeshore Retail has identified several areas for improvement:
 <p id="result3"></p>
 
 **Question 4:** Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis?
-<select id="q4" onchange="checkAnswer('q5', 'POST')" class="styled-dropdown">
+<select id="q4" onchange="checkAnswer('q4', 'POST')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="GET">GET</option>
     <option value="POST">POST</option>
     <option value="PUT">PUT</option>
     <option value="DELETE">DELETE</option>
 </select> 
-"https://<YourEndpoint>/language/:analyze-text?api-version=2023-04-01" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: <YourSubscriptionKey>" --data-ascii "{\"kind\":\"
+"https://<YourEndpoint>/language/:analyze-text?api-version=2023-04-01" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: <YourSubscriptionKey>" --data-ascii "{\"kind\":\<"
+<select id="q5" onchange="checkAnswer('q5', 'KeyPhrase Extraction')" class="styled-dropdown">
+    <option value="">Select an answer</option>
+    <option value="NamedEntityRecognitition">NamedEntityRecognitition</option>
+    <option value="KeyPhrase Extraction">KeyPhrase Extraction </option>
+    <option value="LinkedEntities">LinkedEntities</option>
+    <option value="SentimentAnalysis">SentimentAnalysis</option>
+</select> 
+>\",\"analysisInput\":{\"documents\":[{\"id\":\"documentId\",\"text\":\"<Tweet1>"}]}}" 
 <span id="result4"></span>
+<span id="result5"></span>
 
 **Question 5:** How can Lakeshore Retail implement the new requirement for image-based search?
 
