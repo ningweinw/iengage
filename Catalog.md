@@ -18,7 +18,7 @@ title: iEngage Catalog
       {% for page in pages %}
         <tr>
           <td>{{ course }}</td>
-          <td>{{ page.title }}</td>
+          <td><a href="/iengage/{{ page.url }}">{{ page.title }}</a></td>
           <td>{{ page.category }}</td>
         </tr>
       {% endfor %}
