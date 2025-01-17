@@ -156,7 +156,7 @@ Lakeshore Retail has identified several areas for improvement:
   </div>
 </div>
 <button class="button" id="helpButton">Help me with the correct sequence</button>
-<button class="button" id="clearButton">Clear All</button>
+<!--<button class="button" id="clearButton">Clear All</button> -->
 
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -165,8 +165,6 @@ Lakeshore Retail has identified several areas for improvement:
 
   
 <script>
-    const container = document.querySelector('.container');
-  const originalContent = container.innerHTML;
   
   function checkAnswer(question, correctAnswer, resultId) {
     var radios = document.getElementsByName(question);
@@ -285,62 +283,7 @@ Lakeshore Retail has identified several areas for improvement:
     });
   });
 
-   clearButton.addEventListener('click', () => {
-            container.innerHTML = originalContent;
-       reinitializeStyles();
 
-        });
-
-   function reinitializeStyles() {
-    // Reapply any styles or behaviors here
-    $(function() {
-      $("#sortable-setup").sortable();
-      $("#sortable-setup").disableSelection();
-    });
-
-    // Reinitialize drag-and-drop functionality
-    const draggableItems = document.querySelectorAll('.draggable-item');
-    const placeholders = document.querySelectorAll('.placeholder');
-
-    draggableItems.forEach((item) => {
-      item.addEventListener('dragstart', (e) => {
-        e.dataTransfer.setData('text/plain', e.target.id);
-        setTimeout(() => {
-          item.style.display = 'none';
-        }, 0);
-      });
-
-      item.addEventListener('dragend', (e) => {
-        item.style.display = 'block';
-      });
-    });
-
-    placeholders.forEach((placeholder) => {
-      placeholder.addEventListener('dragover', (e) => {
-        e.preventDefault();
-        placeholder.classList.add('over');
-      });
-
-      placeholder.addEventListener('dragleave', (e) => {
-        placeholder.classList.remove('over');
-      });
-
-      placeholder.addEventListener('drop', (e) => {
-        e.preventDefault();
-        const itemId = e.dataTransfer.getData('text/plain');
-        const draggedItem = document.getElementById(itemId);
-
-        if (placeholder.dataset.accept === itemId) {
-          placeholder.appendChild(draggedItem);
-          placeholder.classList.remove('over');
-          placeholder.textContent = `${draggedItem.textContent}`;
-        } else {
-          alert(`Incorrect option, Try again!`);
-          placeholder.classList.remove('over');
-        }
-      });
-    });
-  }
  
 </script>
 
