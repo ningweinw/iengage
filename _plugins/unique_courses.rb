@@ -5,9 +5,9 @@ module Jekyll
     def generate(site)
       unique_courses = Set.new
 
-      site.posts.docs.each do |post|
-        if post.data['courses']
-          post.data['courses'].each do |course|
+      site.pages.each do |page|
+        if page['courses']
+          page['courses'].each do |course|
             unique_courses.add(course)
           end
         end
