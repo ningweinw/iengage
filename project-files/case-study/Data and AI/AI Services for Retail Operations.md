@@ -111,6 +111,15 @@ Lakeshore Retail has identified several areas for improvement:
 <p id="result3"></p>
 
 **Question 4:** Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis?
+<select id="q4" onchange="checkAnswer('q5', 'POST')" class="styled-dropdown">
+    <option value="">Select an answer</option>
+    <option value="GET">GET</option>
+    <option value="POST">POST</option>
+    <option value="PUT">PUT</option>
+    <option value="DELETE">DELETE</option>
+</select> 
+"https://<YourEndpoint>/language/:analyze-text?api-version=2023-04-01" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: <YourSubscriptionKey>" --data-ascii "{\"kind\":\"
+<span id="result4"></span>
 
 **Question 5:** How can Lakeshore Retail implement the new requirement for image-based search?
 
@@ -293,7 +302,17 @@ Lakeshore Retail has identified several areas for improvement:
     });
   });
 
-
+  function checkAnswer(questionId, correctAnswer) {
+    var selectedAnswer = document.getElementById(questionId).value;
+    var resultId = 'result' + questionId.charAt(1);
+    if (selectedAnswer === correctAnswer) {
+      document.getElementById(resultId).innerText = 'Correct answer';
+      document.getElementById(resultId).style.color = 'green';
+    } else {
+      document.getElementById(resultId).innerText = 'Try again';
+      document.getElementById(resultId).style.color = 'red';
+    }
+  }
  
 </script>
 
