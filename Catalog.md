@@ -12,7 +12,7 @@ title: iEngage Catalog
     </tr>
   </thead>
   <tbody>
-    {% assign sorted_courses = site.data.unique_courses | sort %}
+    {% assign sorted_courses = site.course_codes | sort %}
     {% for course in sorted_courses %}
       {% assign pages = site.pages | where_exp: "page", "page.courses contains course" | sort: "name" %}
       {% for page in pages %}
