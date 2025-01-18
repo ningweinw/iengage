@@ -122,34 +122,34 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
     <!-- Sections with Drop Areas -->
     <div>
         <p>Get Ready</p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="executive"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three,executive"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three,executive"></div>
         
         <p class="message"></p>
     </div>
 
     <div>
         <p>Onboard and Engage</p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="people"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="copilot"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user,people,copilot"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user,people,copilot"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user,people,copilot"></div>
         
         <p class="message"></p>
     </div>
 
     <div>
         <p>Deliver Impact</p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="oper"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="incl"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="crisis"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod,oper,incl,crisis"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod,oper,incl,crisis"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod,oper,incl,crisis"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod,oper,incl,crisis"></div>
         <p class="message"></p>
     </div>
 
     <div>
         <p>Extend and Optimize</p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="meas"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="fut"></div>        
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="meas,fut"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="meas,fut"></div>        
         <p class="message"></p>
     </div>
 
@@ -162,6 +162,7 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
             event.dataTransfer.setData("text", event.target.id);
         }
 
+     <!--
         function drop(event) {
             event.preventDefault();
             var data = event.dataTransfer.getData("text");
@@ -187,7 +188,35 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
             } else {
                 alert("This drop area is already occupied.");
             }
+        } -->
+
+        function drop(event) {
+    event.preventDefault();
+    var data = event.dataTransfer.getData("text");
+    var draggedElement = document.getElementById(data);
+    var dropAreaAnswers = event.target.getAttribute("data-answer").split(",");
+    var messageElement = event.target.closest('div').querySelector('.message');
+
+    if (event.target.children.length === 0) {
+        if (dropAreaAnswers.includes(draggedElement.id)) {
+            event.target.appendChild(draggedElement);
+            event.target.classList.add("correct");
+            event.target.classList.remove("incorrect");
+            messageElement.innerText = "Correct!";
+            messageElement.classList.add("correct");
+            messageElement.classList.remove("incorrect");
+        } else {
+            event.target.classList.add("incorrect");
+            event.target.classList.remove("correct");
+            messageElement.innerText = "Error: Incorrect match.";
+            messageElement.classList.add("incorrect");
+            messageElement.classList.remove("correct");
         }
+    } else {
+        alert("This drop area is already occupied.");
+    }
+}
+
     </script>
 </body>
 </html>
