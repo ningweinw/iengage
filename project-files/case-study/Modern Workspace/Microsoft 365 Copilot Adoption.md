@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  " M365 Copilot Adoption"
-category: "Case Study"
+category: "Case Study1"
 sub-category: "Modern Workplace"
 courses: [MS-4005, MS-4007]
 ---
