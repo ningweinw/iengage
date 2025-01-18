@@ -33,3 +33,6 @@ Fabrikam aimed to enhance productivity, streamline operations, and promote inclu
 
 ## Future Plans
 Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expand Copilot use across departments, and explore tools like Microsoft Copilot for Finance.
+
+
+## Map the case with the Microsoft 365 Copilot user enablement framework**
