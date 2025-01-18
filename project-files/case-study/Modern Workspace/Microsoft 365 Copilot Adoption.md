@@ -36,7 +36,8 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
 
 
 ## Map the case with the Microsoft 365 Copilot user enablement framework
-<html
+<html>
+  
     <div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="three">Three-Part AI Approach</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="executive">Executive Alignment</div>
@@ -51,8 +52,30 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="executive"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
     </div>  
-    <p id="message"></p>
+ <p id="message"></p>
+    <div>
+        <p>Onboard and Engage</p>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="executive"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
+    </div>  
+     <p id="message"></p>
+    <div>
+        <p>Deliver Impact</p>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="executive"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
+    </div>  
+     <p id="message"></p>
+    <div>
+        <p>Extend and Optimize</p>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="executive"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
+    </div>  
     
+    <p id="message"></p>
+  
     <style>
 
         .draggable-text {
