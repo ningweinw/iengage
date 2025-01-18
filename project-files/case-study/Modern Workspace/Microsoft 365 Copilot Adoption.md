@@ -121,7 +121,7 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
 
     <!-- Sections with Drop Areas -->
     <div>
-        <p>Get Ready</p>
+        <p><b>Get Ready</b></p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three,executive"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three,executive"></div>
         
@@ -129,7 +129,7 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
     </div>
 
     <div>
-        <p>Onboard and Engage</p>
+        <p><b>Onboard and Engage</b></p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user,people,copilot"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user,people,copilot"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user,people,copilot"></div>
@@ -138,7 +138,7 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
     </div>
 
     <div>
-        <p>Deliver Impact</p>
+        <p><b>Deliver Impact</b></p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod,oper,incl,crisis"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod,oper,incl,crisis"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod,oper,incl,crisis"></div>
@@ -147,7 +147,7 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
     </div>
 
     <div>
-        <p>Extend and Optimize</p>
+        <p><b>Extend and Optimize</b></p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="meas,fut"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="meas,fut"></div>        
         <p class="message"></p>
