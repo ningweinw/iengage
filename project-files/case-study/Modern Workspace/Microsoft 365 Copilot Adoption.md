@@ -106,17 +106,17 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
     
     <!-- Draggable Items -->
     <div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="three">1. Three-Part AI Approach</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="executive">2. Executive Alignment</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="user">1. User Enablement</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="people">2. People-First Strategy</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="copilot">3. Copilot Center of Excellence (CoE)</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="prod">1. Productivity Boost</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="oper">2. Operational Efficiency: </div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="incl">3. Inclusivity</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="crisis">4. Crisis Management</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="meas">1. Measuring Success</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="fut">2. Future Plans</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="executive">Executive Alignment</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="three">Three-Part AI Approach</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="fut">Future Plans</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="user">User Enablement</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="meas">Measuring Success</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="copilot">Copilot Center of Excellence (CoE)</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="prod">Productivity Boost</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="oper">Operational Efficiency: </div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="people">People-First Strategy</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="incl">Inclusivity</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="crisis">Crisis Management</div>
     </div>
 
     <!-- Sections with Drop Areas -->
