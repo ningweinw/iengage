@@ -60,7 +60,7 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
             transform: scale(1.05);
         }
         .drop-area {
-            width: 300px;
+            width: 250px;
             height: 50px;
             border: 2px dashed #ccc;
             border-radius: 5px;
@@ -103,16 +103,20 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
     </style>
 </head>
 <body>
-    <h2>Map the Case with the Microsoft 365 Copilot User Enablement Framework</h2>
-
+    
     <!-- Draggable Items -->
     <div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="three">Three-Part AI Approach</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="executive">Executive Alignment</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="user">User Enablement</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="people">People-First Strategy</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="copilot">Copilot Center of Excellence (CoE)</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="prod">Productivity Boost</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="three">1. Three-Part AI Approach</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="executive">2. Executive Alignment</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="user">1. User Enablement</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="people">2. People-First Strategy</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="copilot">3. Copilot Center of Excellence (CoE)</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="prod">1. Productivity Boost</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="oper">2. Operational Efficiency: </div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="incl">3. Inclusivity</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="crisis">4. Crisis Management</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="meas">1. Measuring Success</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="fut">2. Future Plans</div>
     </div>
 
     <!-- Sections with Drop Areas -->
@@ -120,31 +124,32 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
         <p>Get Ready</p>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="executive"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
+        
         <p class="message"></p>
     </div>
 
     <div>
         <p>Onboard and Engage</p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="copilot"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
         <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="people"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="copilot"></div>
+        
         <p class="message"></p>
     </div>
 
     <div>
         <p>Deliver Impact</p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="executive"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="oper"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="incl"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="crisis"></div>
         <p class="message"></p>
     </div>
 
     <div>
         <p>Extend and Optimize</p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="prod"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="copilot"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="people"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="meas"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="fut"></div>        
         <p class="message"></p>
     </div>
 
