@@ -37,10 +37,21 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
 
 ## Map the case with the Microsoft 365 Copilot user enablement framework
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="three">Three-Part AI Approach</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="executive">Executive Alignment</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="user">User Enablement</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="people">People-First Strategy</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="copilot">Copilot Center of Excellence (CoE)</div>
+        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="prod">Productivity Boost</div>
+    </div>
+    <div>
+        <p>Get Ready</p>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="executive"></div>
+        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
+    </div>  
+    <p id="message"></p>
     
     <style>
 
@@ -101,25 +112,8 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
             border: 1px solid #f5c6cb;
     }
     </style>
-</head>
-<body>
-    <div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="three">Three-Part AI Approach</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="executive">Executive Alignment</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="user">User Enablement</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="people">People-First Strategy</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="copilot">Copilot Center of Excellence (CoE)</div>
-        <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="prod">Productivity Boost</div>
-    </div>
-    <div>
-        <p>Get Ready</p>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="three"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="executive"></div>
-        <div class="drop-area" ondrop="drop(event)" ondragover="allowDrop(event)" data-answer="user"></div>
-    </div>
-   
-   
-    <p id="message"></p>
+
+
 
     <script>
         function allowDrop(event) {
@@ -154,5 +148,4 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
             }
         }
     </script>
-</body>
-</html>
+
