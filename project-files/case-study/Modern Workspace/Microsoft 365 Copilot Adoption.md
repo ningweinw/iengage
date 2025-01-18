@@ -36,7 +36,7 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
 
 
 ## Map the case with the Microsoft 365 Copilot user enablement framework
-
+<html
     <div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="three">Three-Part AI Approach</div>
         <div class="draggable-text" draggable="true" ondragstart="drag(event)" id="executive">Executive Alignment</div>
@@ -149,3 +149,4 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
         }
     </script>
 
+</html>
