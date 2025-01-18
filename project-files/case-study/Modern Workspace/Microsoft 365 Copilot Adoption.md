@@ -162,35 +162,8 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
             event.dataTransfer.setData("text", event.target.id);
         }
 
-     <!--
-        function drop(event) {
-            event.preventDefault();
-            var data = event.dataTransfer.getData("text");
-            var draggedElement = document.getElementById(data);
-            var dropAreaAnswer = event.target.getAttribute("data-answer");
-            var messageElement = event.target.closest('div').querySelector('.message');
 
-            if (event.target.children.length === 0) {
-                if (draggedElement.id === dropAreaAnswer) {
-                    event.target.appendChild(draggedElement);
-                    event.target.classList.add("correct");
-                    event.target.classList.remove("incorrect");
-                    messageElement.innerText = "Correct!";
-                    messageElement.classList.add("correct");
-                    messageElement.classList.remove("incorrect");
-                } else {
-                    event.target.classList.add("incorrect");
-                    event.target.classList.remove("correct");
-                    messageElement.innerText = "Error: Incorrect match.";
-                    messageElement.classList.add("incorrect");
-                    messageElement.classList.remove("correct");
-                }
-            } else {
-                alert("This drop area is already occupied.");
-            }
-        } -->
-
-        function drop(event) {
+    function drop(event) {
     event.preventDefault();
     var data = event.dataTransfer.getData("text");
     var draggedElement = document.getElementById(data);
