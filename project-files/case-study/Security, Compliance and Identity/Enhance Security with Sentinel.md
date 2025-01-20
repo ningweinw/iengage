@@ -6,7 +6,7 @@ sub-category: "Security, Compliance and Identity"
 courses: [SC-200, SC-300]
 ---
 
-# Tailwind Trader Enhances Security with Microsoft Sentinel, Entra ID, and Copilot for Security 
+# Tailwind Trader Enhances Security with Microsoft Sentinel, Entra ID, and Security Copilot
 
 ## Introduction
 
@@ -16,7 +16,7 @@ Tailwind Trader’s security transformation underscores the power of Microsoft s
 
 Tailwind Trader’s encountered several critical challenges in its cybersecurity landscape. The decentralized nature of threat detection and response mechanisms led to slower reaction times and increased vulnerability. The existing tools were insufficient for comprehensive protection, resulting in a low secure score of 42%. Additionally, the manual processes involved in threat diagnosis and SOC operations were time-consuming and risk prone. 
 
-Success Using Microsoft Security Tools: 
+**Success Using Microsoft Security Tools:**
 
 To overcome these challenges, Tailwind Traders deployed Microsoft Sentinel, which centralized threat detection, analysis, and automated response. This integration significantly improved the efficiency and effectiveness of Tailwind Trader ‘s security operations. By incorporating Defender tools, Tailwind Traders ensured protection across identities, endpoints, and cloud applications, creating a robust defense mechanism against potential threats. 
 
@@ -29,7 +29,7 @@ As a result of these strategic implementations, Tailwind Traders 's secure score
 Tailwind Trader’s transformation underscores the power of Microsoft solutions in not only safeguarding digital environments but also fostering an environment of innovation and efficiency. 
 
 ### Question 1:
-**How did the introduction of AI-driven cybersecurity through Copilot for Security impact Tailwind Trader’s SOC operations?**
+**How did the introduction of AI-driven cybersecurity through Security Copilot impact Tailwind Trader’s SOC operations?**
 
 <form id="quizForm1">
   <input type="radio" id="q1a" name="q1" value="A">
