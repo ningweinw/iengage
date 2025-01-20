@@ -23,3 +23,46 @@ In the world of cloud storage, performance issues can sometimes slow down your o
 </audio>
 
 
+**Adam has decided to perform the following steps 1**: 
+
+   <button onclick="toggleSolution('solution1')">Monitor Metrics</button>
+   <div id="solution1" style="display:none;">
+     <p>The rep will start by checking the Azure Monitor metrics for the storage account, focusing on IOPS and throughput usage. This helps identify if the limits are being exceeded.</p>
+   </div>
+
+  <button onclick="toggleSolution('solution2')">Analyze Usage Patterns</button>
+   <div id="solution1" style="display:none;">
+     <p>They will look at the usage patterns to understand when and why the limits are being hit. This includes checking for any spikes in activity or inefficient operations.</p>
+   </div>
+
+   <button onclick="toggleSolution('solution3')">Optimize Operations</button>
+   <div id="solution1" style="display:none;">
+     <p>The rep will suggest optimizing the application's read/write operations. This could involve batching requests, reducing the frequency of operations, or optimizing the data access patterns.</p>
+   </div>
+
+   <button onclick="toggleSolution('solution4')">Upgrade Storage Tier</button>
+   <div id="solution1" style="display:none;">
+     <p>If the current storage tier is insufficient, the rep might recommend upgrading to a higher performance tier, such as Premium Storage, which offers higher IOPS and throughput limits.</p>
+   </div>
+
+   <button onclick="toggleSolution('solution5')">Implement Best Practices</button>
+   <div id="solution1" style="display:none;">
+     <p>They will ensure that best practices are being followed, such as using the appropriate storage tier for the workload, enabling caching where applicable, and optimizing network configurations.</p>
+   </div>
+
+  <button onclick="toggleSolution('solution6')">Monitor and Adjust</button>
+   <div id="solution1" style="display:none;">
+     <p>After making the necessary changes, the rep will continue to monitor the performance to ensure the issue is resolved and make further adjustments if needed.</p>
+   </div>
+
+
+   <script>
+     function toggleSolution(id) {
+  var element = document.getElementById(id);
+  if (element.style.display === "none") {
+    element.style.display = "block";
+  } else {
+    element.style.display = "none";
+  }
+}
+   </script>
