@@ -124,7 +124,7 @@ Lakeshore Retail has identified several areas for improvement:
     <option value="DELETE">DELETE</option>
 </select> 
 "https://<YourEndpoint>/language/:analyze-text?api-version=2023-04-01" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: <YourSubscriptionKey>" --data-ascii "{\"kind\":\<"
-<select id="q5" onchange="checkAnswer('q5', 'KeyPhrase Extraction')" class="styled-dropdown">
+<select id="q5" onchange="checkAnswer2('q5', 'KeyPhrase Extraction')" class="styled-dropdown">
     <option value="">Select an answer</option>
     <option value="NamedEntityRecognitition">NamedEntityRecognitition</option>
     <option value="KeyPhrase Extraction">KeyPhrase Extraction </option>
@@ -330,7 +330,7 @@ Lakeshore Retail has identified several areas for improvement:
             }
         }
 
-  function checkAnswer(questionId, correctAnswer) {
+  function checkAnswer2(questionId, correctAnswer) {
     var selectedAnswer = document.getElementById(questionId).value;
     var resultId = 'result' + questionId.charAt(1);
     if (selectedAnswer === correctAnswer) {
