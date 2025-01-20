@@ -31,27 +31,27 @@ In the world of cloud storage, performance issues can sometimes slow down your o
    </div>
 
   <button onclick="toggleSolution('solution2')">Analyze Usage Patterns</button>
-   <div id="solution1" style="display:none;">
+   <div id="solution2" style="display:none;">
      <p>They will look at the usage patterns to understand when and why the limits are being hit. This includes checking for any spikes in activity or inefficient operations.</p>
    </div>
 
    <button onclick="toggleSolution('solution3')">Optimize Operations</button>
-   <div id="solution1" style="display:none;">
+   <div id="solution3" style="display:none;">
      <p>The rep will suggest optimizing the application's read/write operations. This could involve batching requests, reducing the frequency of operations, or optimizing the data access patterns.</p>
    </div>
 
    <button onclick="toggleSolution('solution4')">Upgrade Storage Tier</button>
-   <div id="solution1" style="display:none;">
+   <div id="solution4" style="display:none;">
      <p>If the current storage tier is insufficient, the rep might recommend upgrading to a higher performance tier, such as Premium Storage, which offers higher IOPS and throughput limits.</p>
    </div>
 
    <button onclick="toggleSolution('solution5')">Implement Best Practices</button>
-   <div id="solution1" style="display:none;">
+   <div id="solution5" style="display:none;">
      <p>They will ensure that best practices are being followed, such as using the appropriate storage tier for the workload, enabling caching where applicable, and optimizing network configurations.</p>
    </div>
 
   <button onclick="toggleSolution('solution6')">Monitor and Adjust</button>
-   <div id="solution1" style="display:none;">
+   <div id="solution6" style="display:none;">
      <p>After making the necessary changes, the rep will continue to monitor the performance to ensure the issue is resolved and make further adjustments if needed.</p>
    </div>
 
