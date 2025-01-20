@@ -9,7 +9,15 @@ courses: [AZ-104, AZ-305, AZ-1003]
 
 ## Introduction:
 
-In the world of cloud storage, performance issues can sometimes slow down your operations, much like a traffic jam on a busy highway. One common culprit is throttling, which occurs when your storage account exceeds the allowed limits for Input/Output Operations Per Second (IOPS) or throughput. To help you understand this concept better, let's dive into a fun and engaging dialog between Adam, a customer, and Evelyn, a support representative. This scenario will illustrate how throttling works and what steps can be taken to resolve it. Enjoy the conversation and learn how to keep your Azure Storage running smoothly!
+In the world of cloud storage, performance issues can sometimes slow down your operations, much like a traffic jam on a busy highway. One common culprit is throttling, which occurs when your storage account exceeds the allowed limits for Input/Output Operations Per Second (IOPS) or throughput. To help you understand this concept better, let's dive into a fun and engaging dialog between Evelyn, a customer, and Adam, a support representative. This scenario will illustrate how throttling works and what steps can be taken to resolve it. Enjoy the conversation and learn how to keep your Azure Storage running smoothly!
 
 
-## Task 1: Listen to the conversation between Hiroshi and Amanda
+## Task 1: Listen to the conversation between Evelyn and Adam
+<a href="./images/cc.png">
+  <img src="./images/cc.png" alt="Amanda talking to Hiroshi over the phone">
+</a>
+<br>
+<audio controls>
+  <source src=" /iengage/project-files/gamification/Data and AI/videos/callcenter.m4a" type="audio/mpeg"> 
+  Your browser does not support the audio element.
+</audio>
