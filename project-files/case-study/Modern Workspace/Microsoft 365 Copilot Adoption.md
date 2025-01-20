@@ -37,6 +37,10 @@ Fabrikam aims to scale AI adoption with 42 use cases identified in pilots, expan
 
 
 ## Map the case with the Microsoft 365 Copilot user enablement framework
+<a href="./images/s1.png">
+  <img src="./images/s1.png" alt="image of Copilot enablement framework">
+</a>
+<br>
 
 <html lang="en">
 <head>
