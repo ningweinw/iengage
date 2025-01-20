@@ -27,7 +27,7 @@ In the world of cloud storage, performance issues can sometimes slow down your o
 
    <button onclick="toggleSolution('solution1')">Monitor Metrics</button>
    <div id="solution1" style="display:none;">
-     <p>The rep will start by checking the Azure Monitor metrics for the storage account, focusing on IOPS and throughput usage. This helps identify if the limits are being exceeded.</p>
+     <p>The support representative will start by checking the Azure Monitor metrics for the storage account, focusing on IOPS and throughput usage. This helps identify if the limits are being exceeded.</p>
    </div>
 
   <button onclick="toggleSolution('solution2')">Analyze Usage Patterns</button>
@@ -37,7 +37,7 @@ In the world of cloud storage, performance issues can sometimes slow down your o
 
    <button onclick="toggleSolution('solution3')">Optimize Operations</button>
    <div id="solution3" style="display:none;">
-     <p>The rep will suggest optimizing the application's read/write operations. This could involve batching requests, reducing the frequency of operations, or optimizing the data access patterns.</p>
+     <p>The support representative will suggest optimizing the application's read/write operations. This could involve batching requests, reducing the frequency of operations, or optimizing the data access patterns.</p>
    </div>
 
    <button onclick="toggleSolution('solution4')">Upgrade Storage Tier</button>
@@ -52,7 +52,7 @@ In the world of cloud storage, performance issues can sometimes slow down your o
 
   <button onclick="toggleSolution('solution6')">Monitor and Adjust</button>
    <div id="solution6" style="display:none;">
-     <p>After making the necessary changes, the rep will continue to monitor the performance to ensure the issue is resolved and make further adjustments if needed.</p>
+     <p>After making the necessary changes, the support representative will continue to monitor the performance to ensure the issue is resolved and make further adjustments if needed.</p>
    </div>
 
 
