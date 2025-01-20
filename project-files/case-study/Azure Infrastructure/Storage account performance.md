@@ -23,7 +23,7 @@ In the world of cloud storage, performance issues can sometimes slow down your o
 </audio>
 
 
-**Adam has decided to perform the following steps 1**: 
+**Adam has decided to perform the following steps. What is Adam trying to achieve by performing the below steps? Click each option to find the reason**: 
 
    <button onclick="toggleSolution('solution1')">Monitor Metrics</button>
    <div id="solution1" style="display:none;">
