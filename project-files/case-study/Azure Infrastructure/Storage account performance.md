@@ -13,11 +13,13 @@ In the world of cloud storage, performance issues can sometimes slow down your o
 
 
 ## Task 1: Listen to the conversation between Evelyn and Adam
-<a href="./images/cc.png">
-  <img src="./images/cc.png" alt="Amanda talking to Hiroshi over the phone">
+<a href="./images/cc1.png">
+  <img src="./images/cc1.png" alt="Evelyn talking to Adam over the phone">
 </a>
 <br>
 <audio controls>
-  <source src=" /iengage/project-files/gamification/Data and AI/videos/callcenter.m4a" type="audio/mpeg"> 
+  <source src=" /iengage/project-files/case-study/Azure Infrastructure/videos/storageperformance.m4a" type="audio/mpeg"> 
   Your browser does not support the audio element.
 </audio>
+
+
