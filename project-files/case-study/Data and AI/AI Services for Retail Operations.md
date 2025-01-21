@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  " AI Services for Retail"
-category: "Case Study123"
+category: "Case Study"
 sub-category: "Data and AI"
 courses: [AI-102, PR-801]
 ---
@@ -21,7 +21,12 @@ courses: [AI-102, PR-801]
 
 ## Business Overview
 <a id="business"></a>
-Lakeshore Retail, a prominent retail chain with over 500 stores nationwide, offers a diverse range of products from groceries to electronics and maintains a strong online presence. Lakeshore Retail goals include enhancing customer experience, streamlining operations, and leveraging data for informed decision-making.
+Lakeshore Retail, a prominent retail chain with over 500 stores nationwide, offers a diverse range of products from groceries to electronics and maintains a strong online presence. Lakeshore Retail goals include enhancing customer experience, streamlining operations, and leveraging data for informed decision-making. <br>
+
+<a href="./images/r1.png">
+  <img src="./images/r1.png" alt="picture of a shop">
+</a>
+<br>
 
 ## Existing Setup
 <a id="existing"></a>
@@ -48,7 +53,11 @@ Lakeshore Retail has identified several areas for improvement:
 
  
 
-**Question 1:** Which Azure AI service can they use to implement the virtual Try-It-On feature, to identify the position of the eyes in an uploaded image ?
+**Question 1:** Which Azure AI service can they use to implement the virtual Try-It-On feature, to identify the position of the eyes in an uploaded image ?<br>
+<a href="./images/r2.png">
+  <img src="./images/r2.png" alt="image of people trying virtual try it on glasses">
+</a>
+<br>
 <form id="quizForm1">
   <input type="radio" id="q1a" name="q1" value="A">
   <label for="q1a">A) Azure Cognitive Service </label><br>
@@ -62,7 +71,10 @@ Lakeshore Retail has identified several areas for improvement:
 </form>
 <p id="result1"></p>
 
-**Question 2:** Lakeshore Retail wants to use the Azure AI Language Service to analyze product reviews and suggest products with higher positive reviews to customers. Which class and method should be used to analyze the product reviews using the Azure AI Language Service SDK in C#?
+**Question 2:** Lakeshore Retail wants to use the Azure AI Language Service to analyze product reviews and suggest products with higher positive reviews to customers. Which class and method should be used to analyze the product reviews using the Azure AI Language Service SDK in C#?<br>
+<a href="./images/r3.png">
+  <img src="./images/r3.png" alt="image of customers giving reviews">
+</a>
 <form id="quizForm2">
   <input type="radio" id="q2a" name="q2" value="A">
   <label for="q2a">A) TextAnalyticsClient class and AnalyzeSentiment method </label><br>
@@ -78,7 +90,11 @@ Lakeshore Retail has identified several areas for improvement:
 
 <p id="result2"></p>
 
-**Question 3:** Which AI service and feature should the developers implement a read-aloud feature for visually impaired users in their Touch Screen Assistant at retail outlets?
+**Question 3:** Which AI service and feature should the developers implement a read-aloud feature for visually impaired users in their Touch Screen Assistant at retail outlets?<br>
+<a href="./images/r4.png">
+  <img src="./images/r4.png" alt="picture of a touch screen assistant">
+</a>
+<br>
 
 <form id="quizForm3">
   <input type="radio" id="q3a" name="q3" value="A">
@@ -94,9 +110,37 @@ Lakeshore Retail has identified several areas for improvement:
 
 <p id="result3"></p>
 
-**Question 4:** Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis?
+**Question 4:** Lakeshore Retail wants to analyze tweets about the company to identify key discussion topics. Which endpoint will you use for social media analysis? <br>
+<a href="./images/r6.png">
+  <img src="./images/r6.png" alt="picture of a retail store">
+</a>
+<br>
+
+<select id="q4" onchange="checkAnswer2('q4', 'POST')" class="styled-dropdown">
+    <option value="">Select an answer</option>
+    <option value="GET">GET</option>
+    <option value="POST">POST</option>
+    <option value="PUT">PUT</option>
+    <option value="DELETE">DELETE</option>
+</select> 
+"https://<YourEndpoint>/language/:analyze-text?api-version=2023-04-01" -H "Content-Type: application/json" -H "Ocp-Apim-Subscription-Key: <YourSubscriptionKey>" --data-ascii "{\"kind\":\<"
+<select id="q5" onchange="checkAnswer2('q5', 'KeyPhrase Extraction')" class="styled-dropdown">
+    <option value="">Select an answer</option>
+    <option value="NamedEntityRecognitition">NamedEntityRecognitition</option>
+    <option value="KeyPhrase Extraction">KeyPhrase Extraction </option>
+    <option value="LinkedEntities">LinkedEntities</option>
+    <option value="SentimentAnalysis">SentimentAnalysis</option>
+</select> 
+>\",\"analysisInput\":{\"documents\":[{\"id\":\"documentId\",\"text\":\"<Tweet1>"}]}}" 
+<span id="result4"></span>
+<span id="result5"></span>
 
 **Question 5:** How can Lakeshore Retail implement the new requirement for image-based search?
+
+<a href="./images/r5.jpg">
+  <img src="./images/r5.jpg" alt="picture of a shop">
+</a>
+<br>
 
 <div class="column1">
   <ul id="sortable-setup" class="styled-list">
@@ -136,11 +180,21 @@ Lakeshore Retail has identified several areas for improvement:
   <div class="column" id="right-column">
     <div class="placeholder" id="placeholder1" data-accept="item1"></div>
     <div class="placeholder" id="placeholder2" data-accept="item6"></div>
-    <div class="placeholder" id="placeholder3" data-accept="item7"></div>
+    <div class="placeholder" id="placeholder3" data-accept="item4"></div>
+    <div class="placeholder" id="placeholder4" data-accept="item7"></div>
   </div>
 </div>
 <button class="button" id="helpButton">Help me with the correct sequence</button>
-<button class="button" id="clearButton">Clear All</button>
+<button onclick="toggleSolution('solution1')">Show Solution</button>
+<div id="solution1" style="display:none;">
+  <p>1. Require the buyer to upload a valid government photo-ID card</p>
+  <p>2. Extract information such as expiry date and date of birth from the ID using Azure AI Document Intelligence.</p>
+  <p>3. Take a picture of the buyer at the time of purchase.</p>
+  <p>4. Match the photo on the ID with the buyer's photo using the face comparison feature in Azure Face API service.</p>
+</div>
+
+
+<!--<button class="button" id="clearButton">Clear All</button> -->
 
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -180,6 +234,7 @@ Lakeshore Retail has identified several areas for improvement:
       $("#sortable-setup").sortable();
       $("#sortable-setup").disableSelection();
     });
+
 
     function checkOrderSetup() {
       var items = $("#sortable-setup li");
@@ -266,7 +321,26 @@ Lakeshore Retail has identified several areas for improvement:
     });
   });
 
-
+   function toggleSolution(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+function checkAnswer2(questionId, correctAnswer) {
+    var selectedAnswer = document.getElementById(questionId).value;
+    var resultId = 'result' + questionId.charAt(1);
+    if (selectedAnswer === correctAnswer) {
+      document.getElementById(resultId).innerText = 'Correct answer';
+      document.getElementById(resultId).style.color = 'green';
+    } else {
+      document.getElementById(resultId).innerText = 'Try again';
+      document.getElementById(resultId).style.color = 'red';
+    }
+  }
+  
  
 </script>
 
