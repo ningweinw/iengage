@@ -1,0 +1,22 @@
+/* Styles for the catalog page */
+
+.cat-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cat-table th {
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.cat-table td {
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.cat-table tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
