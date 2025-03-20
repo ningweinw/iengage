@@ -16,8 +16,6 @@ body {
     flex-grow: 1;
     padding: 10px;
     overflow: auto; /* Ensure content is scrollable if it overflows */
-    margin-left: 50px;
-
     justify-content: left; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
 }
