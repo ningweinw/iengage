@@ -1,5 +1,4 @@
 .main-body {
-    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     line-height: 2;
 }
@@ -20,11 +19,6 @@
 
 .content-wrapper {
     text-align: justify; /* Center the text */
-}
-
-.responsive_image {
-    max-width: 100%; 
-    height: auto;
 }
 
 .divider {
