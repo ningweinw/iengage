@@ -10,7 +10,9 @@
     height: 100vh;
     position: fixed;
     transition: width 0.3s;
-    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow-y: auto;
 }
 #leftDiv.collapsed {
     width: 0;
