@@ -1,10 +1,7 @@
-body {
-    display: flex;
-    height: 100vh;
+.main-body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     line-height: 2;
-
 }
 
 #leftDiv {
