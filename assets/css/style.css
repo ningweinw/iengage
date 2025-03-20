@@ -37,6 +37,7 @@ body {
     width: 5px;
     background-color: lightblue;
     cursor: ew-resize;
+    touch-action: none; /* Prevent default touch actions */
 }
 ul {
     list-style-type: none;
