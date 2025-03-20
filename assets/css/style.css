@@ -12,7 +12,7 @@
 #rightDiv {
     flex-grow: 1;
     padding: 10px;
-    padding-left: 30px;
+    padding-left: 50px;
     overflow: auto; /* Ensure content is scrollable if it overflows */
     justify-content: left; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
@@ -21,6 +21,12 @@
 .content-wrapper {
     text-align: justify; /* Center the text */
 }
+
+.responsive_image {
+    max-width: 100%; 
+    height: auto;
+}
+
 .divider {
     width: 1px;
     background-color: lightblue;
