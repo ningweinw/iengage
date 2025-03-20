@@ -11,7 +11,7 @@
     position: fixed;
     transition: width 0.3s;
     padding: 10px;
-    overflow: auto;
+    overflow: hidden;
 }
 #leftDiv.collapsed {
     width: 0;
@@ -19,7 +19,7 @@
 #rightDiv {
     flex-grow: 1;
     margin-left: 300px;
-    padding-left: 40px;
+    padding: 50px;
     transition: margin-left 0.3s;
     overflow: auto; /* Ensure content is scrollable if it overflows */
     justify-content: left; /* Center the content horizontally */
