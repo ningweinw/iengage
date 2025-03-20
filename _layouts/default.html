@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/iengage/assets/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/iengage/assets/css/style.css">
   <link rel="stylesheet" href="/iengage/assets/css/catalog_style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="resizable" id="leftDiv">
+  <div class="container-fluid">
+    <div class="col-sm-6 g-0" id="leftDiv">
       <ul>
         <li><a href="{{ site.url }}{{ site.baseurl }}" class="main-menu">Home</a></li>
         <li><a href="{{ site.url }}{{ site.baseurl }}/Catalog.html" class="main-menu">Catalog</a></li>
@@ -387,9 +388,10 @@
         </li>
       </ul>
     </div>
-    <div class="divider" id="divider"></div>
 
-<div id="rightDiv">
+    <!-- <div class="divider" id="divider"></div> -->
+
+<div class="col-sm-10 g-0" id="rightDiv">
   <div class="content-wrapper">
      {{ content }}
     <div class="footer">
@@ -411,6 +413,6 @@
       });
     }
   </script>
-
+  <script src="/iengage/assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
