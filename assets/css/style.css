@@ -6,9 +6,11 @@
 
 #leftDiv {
     background-color: #f1f1f1;
+    width: 300px;
     height: 100vh;
     position: fixed;
     transition: width 0.3s;
+    padding: 10px;
     overflow: auto;
 }
 #leftDiv.collapsed {
