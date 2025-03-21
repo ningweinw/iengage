@@ -23,7 +23,7 @@
     margin-left: 300px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 10px;
+    padding-top: 20px;
     transition: margin-left 0.3s;
     overflow: auto; /* Ensure content is scrollable if it overflows */
     justify-content: left; /* Center the content horizontally */
