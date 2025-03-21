@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     display: flex;
+    line-height: 2;
 }
 
 #leftDiv {
