@@ -2,7 +2,6 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     display: flex;
-    line-height: 2px;
 }
 
 #leftDiv {
@@ -59,6 +58,10 @@
 .divider {
     width: 1px;
     background-color: lightblue;
+}
+
+hr {
+    height: 2px;
 }
 ul {
     list-style-type: none;
