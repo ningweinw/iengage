@@ -21,7 +21,9 @@
 #rightDiv {
     flex-grow: 1;
     margin-left: 300px;
-    padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
     transition: margin-left 0.3s;
     overflow: auto; /* Ensure content is scrollable if it overflows */
     justify-content: left; /* Center the content horizontally */
